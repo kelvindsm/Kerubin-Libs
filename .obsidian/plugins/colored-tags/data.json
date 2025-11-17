@@ -1,0 +1,24 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "IntComp2308": 1,
+    "Emprogresso": 2,
+    "MC2310": 3,
+    "1_Semestre": 4,
+    "Naoconcluido": 5,
+    "OrgArc2306": 6,
+    "Pilar": 7,
+    "BD1109": 8,
+    "PC1002": 9
+  },
+  "_version": 3
+}

@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "fa4a3388a6cd2e88",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bf6d177bd258f7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f081a2fbd2a8c58",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38154b4717e084e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e4b7b2f1dfc4fd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fd362e6eb3e5cf7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a6c6a6b77fcac68a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Naoconcluido",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b3cb9797c9fd3afa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "63c1c183d8687ccd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7a894a628d6bb2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbcfe221c3703b60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d1f8488d1ac27323",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "fba84e06b261ac38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "53bcfb75fb021848",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8d564c68b1ca1de6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "6f081a2fbd2a8c58",
+  "lastOpenFiles": [
+    "Kerubin-Libs",
+    "Formação/2º Semestre/Engenharia de Software/07 - Teste de software.md",
+    "Formação/2º Semestre/Engenharia de Software/08 - Análise de Pontos de Função.md",
+    "Formação/2º Semestre/Engenharia de Software/00 - Índice engenharia de software.md",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116123327.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20250104005349.png.md",
+    "Formação/2º Semestre/Engenharia de Software/06 - Fundamentos de OO e UML.md",
+    "Formação/2º Semestre/Engenharia de Software/05 - Diagrama de Classes UML.md",
+    "Formação/2º Semestre/Engenharia de Software/UML (Unified Modeling Language).md",
+    "Formação/2º Semestre/Engenharia de Software/CASE.md",
+    "Formação/2º Semestre/Engenharia de Software/04 - Diagrama de caso de uso.md",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141413.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141342.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141321.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141246.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141221.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116140859.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116140741.png",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116140706.png",
+    "Formação/2º Semestre/Engenharia de Software/03 - Casos de uso e Requisitos Não Funcionais.md",
+    "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116124718.png",
+    "Formação/2º Semestre/Engenharia de Software/02 - Modelos de processo de software.md",
+    "Formação/2º Semestre/Engenharia de Software/01 - Conceitos fundamentais de engenharia de software.md",
+    "Formação/2º Semestre/Engenharia de Software/Sem título.base",
+    "Sem título.canvas",
+    "Formação/1º Semestre/Matemática para computação/índice Matemática para computação.md",
+    "Formação/2º Semestre/Engenharia de Software/Imagens",
+    "Sem título.md",
+    "Caso de uso.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A07 - CPU.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A03 - Armazenamento de dados, lógica booleana, portas lógicas e conversão de bases numéricas.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A01 -.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A02 -.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/índice Org. Arq. de computadores.md",
+    "Formação/3º Semestre",
+    "Untitled.md",
+    "Untitled.base",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A15 - Cloud.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A08 - Conceitos de programa armazenado, Linguagem de máquina, arquitetura CISC e RISC, Instruções de máquina.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/A04 - Memórias.md",
+    "Notion_Cyberlab/2º Semestre/Engenharia de Software/desktop.ini",
+    "Notion_Cyberlab/2º Semestre/Desenvolvimento de Interfaces/desktop.ini",
+    "0 - Imagens",
+    "Formação/1º Semestre/Matemática para computação/1 - Lógica matemática/índice alternativo.md",
+    "Formação/1º Semestre/Organização e arquitetura de computadores/Imagens",
+    "Formação/1º Semestre/Matemática para computação/Imagens",
+    "Formação/1º Semestre/Matemática para computação/Aulas regulares"
+  ]
+}

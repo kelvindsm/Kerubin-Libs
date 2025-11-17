@@ -1,0 +1,45 @@
+{
+  "cascadeColors": false,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "xdQzDJjDg5kNfHWIuDJki",
+      "name": "Canvas livres",
+      "value": "#ffffff"
+    },
+    {
+      "id": "7mMkPXb42q0yuP-TUNF3v",
+      "name": "Cisco",
+      "value": "#049fd9"
+    },
+    {
+      "id": "tjzypmvKRijs-Y7sxtt_B",
+      "name": "Programação",
+      "value": "#fb8500"
+    },
+    {
+      "id": "nEA9uMS28lEI7OVNFTkLn",
+      "name": "Notion",
+      "value": "#023ea8"
+    },
+    {
+      "id": "O8_zh0SJ2EaiacBDG4pgM",
+      "name": "1 semestre",
+      "value": "#f94144"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "CISCO Cybersec",
+      "color": "7mMkPXb42q0yuP-TUNF3v"
+    },
+    {
+      "path": "0 - Canvas Livres",
+      "color": "xdQzDJjDg5kNfHWIuDJki"
+    },
+    {
+      "path": "0 -Modelo organizacional da vault",
+      "color": "xdQzDJjDg5kNfHWIuDJki"
+    }
+  ]
+}

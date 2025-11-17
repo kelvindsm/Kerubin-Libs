@@ -1,8 +1,0 @@
-# [[A1 - Tabela verdade dos conectivos]]
-# [[A2 - Fórmula, Tautologia, Contradição]]
-# [[A3 - Equivalências tautológicas]]
-# [[A4 - Regras de inferência]]
-# [[A5 - Predicados e quantificadores]]
-# [[A6 - PROLOG]]
-# [[A7 - Técnicas de demonstrações]]
-# [[A8 - Princípio da indução finita]]

@@ -1,8 +1,0 @@
-# [[01 - Conceitos fundamentais de engenharia de software]]
-# [[02 - Modelos de processo de software]]
-# [[03 - Casos de uso e Requisitos Não Funcionais]]
-# [[04 - Diagrama de caso de uso]]
-# [[05 - Diagrama de Classes UML]]
-# [[06 - Fundamentos de OO e UML]]
-# [[07 - Teste de software]]
-# [[08 - Análise de Pontos de Função]]

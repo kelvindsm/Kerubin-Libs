@@ -18,7 +18,7 @@ tags:
 >- Quando devemos envolver o Cliente?
 
 ### Estratégia de Teste
-- Uma **Estratégia de Teste** é desenvolvida pelo [[Gerente de Projetos]], pelos [[Engenheiros de Software]] e pelos [[Especialistas em Testes]].
+- Uma **Estratégia de Teste** é desenvolvida pelo **Gerente de Projetos**, pelos **Engenheiros de Software** e pelos **Especialistas em Testes**.
 ### O Roteiro de Teste
 - É um roteiro que descreve **o que, quando e como testar**.
 ### Objetivo do Plano de Teste
@@ -32,7 +32,7 @@ tags:
 
 As atividades de teste seguem a seguinte sequência:
 1.  **Planejar Testes**
-    - Planejamento de Testes inclui definir a [[Estratégia de Testes]] e a [[Revisão de Documentos]].
+    - Planejamento de Testes inclui definir a Estratégia de Testes e a Revisão de Documentos.
 2.  **Projetar Casos de Teste**
 3.  **Executar Testes**
 4.  **Coletar e Avaliar Dados**
@@ -45,17 +45,17 @@ As atividades de teste seguem a seguinte sequência:
 - **Conceito:** Tarefas que garantem que o software implementa corretamente uma função.
 - **Foco:** O produto que estamos criando está **correto**?
 - **Exemplos de Atividades (Verificação):**
-    - [[Revisões Técnicas]]
-    - [[Auditorias de Qualidade e Configuração]]
-    - [[Revisão de Documentação]]
-    - [[Análise de Algoritmo]]
-    - [[Revisão do Desenho de Testes]]
-    - [[Script de Testes]]
+    - Revisões Técnicas
+    - Auditorias de Qualidade e Configuração
+    - Revisão de Documentação
+    - Análise de Algoritmo
+    - Revisão do Desenho de Testes
+    - Script de Testes
 ### Validação
 - **Conceito:** Tarefas que asseguram que o software atende os requisitos do cliente.
 - **Foco:** Estamos criando o **produto certo**?
 ### O V-Model (Verificação e Validação no Processo de Software)
-- O [[V-Model]] relaciona as fases de desenvolvimento (Verificação) com os níveis de teste (Validação).
+- O V-Model relaciona as fases de desenvolvimento (Verificação) com os níveis de teste (Validação).
 
 | Fase de Desenvolvimento (Verificação) | Nível de Teste (Validação) |
 | :------------------------------------ | :------------------------- |
@@ -87,45 +87,45 @@ A classificação nos ajuda a planejar e realizar melhor a atividade de teste.
 
 ### Testar Componente de Software (Nível de Unidade)
 >[!tip] Foco: Componente Individual
->- **Nível:** [[Teste Unitário]]
+>- **Nível:** Teste Unitário
 >- **Exemplo de Objetivo:** Quero saber se o componente que programei está funcionando, dentro dos padrões e recomendações.
 >- **Técnicas Comuns:**
  >   - [[Caixa Branca]]
- >   - [[Análise Estática]]
- >   - [[Test Driven Development (TDD)]]
+ >   - Análise Estática
+ >   - Test Driven Development (TDD)
 
 ### Testar Comunicação entre as Partes (Nível de Integração)
 >[!tip] Foco: Interfaces e Fluxos
->- **Nível:** [[Teste de Integração]]
->- **Tipo:** [[Integração]]
+>- **Nível:** Teste de Integração
+>- **Tipo:** Integração
 >- **Técnicas Comuns:**
- >   - [[Bottom-Up]], [[Top-Down]], [[Big-Bang]]
- >   - [[Integração com APIs]], [[Comunicação com Banco de Dados]]
+ >   - Bottom-Up, Top-Down, Big-Bang
+ >   - Integração com APIs, Comunicação com Banco de Dados
 
 ### Testar Desempenho (Nível de Sistema)
 >[!tip] Foco: Performance e Volume
->- **Nível:** [[Teste de Sistema]]
->- **Tipos:** [[Performance]] e [[Volume]]
+>- **Nível:** Teste de Sistema
+>- **Tipos:** Performance e Volume
 >- **Técnicas Comuns:**
  >   - [[Teste de Carga]]
  >   - [[Teste de Estresse]]
 
 ### Testar Interação Usuário e Software
 >[!tip] Foco: Experiência do Usuário (UX)
->- **Nível:** [[Teste de Sistema]] ou [[Teste de Aceitação]]
->- **Tipos:** [[Teste de Usabilidade]] e de [[Acessibilidade]]
+>- **Nível:** Teste de Sistema ou Teste de Aceitação
+>- **Tipos:** Teste de Usabilidade e de Acessibilidade
 >- **Técnicas Comuns:**
  >   - [[Heurística de Nielsen]] (Usabilidade)
- >   - [[Teste Alpha]] e [[Teste Beta]]
+ >   - Teste Alpha e Teste Beta
 
 ### Testar Funcionalidades
 >[!tip] Foco: Requisitos e Casos de Uso
->- **Nível:** [[Teste de Sistema]] e de [[Aceitação]]
->- **Tipo:** [[Funcional]]
+>- **Nível:** Teste de Sistema e de Aceitação
+>- **Tipo:** Funcional
 >- **Técnicas Comuns:**
 >	- [[Caixa Preta]]
 >	- [[Homologação]]
->	- [[Revisão Formal ou Informal]]
+>	- Revisão Formal ou Informal
 
 ### Testar Software Após Manutenção
 >[!tip] Foco: Garantir que Mudanças Não Quebraram o Existente

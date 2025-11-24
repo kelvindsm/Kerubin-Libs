@@ -26,8 +26,16 @@ tags:
 - **Vantagens:** Intuitiva, Simples, Flexível, Expansível e facilita a comunicação entre Negócios e TI, permitindo a automação.
 - **Não é adequada para:** Organogramas, telas de sistemas ou mapas estratégicos.
 
+>[!note] Comparação entre BPMN, Fluxograma e [[UML (Unified Modeling Language)]]
+>- BPMN: Padrão OMG, útil para diversos públicos-alvo
+>- Fluxograma: Símbolos simples, precursor
+>- UML: Diagrama de Atividades para descrever requisitos de sistemas
+
 >[!info] Foco do BPMN
 > O BPMN aproxima a área de **Negócios** com a **Tecnologia**, permitindo que o modelo de processo seja interpretado e gere código de sistemas para automação.
+> - É a mais poderosa e atual notação para modelar processos de negócio
+> - **Vantagens:** intuitiva, Simples (pode evoluir de elementos básicos), Flexível, Expansível, Facilita a comunicação entre Negócios e TI
+> - **Não é adequada para:** Organogramas, telas de sistemas, regras de negócio de sistemas
 
 ## 3. Elementos Fundamentais do BPMN
 
@@ -51,8 +59,8 @@ Conectam os objetos de fluxo.
 - **Associação:** (Linha Pontilhada) Liga artefatos (dados/texto) aos objetos de fluxo.
 
 ### 3.3. Piscinas e Raias (Pools and Swimlanes)
-Representam a organização visual das atividades.
-- **Piscina (Pool):** Representa a organização ou entidade que contém o processo.
+Representam a organização visual das atividades em categorias visuais separadas.
+- **Piscina (Pool):** Representa a organização ou entidade que contém o processo. Usada para dividir conjuntos de atividades de outras Piscinas (entidades externas);
 - **Raia (Lane):** Subdivisão de uma Piscina, representando uma área organizacional, função ou papel (ex: departamento).
 
 ### 3.4. Artefatos (Artifacts)

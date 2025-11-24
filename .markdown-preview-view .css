@@ -1,0 +1,29 @@
+.markdown-preview-view .mermaid,
+.markdown-preview-view .mermaid > svg {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media print {
+  .mermaid,
+  .mermaid > svg {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    overflow: hidden;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+}
+
+@media print {
+  .mermaid > svg {
+    max-height: 90vh !important; /* or 80vh */
+    height: auto !important;
+    width: 100% !important;
+  }
+}

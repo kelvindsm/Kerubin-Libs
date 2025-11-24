@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6bf6d177bd258f7a",
+        "id": "bb446e2dc249c19c",
         "type": "tabs",
         "children": [
           {
-            "id": "6f081a2fbd2a8c58",
+            "id": "7dd09d2b3bd1930e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04 - Modelagem de Processos de Negócio (BPMN)"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -167,19 +171,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6f081a2fbd2a8c58",
+  "active": "7dd09d2b3bd1930e",
   "lastOpenFiles": [
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.2 - Componentes de redes.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.1 - Clientes e servidores.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.3 - Largura de banda e taxa de transferência.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.2 - Transmissão de dados.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.1 - Tipos de redes.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores/Sem título.md",
+    "Ciencia_Computacao/3 Semestre/Redes de computadores",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/00 - Índice engenharia de software.md",
     "Kerubin-Libs",
     "Formação/2º Semestre/Engenharia de Software/07 - Teste de software.md",
     "Formação/2º Semestre/Engenharia de Software/08 - Análise de Pontos de Função.md",
@@ -211,21 +228,8 @@
     "Caso de uso.md",
     "Formação/1º Semestre/Organização e arquitetura de computadores/A07 - CPU.md",
     "Formação/1º Semestre/Organização e arquitetura de computadores/A03 - Armazenamento de dados, lógica booleana, portas lógicas e conversão de bases numéricas.md",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/A01 -.md",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/A02 -.md",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/índice Org. Arq. de computadores.md",
     "Formação/3º Semestre",
-    "Untitled.md",
     "Untitled.base",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/A15 - Cloud.md",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/A08 - Conceitos de programa armazenado, Linguagem de máquina, arquitetura CISC e RISC, Instruções de máquina.md",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/A04 - Memórias.md",
-    "Notion_Cyberlab/2º Semestre/Engenharia de Software/desktop.ini",
-    "Notion_Cyberlab/2º Semestre/Desenvolvimento de Interfaces/desktop.ini",
-    "0 - Imagens",
-    "Formação/1º Semestre/Matemática para computação/1 - Lógica matemática/índice alternativo.md",
-    "Formação/1º Semestre/Organização e arquitetura de computadores/Imagens",
-    "Formação/1º Semestre/Matemática para computação/Imagens",
-    "Formação/1º Semestre/Matemática para computação/Aulas regulares"
+    "Notion_Cyberlab/2º Semestre/Engenharia de Software/desktop.ini"
   ]
 }

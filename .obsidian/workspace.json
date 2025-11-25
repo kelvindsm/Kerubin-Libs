@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Qualidade de Software e norma ISO 25000"
+              "title": "09 - Análise e Especificações com Abordagens ágeis"
             }
           },
           {
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 377.5
   },
   "right": {
     "id": "63c1c183d8687ccd",
@@ -194,8 +194,12 @@
   },
   "active": "7dd09d2b3bd1930e",
   "lastOpenFiles": [
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
+    "UML.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.2 - Componentes de redes.md",
@@ -231,13 +235,9 @@
     "Formação/2º Semestre/Engenharia de Software/03 - Casos de uso e Requisitos Não Funcionais.md",
     "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116124718.png",
     "Formação/2º Semestre/Engenharia de Software/02 - Modelos de processo de software.md",
-    "Formação/2º Semestre/Engenharia de Software/01 - Conceitos fundamentais de engenharia de software.md",
     "Formação/2º Semestre/Engenharia de Software/Sem título.base",
     "Sem título.canvas",
-    "Formação/1º Semestre/Matemática para computação/índice Matemática para computação.md",
     "Formação/2º Semestre/Engenharia de Software/Imagens",
-    "Sem título.md",
-    "Caso de uso.md",
     "Formação/3º Semestre",
     "Untitled.base",
     "Notion_Cyberlab/2º Semestre/Engenharia de Software/desktop.ini"

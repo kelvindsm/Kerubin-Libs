@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"Ciencia_Computacao/3 Semestre/Engenharia de requisitos\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -22,10 +22,10 @@
       }
     },
     {
-      "query": "path:\"Formação/2º Semestre/Engenharia de Software\"  ",
+      "query": "path:\"Ciencia_Computacao/3 Semestre/Engenharia de requisitos\"  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 1179392
       }
     }
   ],
@@ -39,6 +39,6 @@
   "repelStrength": 7.50833333333333,
   "linkStrength": 0.505208333333333,
   "linkDistance": 100,
-  "scale": 0.13168724279834984,
-  "close": true
+  "scale": 0.200225830078125,
+  "close": false
 }

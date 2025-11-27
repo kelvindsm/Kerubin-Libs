@@ -1,82 +1,146 @@
 ---
 tags:
-  - Naoconcluido
+  - Emprogresso
 ---
-
 # Engenharia de Requisitos: Visão Geral e Contextualização na Engenharia de Software
 
-## Introdução e Papel do Analista de Requisitos
+## Introdução e Contexto
+A **Engenharia de Requisitos (ER)** é uma disciplina fundamental para a [[Engenharia de Software]]. Seu papel principal é servir como ponte, convertendo as necessidades do cliente em **requisitos de software**.
+### O Papel do Analista/Engenheiro de Requisitos
+O **Analista/Engenheiro de Requisitos** tem o papel crucial de **transformar necessidades em solução de software**. Ele atua como intermediário no fluxo de desenvolvimento:
+>[!info] Fluxo do Processo
+> - O **Cliente** passa suas necessidades.
+> - O **Analista/Engenheiro de Requisitos** atende às necessidades e converte as necessidades em [[Requisitos de Software]].
+> - O **Desenvolvedor** converte os requisitos de software em **Código**, usando uma [[Linguagem de Programação]].
+> - O software é entregue, atendendo às necessidades.
 
-- O **Analista/Engenheiro de Requisitos** atua como elo de ligação entre o **Cliente** (que domina o problema e as regras de negócio) e o **Desenvolvedor** (que domina a solução técnica).
-- Seu papel é transformar as **necessidades** do cliente em **Requisitos de Software** que, por sua vez, são convertidos em código pelo desenvolvedor.
-- A [[Comunicação]] é o ponto focal entre o **Negócio** (necessidades e regras) e o **Software** (visão, [[Especificação de Requisitos de Software|ERS]] e [[Modelo de Domínio]]).
+- O processo de **Análise do Problema** e elaboração de uma **Proposta de Solução** é fundamental, culminando no **Software para Automação do Processo**. O software essencialmente **automatiza as tarefas de um processo de negócio**.
+### Comunicação: Negócio (Problema) vs. Software (Solução)
+O processo de comunicação é essencial para ligar o lado do **Negócio** (Problema) ao lado do **Software** (Solução). O desafio reside no fato de que **Clientes** e **Técnicos** vivem em "Mundos Diferentes":
 
->[!info] Mundos Diferentes (Cliente vs. Técnico)
-> - **Clientes:** Dominam o problema (sua necessidade), conhecem as regras do negócio, usam a linguagem de negócio, e suas necessidades evoluem constantemente.
-> - **Técnicos:** Dominam a solução técnica, sabem como colocar em programas as regras de negócio, usam a linguagem da tecnologia, e preferem congelar expectativas para documentar requisições.
+| Clientes (Negócio)                          | Técnicos (Solução)                                         |
+| :------------------------------------------ | :--------------------------------------------------------- |
+| Dominam o **problema** (sua necessidade)    | Dominam a **solução técnica**                              |
+| Conhecem as **regras do negócio**           | Sabem como colocar em programas as regras de negócio       |
+| Têm necessidades que evoluem constantemente | Preferem congelar as expectativas e documentar requisições |
+| Usam a **linguagem de negócio**             | Usam a **linguagem da tecnologia**                         |
 
+>[!tip] Artefatos Chave na Comunicação
+> - O lado do Negócio gera **Necessidades** e **Regras**.
+> - O lado do Software gera **Visão**, [[Especificação de Requisitos de Software (ERS)]] e **Modelo de Domínio**.
+
+### Análise de Negócios segundo BABOK v2
+A **Análise de Negócio** (Business Analysis) é fundamental para **compreender o Negócio**. Segundo o **BABOK v2**:
+
+>[!info] Definição de Análise de Negócio
+> - É o conjunto de tarefas e técnicas utilizadas para atuar como um **elo de ligação** entre as partes interessadas (stakeholders).
+> - Objetiva entender a estrutura, as políticas e as operações de uma organização, bem como os problemas envolvidos.
+> - A finalidade é recomendar soluções que permitam que a organização alcance seus objetivos.
+
+---
 ## Sistemas de Informação (SI)
+Um **Sistema de Informação (SI)** é um conjunto de componentes inter-relacionados que coletam, manipulam e disseminam dados e informação, proporcionando um mecanismo de *feedback* para atender a um objetivo (Stairs e Reynolds, 2002).
 
-- Sistemas de informação surgiram antes mesmo da informática, baseados em arquivamento e recuperação de informações.
-- **Definição de SI:** É um conjunto de componentes inter-relacionados que coletam, manipulam e disseminam dados e informação, proporcionando um mecanismo de feedback para atender a um objetivo.
-- Os sistemas evoluíram para acompanhar os **Processos de Negócios**.
-- O **Objetivo do SI** é transformar **Dados** em **Informação** através de um **PROCESSO**.
+>[!note] História do SI
+> - Os sistemas de informação surgiram antes mesmo da informática.
+> - Organizações se baseavam em técnicas de arquivamento e recuperação de informação.
+> - Existia a figura do "arquivador", responsável por organizar, registrar, catalogar e recuperar dados.
 
-### Dimensões de um SI
-- Um sistema de informação baseado em computador deve ser entendido por suas três dimensões:
-    - **Organização:** Um sistema formal cujo objetivo é produzir produtos ou prestar serviços.
-    - **Pessoas (Stakeholders):** Interagem diretamente com o SI, utilizando as informações geradas para algum processo de tomada de decisão da organização.
-    - **Tecnologia da Informação (TI):** Conjunto de recursos tecnológicos e computacionais para a geração e uso da informação.
+### Três Dimensões do SI
+Para entender [[Sistemas de Informação (SI)]] baseados em computador, é crucial entender as três dimensões inter-relacionadas:
+- **Organização:** Sistema formal cujo objetivo é produzir produtos ou prestar serviços.
+- **Pessoas (Stakeholders):** Interagem diretamente com o SI, usando as informações geradas para o processo de tomada de decisão.
+- **Tecnologia da Informação (TI):** Conjunto de recursos tecnológicos e computacionais para a geração e uso da informação.
+### Fluxo e Objetivo do SI
+O objetivo do SI é **transformar Dados em Informação** por meio de um **PROCESSO**.
+>[!info] Fluxo Lógico do SI
+> 1. **Coleta** (dados)
+> 2. **Manipula** (dados)
+> 3. **Organiza e Recupera** (dados)
+> 4. **Dissemina** (informação)
+> 5. **Feedback** (mecanismo de retorno)
 
-### Fluxo e Construção do SI
-- **Fluxo Básico do SI:** Coleta (dados) $\rightarrow$ Manipula (dados) $\rightarrow$ Organiza e Recupera (dados) $\rightarrow$ Disseminação (informação) + **Feedback**.
-- **Etapas para Solução de SI:**
-    1. Descrição do Processo
-    2. [[Mapeamento do Processo]]
-    3. Análise do Problema
-    4. Proposta de Solução
-    5. Software para [[Automação de Processo|Automação do Processo]]
+O processo de **Análise do Problema** e elaboração de uma **Proposta de Solução** é fundamental, culminando no **Software para Automação do Processo**. O software essencialmente **automatiza as tarefas de um processo de negócio**.
 
-## Engenharia de Software (ES)
+---
+## Crise do Software e o Surgimento da ES
+A disciplina de Engenharia de Software foi criada em reação à **"Crise do Software"** no início dos anos 70.
+>[!question] A Crise do Software
+> - Projetos estourando o orçamento e o prazo.
+> - Software de baixa qualidade e difícil de manter.
+> - Software não satisfazendo os requisitos.
+> - A Engenharia de Software era praticamente inexistente.
 
-- Surgiu em resposta à "Crise do Software" (início dos anos 70), caracterizada por projetos que estouravam orçamento e prazo, software de baixa qualidade, não satisfazendo requisitos e sendo mal gerenciado.
-- **Definição de ES:** Disciplina tecnológica e gerencial preocupada com a produção sistemática de produtos de software, desenvolvidos ou modificados dentro do tempo e custo estimados, conforme os requisitos definidos e especificados.
-- **Qualidade de Software:** Refere-se à medida em que um software atende aos requisitos especificados, satisfaz as necessidades do usuário e opera de maneira confiável.
+A necessidade de sanar as deficiências de desenvolvimento, causada pelo aumento da complexidade dos processos e da tecnologia, levou à criação da **Engenharia de Software**.
+>[!example] Consequências da Má Qualidade
+> - **Ariane 5 (1996):** Foguete explodiu após 40 segundos devido a um *bug* de software, resultando em um prejuízo de US$ 500 milhões.
+> - **Boeing 737 MAX 8 (2018/2019):** Dois acidentes resultaram em vítimas fatais. O sistema MCAS fez uma leitura errada do ângulo do avião, sem a opção de divergência para os pilotos.
 
-### Elementos Fundamentais e Objetivos da ES
-- **Conceito:** A ES é a ciência que estuda o processo de construção de um determinado produto utilizando diversas tecnologias.
-- **Elementos Fundamentais:**
-    - **Método:** Procedimento formal para produzir um resultado (técnica). Inclui modelos de ciclo de vida, como o modelo em cascata, modelo em espiral, modelo ágil, entre outros.
-    - **Ferramenta:** Instrumento ou sistema automatizado para realizar uma tarefa da melhor maneira. São softwares utilizados para apoiar e facilitar as atividades da ES, como IDEs e sistemas de controle de versão.
-    - **Procedimento:** Combinação de ferramentas e técnicas para produzir um resultado específico. Referem-se aos métodos e passos específicos que os desenvolvedores seguem durante o ciclo de vida.
-- **Objetivos da ES:**
-    - Aplicação de teoria, modelos, formalismos, técnicas e ferramentas da ciência da computação.
-    - Aplicação de métodos, técnicas e ferramentas para o gerenciamento do processo de desenvolvimento.
-    - Produção da **documentação formal** destinada à comunicação.
+### Qualidade de Software
+- A **Qualidade de Software** refere-se à medida em que um software atende aos requisitos especificados, satisfaz as necessidades do usuário e opera de maneira confiável.
+- Segundo Roger Pressman:
+>[!quote] Definição de Qualidade de Software
+> "Conformidade aos **requisitos funcionais** e de desempenho, explicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que são esperadas de todo o software profissionalmente desenvolvido."
 
-### Etapas Genéricas de Construção de Software (Ciclo de Vida)
-- **Etapas Genéricas:** Modelagem de Negócios $\rightarrow$ Requisitos $\rightarrow$ Análise e Design $\rightarrow$ Implementação $\rightarrow$ Testes $\rightarrow$ Implantação.
-- O processo começa pelo **entendimento dos processos de negócio** envolvidos, pois "Software é automação de processo de negócio!".
+---
 
->[!tip] Engenharia de Requisitos no Ciclo
-> - A [[Engenharia de Requisitos]] está na fase de **Requisitos**.
-> - As **tarefas** de um processo são as referências para os requisitos de software. O processo descrito, mapeado e entendido, torna-se a fonte de referência para a identificação, definição e gerência dos requisitos.
+## Conceito e Elementos da Engenharia de Software
 
-## Modelos de Processo de Software
+### Conceito Detalhado
+A [[Engenharia de Software (ES)]] é definida como uma:
+>[!info] Definição de ES (Pressman)
+> "Disciplina tecnológica e gerencial preocupada com a produção sistemática de produtos de software, que são desenvolvidos e/ou modificados dentro do tempo e custo estimados, conforme os requisitos definidos e especificados."
 
-- O **processo de software** é um conjunto sequencial de atividades, objetivos, transformações e eventos que integram estratégias para o cumprimento da evolução de software.
+**Diferença entre Ciência da Computação e ES:**
+- A **Ciência da Computação** está relacionada com teorias e fundamentos.
+- A **Engenharia de Software** está relacionada com a prática e o desenvolvimento de software.
+### Elementos Fundamentais
+A Engenharia de Software abrange métodos, ferramentas e procedimentos que possibilitam o controle do processo de desenvolvimento.
+- **MÉTODO (Técnica):** Procedimento formal para produzir um resultado.
+    - Exemplos incluem modelos de ciclo de vida como **Cascata**, **Espiral** e **Ágil**.
+- **FERRAMENTA:** Instrumento ou sistema automatizado para realizar uma tarefa da melhor maneira.
+    - Incluem IDEs, sistemas de controle de versão, e ferramentas de gerenciamento como **Jira**, **Trello** e **GitLab**.
+- **PROCEDIMENTO:** Combinação de ferramentas e técnicas para produzir um resultado específico.
+    - Incluem a análise de requisitos, design, implementação, teste e manutenção, garantindo qualidade e confiabilidade.
 
-### Tipos de Modelos de Ciclo de Vida
-- **[[Modelo Cascata]]:** Linear e sequencial (Levantamento de Requisitos $\rightarrow$ Análise $\rightarrow$ Projeto $\rightarrow$ Codificação $\rightarrow$ Testes $\rightarrow$ Implantação).
-- **[[Modelo em Espiral]]:** Modelo de processo de software que engloba planejamento, análise de risco, engenharia e avaliação.
-- **[[RUP (Rational Unified Process)]]:** É um processo iterativo e adaptativo de desenvolvimento, tradicional, organizado e consistente.
-- **[[Modelos Ágeis]] (ex: Scrum):** Desenvolvem o software em ciclos curtos e incrementais.
-    - **Scrum:** É um *framework* ágil, iterativo e incremental. Ajuda a gerar valor por meio de soluções adaptativas para problemas complexos.
+---
 
-### Técnicas e Disciplinas na Construção de Software
-- **Prototipação:** Abordagem baseada numa visão evolutiva do desenvolvimento de software. Envolve a produção de versões iniciais (protótipos) para realizar verificações e experimentações. "Para o usuário, a interface é o sistema".
-- **Projeto de Software:** Representa a **solução técnica** às necessidades de negócio e requisitos identificados. Deve conter as soluções técnicas necessárias (modelagem de requisitos, especificações, arquitetura, etc.).
-- **Codificação de Software:** Traduz os requisitos de software em ações a serem executadas em uma linguagem de programação.
-- **Testes de Software:** Verificação para garantir que o software atende aos requisitos.
-- **Implantação:** Fase do ciclo de vida que corresponde textualmente à passagem do software para a produção.
-- **Manutenção:** Conjunto de atividades realizadas após a entrega do sistema para garantir seu bom funcionamento e atender às necessidades em constante evolução dos usuários (correção de erros, adaptação, melhorias).
+## O Processo de Construção de Software
+O processo de software é um conjunto sequencial de atividades, objetivos, transformações e eventos que integram estratégias para o cumprimento da evolução de software (Pressman).
+>[!note] Definição de Processo
+> "Uma sequência de etapas que envolvem atividades, restrições e recursos para alcançar um resultado desejado."
+
+### Etapas Genéricas de Construção
+Cada estágio do ciclo de vida é um processo ou uma coleção de processos.
+
+| Tarefas (Disciplinas)         | Profissional                  | Artefatos                                |
+| :---------------------------- | :---------------------------- | :--------------------------------------- |
+| **Modelagem do Negócio**      | [[Analista de Negócio]]       | **Documento de Análise de Negócio**      |
+| **Elicitação de Requisitos**  | [[Analista de Requisitos]]    | **Documento de Definição de Requisitos** |
+| **Análise e Projeto**         | [[Analista de Sistemas]]      | Modelagem dos Requisitos/Especificação   |
+| **Protótipo**                 | UX/Designer                   | Validação (representação gráfica)        |
+| **Implementação/Codificação** | [[Programador/Desenvolvedor]] | **Programa (código)**                    |
+| **Testes**                    | [[Analista de Testes]]        | Roteiros de Teste                        |
+| **Implantação**               | [[Analista de Homologação]]   | Documento de Implantação                 |
+| **Manutenção**                | Equipe técnica                | Manual do Sistema                        |
+### Foco da Engenharia de Requisitos
+A **Engenharia de Requisitos** tem seu foco logo após a Análise de Negócio e é crítica para a definição do sistema.
+>[!note] Engenharia de Requisitos
+> - As tarefas de um processo de negócio são as referências para os [[Requisitos de Software]].
+> - A partir do processo mapeado e entendido, as tarefas, regras e lógica passam a ser fonte de referência para a identificação, definição e gerência dos requisitos do software.
+> - Todas as mudanças em requisitos devem ser observadas a partir de mudanças nos processos e regras de negócio.
+
+### Abordagens de Ciclo de Vida do Software
+1. **Modelo Caótico:** Codifica-remenda (Programação Orientada a Gambiarra - POG).
+2. **Modelos Tradicionais:**
+    - [[Modelo Cascata]].
+    - [[Modelo em Espiral]].
+3. **Modelo Iterativo/Adaptativo:**
+    - **RUP (Rational Unified Process):** É um processo iterativo e adaptativo, organizado e consistente. A disciplina de **Requisitos** é mais intensa nas fases de **Iniciação** e **Elaboração**.
+    - **SCRUM:** É um *framework* ágil, iterativo e incremental. O [[Product Backlog]] é a principal fonte de requisitos para a **Sprint**.
+### O Sucesso em Projetos de Software
+>[!tip] Fatores de Sucesso
+> - O sucesso de um projeto de software é proporcional à **qualidade gerencial** que investimos nele.
+> - É proporcional à **capacidade de entendimento do negócio**.
+
+---

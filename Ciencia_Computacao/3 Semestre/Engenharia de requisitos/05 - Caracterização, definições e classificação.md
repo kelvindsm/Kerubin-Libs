@@ -1,73 +1,102 @@
 ---
 tags:
-  - Naoconcluido
+  - Emprogresso
+  - NaoRevisado
 ---
-# Engenharia de Requisitos: Caracterização, Definições e Classificação
+# Caracterização da Engenharia de Requisitos: Definições e Classificação
 
-## 1. Caracterização da Engenharia de Requisitos (ER)
+## Engenharia de Requisitos (ER): Definição e Propósito
 
-- A **ER** é uma sub-área da [[Engenharia de Software]] que estuda o processo de produção e gerência dos requisitos que o software deverá atender.
-- O objetivo da ER é fornecer **métodos, procedimentos e ferramentas** para dar suporte adequado às tarefas de produção e gerência de requisitos do sistema.
-- Foi estabelecida como disciplina independente em 1993, quando da criação do IEEE International Symposyum on Requirements Engineering (RE'93).
-- A ER busca desenvolver o projeto certo da primeira vez, pois o **custo do retrabalho** é maior do que o investimento em ER.
-    - A prática de "codifica-remenda" (identificar requisitos rapidamente e iniciar a codificação) frequentemente causa estouro de prazo e orçamento.
+A **Engenharia de Requisitos (ER)** é uma sub-área da [[Engenharia de Software (ES)]] que estuda o processo de produção e gerência dos requisitos que o software deverá atender.
+- **Estabelecimento:** A ER foi estabelecida como disciplina independente em 1993, com a criação do IEEE International Symposium on Requirements Engineering.
+- **Objetivo da ER:** Fornecer métodos, procedimentos e ferramentas que deem suporte adequado às tarefas de produção e gerência dos requisitos do sistema.
 
->[!info] Processos de ER (IEEE, 1998)
-> São processos de aquisição, refinamento e verificação das necessidades dos usuários, por meio de técnicas sistemáticas e repetíveis, para assegurar que os requisitos sejam **completos, consistentes, relevantes** e que atendam às necessidades do cliente.
+### O Custo da ER Inadequada
 
-### Princípios Fundamentais da ER
-1.  **Orientação para o valor:** Requisitos são um meio para atingir um fim, não o fim em si.
-2.  **Stakeholders:** A ER busca a satisfação dos desejos e necessidades das partes interessadas.
-3.  **Entendimento Compartilhado:** O desenvolvimento de sistemas é impossível sem uma base comum de entendimento.
-4.  **Evolução:** A mudança de requisitos não é um acidente, mas o caso normal.
-5.  **Validação:** Requisitos não validados são inúteis.
+Organizações que trabalham sem um processo formal de ER tendem a identificar requisitos rapidamente e iniciar a codificação (processo **"codifica-remenda"**).
 
-## 2. Processos da Engenharia de Requisitos
+- **Consequências:** Estes projetos frequentemente estouram o prazo e o orçamento.
+- **Retrabalho:** O esforço e o custo do retrabalho são maiores do que os investimentos em ER, que busca desenvolver o projeto certo da primeira vez.
 
-A Engenharia de Requisitos engloba dois processos principais:
+>[!info] Por que a ER é Necessária?
+> A ER adequada agrega valor no processo de desenvolvimento e evolução de um sistema:
+> - Reduzindo o risco de desenvolver o sistema errado.
+> - Melhorando a compreensão do problema.
+> - Sendo base para a estimativa de esforço e custo de desenvolvimento.
+> - Sendo pré-requisito no teste de sistema.
 
-### Processo I: Produção de Requisitos
-Visa definir os requisitos do software conforme as necessidades de negócio.
-- **Etapas:**
-    1.  **Elicitação:** Identificação das fontes de informação. Foca em entender o domínio do problema e da solução.
-    2.  **Análise e Negociação:** Análise dos requisitos para identificá-los e resolvê-los.
-    3.  **Definição (Documentação):** Documentação dos requisitos de forma clara e objetiva.
-    4.  **Verificação e Validação:** Verificação com o cliente (pode envolver a [[Prototipação]]).
+- **Sintomas de ER Inadequada:** Requisitos não especificados, sem clareza ou incorretos. Isso ocorre devido à pressa para a construção, problemas de comunicação, e o pressuposto de que os requisitos são evidentes por si mesmos.
 
-### Processo II: Gerência de Requisitos
-Visa garantir que os requisitos sejam gerenciados durante todo o ciclo de vida:
-- **Atividades:**
-    - Controle de Mudança.
-    - Gerência de Configuração.
-    - [[Rastreabilidade]].
-    - Qualidade de Requisitos.
+## Estrutura da Engenharia de Requisitos
 
-## 3. Definições e Classificação dos Requisitos
+A [[Engenharia de Requisitos]] engloba dois processos principais:
+1. **Produção de Requisitos**.
+2. **Gerência de Requisitos**.
+### 1. Processo de Produção de Requisitos
+Visa definir os requisitos do software conforme as necessidades de negócio do cliente.
+- **Etapas Sequenciais (Produção):**
+1. Elicitação (Identificação das Fontes de Informação).
+2. Análise e Negociação (Análise dos Requisitos).
+3. Definição dos Requisitos (Documentação).
+4. Verificação e Validação (Protótipo do Sistema).
+### 2. Processo de Gerência de Requisitos
+Visa garantir que os requisitos sejam controlados e mantidos ao longo do ciclo de vida do projeto.
+- **Atividades Chave (Gerência):**
+	- [[Controle de Mudança (Gerência)]].
+	- [[Gerência de Configuração]].
+	- [[Rastreabilidade]].
+	- [[Qualidade de Requisitos]].
+## Documento e Tipos de Requisitos
+### Definição e Abordagens de Requisitos
+- **Requisito de Software:** "Uma ação a ser executada por um sistema, possuindo características e condições próprias e que devem ser atendidas conforme as necessidades de negócio do usuário".
+- **Foco:** Requisitos descrevem **"o que o sistema deve fazer"** e **"o que ele não deve fazer"**, mas não dizem **"como fazer"**. O comportamento deve ser perceptível por um observador externo.
+### Tipos de Documentos de Requisitos
+A documentação deve ser adaptada ao público-alvo, existindo dois documentos principais:
 
-### Requisito de Software
-- **Conceito:** Ação a ser executada por um sistema, com características e condições próprias que devem ser atendidas conforme as necessidades de negócio do usuário.
-- **Foco:** Descreve **"o que"** o sistema deve ou não deve fazer, sem dizer **"como"** fazer.
-- **Forma Correta de Requisito:** Deve ser expresso em termos do comportamento do sistema, perceptível por um observador externo.
-    - *Exemplo Correto:* "O sistema deve exibir os clientes com pagamento em atraso."
-
-### Hierarquia e Tipos de Requisitos
-Os requisitos são organizados em uma pirâmide hierárquica (Domínio do Problema $\rightarrow$ Domínio da Solução):
-1.  **Requisitos do Negócio:** Metas, objetivos, premissas, restrições e custos.
-2.  **Requisitos de Usuário:** Objetivos, funcionalidades e prioridade da perspectiva do usuário.
-3.  **Requisitos do Sistema:** Detalhamento da solução (Ações, Dados, Regras de Negócio, Qualidade, Interface).
-
-### Classificação do requisito da solução
-- **Requisitos Funcionais (RF):** Dizem respeito a um resultado ou comportamento fornecido por uma função do sistema.
-    - *Ex.:* O sistema deve permitir realizar saque.
-- **Requisitos de Qualidade (RQ) (Não Funcionais):** Questões de qualidade não cobertas pelos RFs (desempenho, segurança, confiabilidade).
-- **Restrições:** Requisitos que limitam o espaço da solução além do necessário.
-
-### Tipos Específicos de Requisitos do Software
-- **Requisitos de Dados (RD):** Descrevem os atributos (dados) do requisito funcional (podem ser alterados sem modificar a execução do RF).
-    - *Ex.:* O sistema deve exibir os dados de Nome do Produto, Descrição, Quantidade, Preço e Foto ao visualizar o produto.
-- **Regras de Negócio / Execução (RN):** Define a condição necessária para que um requisito funcional seja executado (se modificadas, alteram a execução do RF).
-    - *Ex.:* Quando o cliente realizar o saque, então o sistema deve verificar se o saldo é positivo.
-### Sentenças de Requisitos (Sintaxe) 
-- **RF (Sentença Funcional):** O sistema deve + verbo + objeto | frase verbal) + complemento de agente | nulo).
-- **RN (Sentença Condicional):** Quando ou Se o (agente + verbo + objeto) + então o sistema deve (verbo + objeto | frase verbal).
+| Documento                              | Perspectiva   | Características                                                                                                                                              |
+| :------------------------------------- | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definição dos Requisitos**           | Cliente       | Lista o que o cliente espera; compreensível ao cliente; busca consenso entre cliente e analista.                                                             |
+| **Especificação dos Requisitos (ERS)** | Desenvolvedor | Redefine os requisitos em termos técnicos; compreensível para o projetista; envolve modelagem. Inclui termos técnicos, modelo de dados e lógica do processo. |
+### Hierarquia de Requisitos (A Pirâmide)
+Os requisitos são organizados em níveis, do mais alto (negócio) ao mais baixo (sistema):
+1. **[[Requisitos do Negócio]] (Necessidades):** Metas de nível mais alto, objetivos ou problemas da organização.
+2. **[[Requisitos de Usuário]] (Características):** O que os usuários/stakeholders querem de sua perspectiva (objetivos, funcionalidades, prioridade, ambiente).
+3. **[[Requisitos de Sistema]] (Solução):** O que o sistema deve fazer. São a base para o desenvolvimento.
+## Classificação Detalhada dos Requisitos de Software
+Os [[Requisitos de Software]] são definidos em linguagem estruturada e podem ser classificados em quatro tipos inter-relacionados:
+### 1. Requisitos Funcionais (RF)
+- Descrevem o **comportamento e as ações** que o sistema ou componente deve ser capaz de executar.
+- Inclui requisitos de dados ou de interação com o ambiente.
+- **Exemplo:** "O sistema deve permitir ao cliente visualizar os produtos".
+### 2. Requisitos de Dados (RD)
+- Descrevem os **atributos (dados)** do requisito funcional.
+- Podem ser alterados sem modificar a realização do requisito funcional.
+- **Exemplo:** "O sistema deve exibir os dados de Nome do Produto, Descrição, Quantidade, Preço e Foto ao visualizar o produto".
+### 3. Regras de Negócio / Execução (RN)
+- Definem a **condição necessária** para que um requisito funcional (Ação) possa ser executado pelo software.
+- Se modificadas, alteram a forma de execução do requisito funcional.
+- **Exemplo:** "Quando o cliente realizar o saque então o sistema deve verificar se o saldo é positivo".
+### 4. Requisitos de Qualidade / Não Funcionais (RQ)
+- Incluem limitações no **produto** (desempenho, confiabilidade, segurança) e limitações no **processo de desenvolvimento** (métodos e padrões).
+- Dizem respeito a questões de qualidade que não são cobertas por requisitos funcionais.
+#### Características de Qualidade (ISO/IEC 25010)
+A norma ISO/IEC 25010 (substituindo a ISO/IEC 9126) define 8 características principais:
+- **Adequação Funcional:** (Corresponde à funcionalidade).
+- **Eficiência de Desempenho:** Tempo de resposta, utilização de recursos e capacidade.
+- **Compatibilidade:** Interoperabilidade.
+- **Usabilidade:** Adequação, erros do usuário, estética, proteção, facilidade de uso.
+- **Confiabilidade:** Maturidade, disponibilidade, recuperabilidade.
+- **Segurança:** Integridade, autenticidade, responsabilidade.
+- **Manutenibilidade:** Testabilidade, modificabilidade.
+- **Portabilidade:** Adaptabilidade.
+---
+## Sentenças de Requisitos (Templates)
+A forma como os requisitos são escritos é crucial para sua clareza.
+### Template para Funcionais e de Dados
+- **Estrutura:** O sistema deve + **verbo + objeto | frase verbal** + **complemento de agente | nulo**.
+- **Exemplo (RF):** O sistema deve emitir recibo de compra.
+- **Exemplo (RD):** O sistema deve cadastrar nome, end, e-mail, tel do cliente.
+### Template para Regras de Negócio
+- **Estrutura:** Quando ou Se o **agente + verbo + objeto | frase verbal** + então o sistema deve **verbo + objeto | frase verbal**.
+- **Exemplo (RN):** Quando o cliente visualizar os produtos (carrinho) o sistema deve permitir alteração de quantidade de itens.
 ---

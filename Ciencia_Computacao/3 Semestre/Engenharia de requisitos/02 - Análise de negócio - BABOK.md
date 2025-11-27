@@ -1,116 +1,98 @@
 ---
 tags:
-  - Naoconcluido
+  - Emprogresso
+  - NaoRevisado
 ---
+# Análise de Negócios e o Guia BABOK (Business Analysis Body of Knowledge)
 
-# Análise de Negócios (Business Analysis - BA) e o Guia BABOK
+## Introdução e Conceitos Fundamentais
 
-## Conceitos Fundamentais de Análise de Negócios
+A **Análise de Negócios (Business Analysis - BA)** é uma disciplina essencial que precede e suporta a [[Engenharia de Requisitos (ER)]]. Ela atua como a ligação entre as necessidades de uma organização e a solução a ser desenvolvida.
 
-- **Análise de Negócios:** Conjunto de atividades e técnicas utilizadas para servir como **ligação entre partes interessadas** no intuito de compreender a estrutura, políticas e operações de uma organização e para recomendar soluções que permitam que a organização alcance suas metas.
-- O **Analista de Negócios** desempenha o papel de **elo de ligação** entre as partes interessadas e os objetivos organizacionais, atuando como um consultor interno para investigar e propor melhorias e soluções.
+### O IIBA e o Guia BABOK
 
->[!info] Foco da Análise de Negócios
-> - **Responsabilidade:** Identificar e compreender o **problema (ou oportunidade)** a partir da interação com as partes interessadas para definir os requisitos a serem satisfeitos.
-> - **Conexão:** Conecta as necessidades dos *stakeholders* e do negócio (situação atual - **as is**) aos requisitos e especificações técnicas das soluções (situação futura desejada - **to be**).
-> - **Principal Aplicação:** Definição e validação de soluções que atendam as necessidades do negócio, seus objetivos e metas.
+O **IIBA (International Institute of Business Analysis)** é uma associação sem fins lucrativos que visa facilitar o trabalho de profissionais de Análise de Negócios.
 
-### Conhecimento Requerido do Analista
-É importante que o analista de negócios compreenda o negócio em seus diferentes aspectos:
-- **Estratégico:** definir orientação, objetivos e macroprocessos de negócio.
-- **Operacional:** definir e analisar a implementação do modelo de negócio por meio de políticas e diretrizes da organização.
-- **Processos:** definir, modelar e detalhar processos, procedimentos, etapas e passos.
-- **Requisitos:** analisar aspectos técnicos dos requisitos e especificações para satisfazer às necessidades de negócio.
+O **BABOK (Business Analysis Body of Knowledge) v2.0** é o guia fundamental que contém o corpo de conhecimento da Análise de Negócios.
 
-### O Guia BABOK
-- **BABOK (Business Analysis Body of Knowledge):** É um conjunto de **melhores práticas** em análise de negócios publicado pelo [[International Institute of Business Analysis]] (**IIBA**).
-- Fornece a estrutura para descrever as **Áreas de Conhecimento**, associado à atividades e tarefas e técnicas requeridas.
-- **Não é uma metodologia** e não contempla todas as técnicas.
-- **Certificações IIBA:**
-    - **ECBA®** (Entry Certificate in Business Analysis) - Reconhece indivíduos que entram no campo (nível inicial).
-    - **CCBA®** (Certification of Capability in Business Analysis) - Reconhece profissionais com 2 a 3 anos de experiência.
-    - **CBAP®** (Certified Business Analysis Professional) - Reconhece profissionais que gerenciam ou lideram, com mais de 5 anos de experiência (nível mais avançado).
+>[!info] Definição de Análise de Negócio (BABOK)
+> - É o conjunto de tarefas e técnicas usadas como **elo de ligação** entre as partes interessadas (stakeholders).
+> - Seu objetivo é entender a estrutura, políticas e operações de uma organização, e recomendar soluções que a permitam alcançar seus objetivos.
 
-## Conceitos-Chave (BABOK)
+### Elementos Chave da Análise de Negócios
 
-- **Domínio:** Corresponde à área específica da análise sendo realizada (organização inteira, unidade organizacional, clientes, fornecedores ou interação entre a organização e esses públicos).
-- **Partes Interessadas (Stakeholders):** Classe de pessoas afetadas pela iniciativa de forma direta ou indireta.
-- **Soluções:** Conjunto de mudanças necessário para que a organização atenda uma necessidade, se beneficie de uma oportunidade ou resolva um problema. A solução ideal leva em conta todas as limitações (tempo, orçamento, regulamentos).
-- **Requisitos:** Condições ou capacidades, e descrições de estruturas organizacionais, papéis, processos, políticas, regras e [[Sistemas de Informação]].
+O BABOK define conceitos cruciais para a disciplina:
+- **Business Analyst (BA):** A pessoa que realiza as tarefas de Análise de Negócios. Atua como o intermediário entre as partes interessadas para definir, gerenciar e priorizar requisitos.
+- **Stakeholder (Parte Interessada):** Um grupo ou indivíduo com interesse em ou influência sobre a solução, o resultado final ou o próprio analista de negócios.
+- **Requisito:** Uma condição ou capacidade necessária para um **Stakeholder** para resolver um problema ou atingir um objetivo.
+- **Solução:** Um conjunto de mudanças no estado atual de uma organização que resolve um problema de negócio ou permite que a organização aproveite uma oportunidade.
+- **Estado Atual:** O modo de operação, capacidades e ambiente de uma organização no momento presente.
+- **Estado Futuro Desejado:** A nova configuração de pessoas, processos e tecnologia que uma organização precisa alcançar para atingir seus objetivos de negócio.
 
-### Níveis de Requisitos (Hierarquia)
-1. **Requisitos do Negócio:** Metas de nível mais alto, objetivos ou necessidades da organização. Alinham a iniciativa à estratégia corporativa. Desenvolvidos na área de conhecimento **Análise Corporativa**.
-2. **Requisitos das Partes Interessadas:** Necessidades específicas dos *stakeholders*. Criam um vínculo entre os requisitos do negócio e os da solução. Definidos na área de conhecimento **Análise de Requisitos**.
-3. **Requisitos da Solução:** Indicam as características que a solução deve possuir. Podem ser divididos em:
-    - **Requisitos Funcionais:** Descrevem o funcionamento, comportamento e informações que a solução irá gerenciar.
-    - **Requisitos Não Funcionais (Qualidade/Suplementares):** Descrevem condições de operação e qualidade (eficiência, velocidade, disponibilidade, etc.).
-4. **Requisitos de Transição:** Conjunto de requisitos **temporários** necessários para a implantação da solução. Envolvem tarefas como conversão de informações, treinamentos e capacidades como redundâncias.
-
-## Áreas de Conhecimento do BABOK
-
-### 1. Análise Corporativa (Corporate Analysis)
-- Compreende atividades para a identificação da **necessidade do negócio** e justificativa para o esforço de análise.
+---
+## Seis Áreas de Conhecimento do BABOK v2.0
+- O BABOK v2.0 é estruturado em **seis Áreas de Conhecimento** que agrupam as tarefas realizadas pelo Analista de Negócios.
+### 1. Planejamento e Monitoramento da Análise de Negócio
+Esta área é responsável por definir o processo de BA a ser utilizado no projeto, garantindo o alinhamento com os objetivos da organização.
 - **Tarefas Principais:**
-    1. Definir a **necessidade do negócio**.
-    2. Avaliar **lacunas (gaps) de capacidade** (recursos, estrutura, pessoas, processos e tecnologia).
-    3. Definir **abordagem da solução** (viabilidade, preparação do plano de negócios).
-    4. Definir o **escopo da solução**.
-    5. Definir o **plano de negócios** (estimativas de durações e recursos).
+    - Planejar a Abordagem da Análise de Negócio.
+    - Conduzir a Análise das Partes Interessadas.
+    - Planejar Atividades da Análise de Negócios.
+    - Planejar a Comunicação da Análise de Negócio.
+    - Planejar o Processo de Gerenciamento de Requisitos.
+    - Gerenciar o Desempenho da Análise de Negócios.
+### 2. Elicitação
+A **Elicitação** refere-se ao conjunto de atividades para desenhar, observar e entender as necessidades dos **Stakeholders**.
 
-### 2. Análise de Requisitos (Requirements Analysis)
-- Envolve a **priorização** e a **elaboração progressiva** dos requisitos das partes interessadas e dos requisitos da solução.
 - **Tarefas Principais:**
-    1. **Priorizar requisitos**.
-    2. **Organizar requisitos** (compreensíveis, completos e consistentes).
-    3. **Especificar e modelar requisitos** (diagramas, casos de uso, etc.).
-    4. Definir **pressupostos e restrições**.
-    5. **Verificar requisitos**.
-    6. **Validar requisitos** (garantir valor para o negócio).
+    - Preparar a Elicitação.
+    - Conduzir a Atividade de Elicitação (envolvendo técnicas como entrevistas, *workshops* e observação).
+    - Documentar os Resultados da Elicitação.
+### 3. Gerenciamento e Comunicação dos Requisitos
+Esta área assegura que os requisitos sejam mantidos de forma organizada, atualizada e acessível a todas as partes interessadas.
 
-### 3. Avaliação e Validação da Solução (Solution Assessment and Validation)
-- Envolve escolher e determinar qual solução é mais adequada e avaliar quão bem uma solução entregue atende à necessidade original. O objetivo é **maximizar o valor entregue**.
 - **Tarefas Principais:**
-    1. Avaliar **solução proposta**.
-    2. **Alocar requisitos**.
-    3. Avaliar a **prontidão organizacional** (se a organização está preparada para utilizar a solução).
-    4. Definir **requisitos de transição**.
-    5. **Validar a solução**.
-    6. Avaliar **desempenho da solução**.
+    - Gerenciar o Escopo e os Requisitos da Solução.
+    - Gerenciar a [[Rastreabilidade de Requisitos]].
+    - Manter Requisitos para Reutilização.
+    - Preparar o Pacote de Requisitos (o conjunto de requisitos a ser implementado em uma iteração).
+    - Comunicar Requisitos.
+### 4. Análise Corporativa (Enterprise Analysis)
+Esta área foca na compreensão das necessidades de negócio e na definição de uma solução que atenda aos objetivos estratégicos da empresa. É onde o problema de negócio é definido.
 
-### 4. Elicitação (Elicitation)
-- Responsável por **planejar, conduzir, documentar e validar** os requisitos. É realizada de modo **cíclico e iterativo**.
 - **Tarefas Principais:**
-    1. **Preparar a elicitação** (planejamento para coleta, documentação e manutenção).
-    2. **Conduzir a atividade de elicitação**.
-    3. **Documentar os resultados** da elicitação.
-    4. **Confirmar resultados** da elicitação.
+    - Definir a Necessidade do Negócio (o porquê do projeto).
+    - Avaliar Gaps (Lacunas) de Capacidades (o que a organização pode e não pode fazer).
+    - Determinar a Abordagem da Solução (como o negócio pode ser automatizado).
+    - Definir o Escopo da Solução (o que a solução fará e o que não fará).
+    - Definir o **Business Case** (justificativa financeira e de valor).
+### 5. Análise de Requisitos
+Nesta área, os requisitos brutos obtidos na Elicitação são transformados em **requisitos funcionais** e **não-funcionais** estruturados e de alta qualidade.
 
-### 5. Gerenciamento e Comunicação de Requisitos (Requirements Management and Communication)
-- Define como os requisitos são **comunicados** e como o conhecimento é **mantido** para utilização futura. O objetivo é garantir o alinhamento e a **coerência** entre os requisitos (rastreabilidade).
 - **Tarefas Principais:**
-    1. Gerenciar o **escopo** e os requisitos da solução.
-    2. Gerenciar a **rastreabilidade dos requisitos**.
-    3. **Manter requisitos para reutilização**.
-    4. Preparar o **Pacote de Requisitos**.
-    5. **Comunicar requisitos** às partes interessadas.
+    - Priorizar Requisitos (com base em valor, risco e dependência).
+    - Organizar Requisitos.
+    - Especificar e Modelar Requisitos (uso de diagramas e notação formal).
+    - Definir Suposições e Restrições.
+    - Verificar Requisitos (garantir a qualidade e completude).
+    - Validar Requisitos (garantir que atendem à necessidade do negócio).
+### 6. Avaliação e Validação da Solução
+Esta área de conhecimento ocorre após a implementação, verificando se a solução entregue realmente resolve o problema de negócio e atinge o estado futuro desejado.
 
-### 6. Planejamento e Monitoramento da Análise de Negócios (Business Analysis Planning and Monitoring)
-- Área de **coordenação e supervisão** das demais áreas. Determina qual será a abordagem e quais atividades e ferramentas serão necessárias.
 - **Tarefas Principais:**
-    - Planejar a **abordagem da análise de negócios**.
-    - Conduzir a **análise das partes interessadas**.
-    - Planejar **atividades** da análise de negócios.
-    - Planejar a **comunicação** da análise de negócios.
-    - Planejar o **processo de gerenciamento de requisitos**.
-    - Gerenciar o **desempenho** da análise de negócios.
+    - Avaliar Solução Proposta.
+    - Alocar Requisitos (associar requisitos a elementos da solução).
+    - Avaliar a Prontidão Organizacional (se a organização está pronta para a mudança).
+    - Definir Requisitos de Transição (necessários para a migração).
+    - Validar Solução (teste de aceitação do usuário).
+    - Avaliar o Desempenho da Solução (medir os benefícios após o uso).
 
-## Competências Fundamentais (Apoio)
+---
+## O Analista de Negócio em Detalhe
+- O **Analista de Negócio (BA)** é o principal responsável por garantir que os requisitos da solução estejam alinhados com o estado futuro desejado e que os **Stakeholders** concordem com a solução.
 
-- Conjunto de competências que são comportamentos, conhecimentos e outras características para apoiar a análise de negócios.
-- **As 6 Competências de Apoio:**
-    1. **Pensamento Analítico e Solução de Problemas:** (Pensamento criativo, tomada de decisão, resolução de problemas e pensamento sistêmico).
-    2. **Características de Comportamento:** (Ética, organização pessoal e confiabilidade).
-    3. **Conhecimento de Negócios:** (Princípios e práticas de negócios, conhecimento da indústria, conhecimento da organização, conhecimento da solução).
-    4. **Habilidades de Comunicação:** (Comunicações verbais, ensino, comunicações escritas).
-    5. **Habilidades de Interação:** (Facilitação e negociação, liderança e influência, trabalho em equipe).
-    6. **Aplicações de Software:** (Aplicações de propósito geral, aplicações especializadas).
+>[!tip] Relação com a Engenharia de Requisitos
+> - A **Análise Corporativa** define a necessidade e o escopo (**o que** o negócio precisa).
+> - A **Análise de Requisitos** e a **Elicitação** transformam essa necessidade em especificações detalhadas (**como** a solução deve se comportar), que é o foco principal da [[01 - Contextualização da engenharia de requisitos|Engenharia de requisitos]].
+
+---

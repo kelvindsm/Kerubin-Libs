@@ -5,7 +5,11 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "SiCisco",
+      "TiNetwork",
+      "LiFolder"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +31,8 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Ciencia_Computacao/3 Semestre/Engenharia de requisitos": "LiFolder",
+  "Ciencia_Computacao/3 Semestre/Redes de computadores": "TiNetwork",
+  "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics": "SiCisco"
 }

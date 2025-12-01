@@ -13,22 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Qualidade de Software e norma ISO 25000"
+              "title": "08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso"
             }
           },
           {
-            "id": "ffda9bea32806e73",
+            "id": "d20425ec099628c7",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -181,25 +181,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false
     }
   },
   "active": "7dd09d2b3bd1930e",
   "lastOpenFiles": [
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
+    "Fluxo de estudos.canvas",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127131244.png",
     "Engenharia de Requisitos.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens",
-    "Fluxo de estudos.canvas",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127140424.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127140327.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127140234.png",
@@ -208,14 +215,7 @@
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
     "Untitled.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
     "UML.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.2 - Componentes de redes.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.1 - Clientes e servidores.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.3 - Largura de banda e taxa de transferência.md",

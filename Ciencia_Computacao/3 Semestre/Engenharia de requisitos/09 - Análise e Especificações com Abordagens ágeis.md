@@ -1,86 +1,133 @@
 ---
 tags:
-  - Naoconcluido
+  - Emprogresso
+  - NaoRevisado
 ---
-# Síntese Detalhada da Aula 09: Análise e Especificações com Abordagens Ágeis
+# Análise e Especificação de Requisitos: Modelagem UML e Abordagens Ágeis (SCRUM)
 
-## 1. Introdução ao Framework SCRUM e Abordagens Ágeis
+## 1. Abordagens Ágeis: O Framework SCRUM
 
-### 1.1. Frameworks Ágeis
-O movimento ágil engloba diversos *frameworks* e metodologias.
-* **Exemplos Notáveis:** **[[Scrum]], [[XP]] (Extreme Programming), [[Kanban]],[[ Lean]], DSDM, Crystal, FDD, [[ScrumBan]] e AUP.**
-* **[[Scrum]]:** É um *framework* **leve**, iterativo e incremental, projetado para ajudar pessoas e times a gerar valor por meio de soluções adaptativas para problemas complexos. É baseado no **empirismo** e **[[Lean Thinking]]** (foco em minimizar desperdícios).
+O [[Scrum]] é um **framework leve** que ajuda a gerar valor por meio de soluções adaptativas para problemas complexos. É iterativo e incremental, baseado no empirismo e *lean thinking*.
 
-### 1.2. Pilares do Scrum (Empirismo)
-O Scrum baseia-se no controle empírico de processo, que exige três pilares para gerenciar o risco e a adaptação:
-1.  **Transparência:** Os processos, os requisitos de entrega e o status do projeto devem ser claros e visíveis para todos os envolvidos (*stakeholders* e equipe).
-2.  **Inspeção:** Os artefatos e o progresso do trabalho devem ser inspecionados frequentemente e diligentemente para detectar variações indesejadas.
-3.  **Adaptação:** Se uma inspeção revela que algo está fora dos limites aceitáveis, o processo ou o produto deve ser ajustado o mais rápido possível.
+### Pilares e Valores do Scrum
+O Scrum se apoia em três pilares e cinco valores.
 
-### 1.3. Valores do Scrum
-Os cinco valores centrais do Scrum são: **Comprometimento, Foco, Abertura, Respeito e Coragem.**
+| Pilares | Definição | Valores |
+| :--- | :--- | :--- |
+| **Transparência** | Clareza sobre processos, requisitos de entrega e status. | Comprometimento, Coragem, Foco, Respeito, Abertura. |
+| **Inspeção** | Constante avaliação de tudo o que está sendo feito. | |
+| **Adaptação** | Ajuste do processo e do produto às mudanças. | |
 
-## 2. Artefatos de Requisitos no Scrum
+### Papéis, Eventos e Artefatos (3-5-3)
 
-### 2.1. Product Backlog (PB)
-O *Product Backlog* é o artefato central de requisitos.
-* **Definição:** É a **única fonte** de trabalho para o Time Scrum. É uma lista **ordenada** de tudo que é conhecido como necessário no produto, sendo **emergente** por natureza (está em constante evolução).
-* **Responsabilidade:** O **Product Owner (PO)** é o único responsável pelo gerenciamento do PB, decidindo o que entra e qual é a ordem de prioridade.
-* **Características DEEP do Product Backlog:**
-    * **D**etalhado (*Appropriately*): Detalhado o suficiente apenas para os itens que serão trabalhados em breve.
-    * **E**stimado: Deve ter uma estimativa de esforço.
-    * **E**mergente: Nunca está completo; novos itens surgem e antigos são removidos ou refinados.
-    * **P**riorizado (*Ordered*): Deve ser ordenado com base no valor de negócio, risco ou dependência.
+| Papéis (Time Scrum) | Eventos (Cerimônias) | Artefatos (Requisitos) |
+| :--- | :--- | :--- |
+| **[[Product Owner (PO)]]** | **Sprint** (2 a 4 semanas, duração constante) . | **[[Backlog do Produto]]** (repositório de todos os requisitos) . |
+| **[[Scrum Master (SM)]]** | **Planejamento da Sprint** (Max. 8h para Sprint de 4 sem.). | **Backlog da Sprint** (itens selecionados para o Incremento) . |
+| **Desenvolvedores** (Time auto-gerenciado, multidisciplinar) . | **Reunião Diária** (Daily Scrum - 15 min.). | **Incremento** (item "Pronto" e potencialmente entregável) . |
 
-### 2.2. Histórias de Usuário (User Stories - HU)
-As Histórias de Usuário são a forma mais comum de descrever os itens do Product Backlog.
-* **Definição:** Uma descrição curta e simples de uma funcionalidade, contada da perspectiva do usuário, focada no **valor** a ser entregue.
-* **Formato Padrão:** **"Como um `<Tipo de Usuário>`, eu quero `<algum objetivo/ação>` para que eu possa `<algum benefício/valor>`."**
-* **Critérios de Qualidade (INVEST):**
-    * **I**ndependente: Deve ser implementada sozinha, sem dependências.
-    * **N**egociável: Deve estimular a conversa e o refinamento, não ser um contrato rígido.
-    * **V**aliosa: Deve entregar valor real para o usuário/cliente.
-    * **E**stimável: O esforço de implementação deve ser mensurável.
-    * **P**equena (*Small*): Deve ser pequena o suficiente para caber em uma iteração (*Sprint*).
-    * **T**estável: Deve ser possível criar Critérios de Aceitação claros para validá-la.
+>[!tip] Foco dos Artefatos
+> - **Backlog do Produto:** Contém todos os requisitos (funcionais e não funcionais). É priorizado pelo PO e está em constante evolução.
+> - **Backlog da Sprint:** O escopo **não deve ser alterado** durante a Sprint.
+> - **Incremento:** Nasce quando um item atende à **[[Definição de Pronto (DoD)]]**.
 
-### 2.3. Mínimo Produto Viável (MVP)
-* **Definição:** É a versão mais simples de um produto que pode ser entregue para um público inicial, com o objetivo de **validar hipóteses** de negócio e aprender.
-* **Natureza:** O MVP não é um produto mal-acabado, mas sim um **processo** que emprega o mínimo de recursos (tempo e dinheiro) para entregar a **principal proposta de valor** da ideia.
-* **Propósito:** Maximizar o aprendizado e "falhar cedo para aprender rápido". É o primeiro ciclo do *Build-Measure-Learn*.
+## 2. Especificação Ágil: Histórias de Usuário
 
-## 3. Técnicas de Descoberta de Requisitos Ágeis
+As Histórias de Usuário (User Stories) são a forma padrão de expressar requisitos em ambientes ágeis.
 
-### 3.1. Persona
-* **Definição:** Uma descrição de uma pessoa **fictícia** que representa um segmento de usuário ideal da solução. É criada com base em dados reais do público-alvo.
-* **Objetivo:** Focar o design, a experiência do usuário e as funcionalidades nas necessidades do usuário principal, garantindo que o produto atenda a um propósito claro.
-* **Componentes:** Inclui perfil demográfico (Nome, Idade, Profissão), dados comportamentais (Personalidade, Marcas que consome) e o foco da ER: **Necessidades, Dores/Frustrações e Objetivos** (o que o motiva).
+- **Conceito:** Representa uma funcionalidade ou característica do produto "narrada" pelo ponto de vista do usuário.
 
-### 3.2. Mapa de Empatia
-* **Objetivo:** Aprofundar o entendimento da Persona, visualizando a perspectiva do usuário, o seu contexto e suas motivações profundas.
-* **Estrutura:**
-    * **Pensa/Sente:** O que realmente importa para a Persona.
-    * **Vê:** O que ela observa no ambiente.
-    * **Diz/Faz:** O que ela fala e como age.
-    * **Ouve:** O que ela escuta de amigos e influenciadores.
-    * **Dores:** Os obstáculos, medos e frustrações que ela enfrenta.
-    * **Ganhos:** Os objetivos, sucesso e desejos.
+### Componentes de uma História de Usuário (3 C's)
+1. **Cartão (*Card*):** A afirmação concisa que segue a "voz do usuário".
+- **Formato:** Como um [**ator**], eu quero/preciso [**ação**] para [**funcionalidade / valor**].
+2. **Conversação (*Conversation*):** A discussão verbal e colaborativa que ocorre durante o projeto, complementada por documentação.
+3. **Confirmação (*Confirmation*):** Os **testes de aceitação** que serão usados para demonstrar que a história foi implementada corretamente.
 
-### 3.3. Jornada do Usuário (User Journey Map)
-* **Definição:** Uma representação visual da experiência do usuário em uma sequência de passos para atingir um objetivo específico no sistema.
-* **Propósito:** Entender as interações do usuário em todas as etapas, mapeando os **Pontos de Dor** e identificando **Oportunidades** para novas funcionalidades.
-* **Eixos de Análise:** O que o usuário *faz* (ação), o que ele *pensa* (cognitivo) e o que ele *sente* (emocional) em cada etapa da jornada.
+### Critérios de Qualidade INVEST (Bill Wake)
+Um acrônimo para lembrar as características de uma boa história:
 
-## 4. Descoberta e Priorização de Funcionalidades
+- **I**ndependent: Não deve haver dependência entre as histórias.
+- **N**egotiable: A essência é capturada, não os detalhes, permitindo flexibilidade.
+- **V**aluable: Deve ter valor para o cliente.
+- **E**stimable: Deve ser possível estimar o esforço.
+- **S**mall: Boas histórias são pequenas, representando, no máximo, algumas semanas de trabalho.
+- **T**estable: Boas histórias são testáveis, o que ajuda a clareza.
 
-### 4.1. Funcionalidades
-* **Definição:** É a descrição de uma ação ou interação de um usuário com o produto.
-* **Descoberta:** As funcionalidades devem ser descobertas através de *brainstorming* e devem ser alinhadas com os objetivos, as Personas e as Jornadas mapeadas.
+### Priorização de Itens (MoSCoW e Matriz)
+O [[Product Owner (PO)]] prioriza o backlog. A prioridade de um item diminui conforme ele desce na lista (Baixa prioridade $\rightarrow$ Alto Nível).
 
-### 4.2. Priorização de Funcionalidades
-A priorização é um desafio, pois a tendência é considerar todos os requisitos como "importantes".
-* **Técnica de Comparação:** A forma mais eficaz de priorizar é forçar a escolha através da comparação: **"Qual dessas duas funcionalidades é prioritária?"** (e não "Essa funcionalidade é importante?").
-* **Hierarquia de Priorização:** A priorização deve seguir uma ordem lógica:
-    1.  Qual o usuário (Persona) mais importante?
-    2.  Qual a jornada de usuário mais importante para esse usuário?
-    3.  Quais funcionalidades são mais importantes para viabilizar aquela jornada?
+1. **Matriz Benefício x Esforço/Custo:**
+- **Alto Benefício / Baixo Esforço:** FAÇA JÁ.
+- **Alto Benefício / Alto Esforço:** FAÇA.
+- **Baixo Benefício / Baixo Esforço:** EVITE FAZER.
+- **Baixo Benefício / Alto Esforço:** NÃO FAÇA.
+2. **Técnica MoSCoW:** Must have, Should have, Could have, Will not have.
+
+## 3. Técnicas Ágeis de Descoberta
+
+Para descobrir e detalhar as funcionalidades do produto, são utilizadas técnicas focadas na perspectiva e experiência do usuário:
+
+### Personas e Jornada do Usuário
+- **[[Persona (Análise)]]:** Uma ideia fictícia do cliente ideal, criada com base em dados reais, que representa um segmento de usuário da solução.
+- **Componentes:** Apelido/Nome, Perfil, Comportamentos e Necessidades/Dores.
+- **[[Jornada do Usuário (Customer Journey)]]:** Descreve o percurso de um usuário por uma sequência de passos dados para alcançar um objetivo.
+- **Elementos:** Ações realizadas, Emoções/Pensamentos, Dores/Ganhos e Pontos de Contato com o sistema (Canais).
+
+### Mapa de Empatia
+Representação visual que aprofunda o conhecimento sobre o usuário, organizando-o a partir de seis perguntas-chave:
+
+- O que ele **PENSA E SENTE** (preocupações e aspirações).
+- O que ele **VÊ** (ambiente, amigos, mercado).
+- O que ele **ESCURA** (amigos, chefe, influenciadores).
+- O que ele **FALA E FAZ** (atitude em público, comportamento).
+- **FRAQUEZAS** (medos, frustrações).
+- **GANHOS** (desejos e necessidades).
+
+## 4. Especificação com Modelagem UML
+
+A [[UML (Unified Modeling Language)]] é uma linguagem gráfica de modelagem utilizada para : visualizar, especificar, construir e documentar artefatos de sistemas complexos.
+
+- **Princípio:** Um modelo é uma simplificação (representação) da realidade, usado para compreender melhor o sistema.
+
+### A. Diagrama de Casos de Uso (UCD)
+Principal modelo para a **visão funcional** (requisitos) do sistema.
+
+- **Objetivo:** Descrever um modelo funcional do sistema, identificando os usuários e representando o sistema segundo a sua visão.
+- **Ator:** Quem ou o que interage com o sistema. Representa um **papel**, não um usuário individual.
+- **Caso de Uso:** Uma sequência de ações que o sistema executa, gerando um **resultado de valor** para um ator. Foca em **O QUE** o sistema faz, e não **COMO**.
+- **Casos de Uso CRUD:** Funções semelhantes (Create, Read, Update, Delete) são geralmente combinadas em um caso de uso que ofereça todos os recursos de manutenção (Ex: UC Manter Usuário).
+- **Relacionamentos:**
+- **Generalização/Herança:** Atores ou Casos de Uso mais especializados herdam o comportamento de generalizados.
+- **Inclusão (`<<include>>`):** Indica um comportamento **obrigatório** (rotina comum) que será executado pelo Caso de Uso base.
+- **Extensão (`<<extend>>`):** Indica um comportamento **opcional** que só é inserido se uma condição for verdadeira.
+
+### B. Especificação de Caso de Uso
+É a **descrição narrativa textual** das interações, complementando o diagrama.
+
+- **Fluxo Principal (Básico):** A descrição da sequência **usual** de passos e o caminho ideal.
+- **Fluxos Alternativos:** Descrevem o que acontece quando o ator opta por um caminho diferente para alcançar o objetivo (Ex: Opções exclusivas).
+- **Fluxos de Exceção:** Descrevem o que acontece quando algo **inesperado/inválido** ocorre, levando ao cancelamento ou retorno a um passo anterior.
+- **Regras para Escrita:** Deve ser escrito do ponto de vista do usuário, usando sua terminologia e evitando jargões técnicos.
+
+### C. Diagrama de Classes (DCD)
+Principal artefato para a **visão estática e estrutural** do sistema.
+
+- **Objetivo:** Visualizar as classes, seus **atributos** e **métodos**, e como se relacionam.
+- **Modelo de Domínio:** Representa classes conceituais do mundo real (domínio do problema), não componentes de software.
+- **Modelo de Análise:** Representação dos componentes de software, acrescentando classes específicas da solução (domínio da solução), contendo atributos e métodos de todas as classes.
+
+#### Composição da Classe
+Uma classe tem três compartimentos: Nome, Atributos (Propriedades) e Métodos (Operações).
+
+- **Atributos (Propriedades):**
+- **Visibilidade:** `+` (Público), `-` (Privado), `#` (Protegido), `~` (Pacote).
+- **Estático (Sublinhado):** O valor é comum a todos os objetos da classe.
+- **Métodos (Operações):**
+- **Notação:** Visibilidade + Nome (Lista de Parâmetros) : Tipo de Retorno {Restrições}.
+
+#### Relacionamentos
+- **Associação:** Vínculo estrutural entre classes para troca de informações. Inclui navegabilidade ($\rightarrow$) e multiplicidade (`1..*`, `0..1`).
+- **Agregação (Losango vazio):** Relacionamento todo-parte, onde a **parte pode existir sem o todo**.
+- **Composição (Losango preenchido):** Vínculo **mais forte** (exclusivo). Se o todo é destruído, a parte também o é.
+- **Generalização (Herança):** Relação de especialização/generalização. Elementos especializados (filhos) herdam do elemento generalizado (pai).
+- **Realização:** Um classificador especifica um contrato que outro classificador garante executar (Ex: Classe implementa uma Interface).

@@ -1,103 +1,117 @@
 ---
 tags:
-  - Naoconcluido
+  - Emprogresso
+  - NaoRevisado
+---
+# Modelagem UML para Análise e Especificação de Requisitos
+
+## 1. Introdução à UML (Unified Modeling Language)
+
+A [[UML (Unified Modeling Language)]] é uma linguagem gráfica de modelagem que serve como **padrão da indústria** para visualizar, especificar, construir e documentar artefatos de sistemas complexos.
+
+- **Conceito:** É uma linguagem de modelagem, não um processo de desenvolvimento ou uma metodologia.
+- **Modelo:** É uma simplificação (representação) da realidade. Modelar permite compreender melhor o sistema e documentar decisões de arquitetura e comportamento.
+
+### Visões da UML
+A UML é dividida em visões que cobrem diferentes aspectos do sistema:
+
+| Visão da UML | Foco Principal | Tipo de Diagrama |
+| :--- | :--- | :--- |
+| **Visão de Caso de Uso** | Requisitos Funcionais, Comportamento. | Diagrama de Casos de Uso. |
+| **Visão de Projeto (Estrutural)** | Vocabulário, funcionalidade, estrutura. | Diagrama de Classes, Objetos. |
+| **Visão de Interação (Comportamental)** | Desempenho, escalabilidade, *throughput*. | Sequência, Atividade, Estado. |
+| **Visão de Implementação** | Gerenciamento da configuração e montagem. | Componente. |
+| **Visão de Implantação** | Topologia do sistema, distribuição física. | *Deployment*. |
+
 ---
 
-# Modelagem de Requisitos com UML e Especificação de Casos de Uso
+## 2. Diagrama de Casos de Uso
 
-## 1. Unified Modeling Language (UML)
+O [[Diagrama de Casos de Uso (Use Case Diagram)]] é o modelo mais importante para a [[Engenharia de Requisitos]], pois é o principal elemento de **modelagem funcional** do sistema.
 
-### 1.1. Fundamentos e Propósito
-- **Definição:** A [[UML (Unified Modeling Language)|UML]] é uma **Linguagem Gráfica de Modelagem** padrão (OMG) utilizada para **visualizar, especificar, construir, documentar** e **comunicar** artefatos de sistemas complexos. Não é um processo ou metodologia, mas uma ferramenta de apoio.
-- **Histórico:** A UML surgiu da unificação dos principais métodos orientados a objetos (OO) da década de 90, notadamente os de **Grady Booch**, **James Rumbaugh (OMT)** e **Ivar Jacobson (OOSE)**.
-- **Modelo:** É uma representação simplificada da realidade, que ajuda a compreender e comunicar o sistema. Modelamos as dimensões de **dados, função** e **comportamento**.
+>[!info] Objetivo Principal
+> Descrever um modelo funcional do sistema, identificando os usuários e representando o sistema segundo a **visão do usuário**.
 
-### 1.2. Elementos de Construção da UML
-A UML é baseada em três pilares:
-1.  **Blocos de Construção (Things):**
-    - **Itens Estruturais:** Representam elementos conceituais (Classes, Interfaces) ou físicos (Componentes, Nodos).
-    - **Itens Comportamentais:** Representam o lado dinâmico (Interações, Máquinas de Estado).
-    - **Itens de Agrupamento:** Usados para organizar o modelo (Pacotes).
-    - **Itens Anotacionais:** Comentários e observações.
-2.  **Regras da UML:** Definem o que é um modelo **bem-formado**, estabelecendo regras de: nome, escopo, visibilidade, integridade e execução.
-3.  **Mecanismos Básicos:**
-    - **Especificações:** Descrições detalhadas dos blocos de construção.
-    - **Adornos:** Informações textuais ou gráficas adicionais.
-    - **Mecanismos de Extensão:** Permitem estender a linguagem para domínios específicos: **Stereotype** (definição de um novo tipo), **Tagged Value** (propriedade adicional) e **Constraint** (regra de coerência).
+### Elementos do Diagrama de Caso de Uso
 
-### 1.3. Visões e Diagramas
-Os diagramas UML são agrupados em **Visões** que definem o foco da análise ou projeto:
+1.  **Ator (Actor):**
+    - **Definição:** Alguém ou alguma coisa que interage com o sistema. É quem ou o que usa o sistema.
+    - **Representação:** Boneco (*stick figure*).
+    - **Função:** O ator representa um **papel**, não um usuário individual. Podem ser pessoas (usuário, atendente) ou outros sistemas automatizados (sistema de pagamento).
 
-| Visão | Foco Principal | Categoria de Diagrama |
+2.  **Caso de Uso (Use Case):**
+    - **Definição:** Uma **sequência de ações** que o sistema executa e que produz um **resultado de valor para um ator específico**.
+    - **Representação:** Elipse.
+    - **Foco:** Descreve um **serviço do sistema** (*o que o sistema faz*), não como o sistema o faz.
+
+3.  **Limite do Sistema (*Boundary*):**
+    - **Definição:** Delimita o escopo (o que está dentro e fora) do sistema.
+    - **Representação:** Retângulo que envolve os casos de uso.
+
+### Relacionamentos em Casos de Uso
+
+Os relacionamentos ajudam a reestruturar o diagrama para melhor demonstrar o encadeamento das funções.
+
+| Relacionamento | Representação | Semântica |
 | :--- | :--- | :--- |
-| **Caso de Uso** | Requisitos Funcionais, Escopo e Fronteira do Sistema | Comportamental |
-| **Projeto** | Estrutura lógica (Classes, Pacotes) | Estrutural |
-| **Interação** | Fluxo de controle, Ordem das Operações (Tempo) | Comportamental (Dinâmico) |
-| **Implementação** | Configuração, Componentes, Módulos | Estrutural |
-| **Implantação** | Topologia física, Distribuição (Nós, Processos) | Estrutural |
+| **Associação** | Linha contínua. | Conexão entre o **Ator** e o **Caso de Uso**. |
+| **Inclusão (`<<include>>`)** | Seta pontilhada do **Caso de Uso Base** para o **Caso de Uso Incluído**. | Representa um comportamento obrigatório que **sempre** será executado pelo Caso de Uso base. |
+| **Extensão (`<<extend>>`)** | Seta pontilhada do **Caso de Uso Estendido** para o **Caso de Uso Base**. | Representa um comportamento **opcional** ou que ocorre sob uma condição específica (Ex: Tratamento de erro). |
+| **Generalização** | Linha com seta fechada e vazia, apontando para o elemento **mais geral**. | Representa herança entre Atores (Ex: Administrador herda de Usuário) ou entre Casos de Uso. |
 
-- **Diagramas Estruturais (Estáticos):** Classes, Componentes, Implantação.
-- **Diagramas Comportamentais (Dinâmicos):** Caso de Uso, Atividades, Máquina de Estados, Sequência.
+---
 
-## 2. Diagrama de Casos de Uso (UCD)
+## 3. Especificação de Casos de Uso (UML)
 
-### 2.1. Conceitos Fundamentais
-- **Objetivo:** Capturar os [[Requisitos Funcionais]] do sistema do ponto de vista do usuário/ator. É o primeiro diagrama a ser construído, definindo a **fronteira** do sistema.
-- **Ator:** Representa um **papel** (e não uma pessoa específica) que interage com o sistema para atingir uma meta. Pode ser um usuário, um hardware ou um sistema externo.
-    - **Ator Primário:** Aquele que inicia o Caso de Uso.
-    - **Ator Secundário:** Aquele com o qual o sistema interage para cumprir o Caso de Uso.
-- **Caso de Uso (UC):** Uma funcionalidade completa que gera um **resultado observável de valor** para o ator. O nome deve ser uma **frase verbal** (Ex: *Realizar Login*, *Cadastrar Cliente*).
+A [[Especificação de Caso de Uso]] é a descrição **narrativa textual** das interações que ocorrem entre os elementos externos (Ator) e o sistema.
 
-### 2.2. Relacionamentos Entre Casos de Uso
-| Relacionamento | Notação | Direção | Significado | Finalidade |
-| :--- | :--- | :--- | :--- | :--- |
-| **Inclusão** (`<<include>>`) | Seta tracejada | Base $\rightarrow$ Incluído | **Obrigatório/Comum** (Rotina compartilhada) | Reuso de funcionalidades e estruturação. |
-| **Extensão** (`<<extend>>`) | Seta tracejada | Estensor $\rightarrow$ Base | **Opcional/Condicional** (Comportamento extra) | Modularização de funcionalidades menos frequentes. |
-| **Generalização** | Seta com triângulo vazio | Especializado $\rightarrow$ Geral | **Herança/Especialização** (É um tipo de) | Reutilização e organização de funcionalidades similares. |
+- **Diagrama vs. Especificação:** Enquanto o diagrama representa a visão **gráfica** e macro do usuário, a especificação é o detalhamento **textual** das interações.
+- **Modelo Padrão:** A UML não define uma estrutura textual única, mas a boa prática exige: Identificação, Atores, Descrição, Pré-condição, Fluxo Principal, Fluxos Alternativos e Pós-condição.
 
-## 3. Especificação de Caso de Uso (Narrativa)
+### Componentes da Especificação
 
-- **Objetivo:** Detalhar a interação entre o ator e o sistema para cada Caso de Uso, descrevendo a funcionalidade de forma **textual e verificável**. A narrativa serve como base para [[Casos de Teste]].
-- **Princípio:** Deve ser escrita do ponto de vista do **usuário** e usando a **terminologia do negócio** (cliente).
+1.  **Identificação e Descrição Geral:** Título, ID, Atores, Descrição sucinta.
+2.  **Pré-condição:** Condições que devem ser verdadeiras para que o caso de uso possa ser iniciado.
+3.  **Fluxo Principal (Básico):**
+    - **Definição:** Sequência de passos que representa o **caminho ideal e mais provável** do sucesso.
+    - **Estrutura:** Usa duas colunas (Ações do Ator vs. Ações do Sistema) para detalhar a interação.
+4.  **Fluxos Alternativos:**
+    - **Definição:** Variações do fluxo principal que também terminam em sucesso, mas por um caminho diferente.
+5.  **Fluxos de Exceção:**
+    - **Definição:** Sequências que representam erros, falhas ou condições que fazem o caso de uso **terminar sem sucesso** (ou retornar a um ponto anterior).
+6.  **Pós-condição:** Estado do sistema e do ambiente após o caso de uso ser concluído com sucesso.
 
-### Componentes Chave da Especificação
-| Componente | Propósito | Exemplo |
-| :--- | :--- | :--- |
-| **Pré-condições** | O estado do sistema antes do caso de uso iniciar (deve ser verdadeiro). | O Atendente deve estar autenticado no sistema. |
-| **Pós-condições** | O estado final do sistema após a conclusão bem-sucedida (deve ser verdadeiro). | A conta do cliente foi atualizada no banco de dados. |
-| **Fluxo Principal** | A sequência de passos **ideal e sem erros** que atinge o objetivo do ator. | 1. O Ator clica em 'Cadastrar'. 2. O Sistema exibe o formulário. |
-| **Fluxo Alternativo** | Sequências de passos que se desviam do fluxo principal, mas **ainda levam ao sucesso** (Ex: "Ator altera um dado e retorna"). | O Ator cancela o cadastro (e o UC é encerrado). |
-| **Fluxo de Exceção** | Sequências que descrevem erros ou falhas **inesperadas** que **impedem o sucesso** do objetivo (Ex: Falha de comunicação, dado inválido). | CPF já cadastrado (retorna ao passo 3). |
+---
 
 ## 4. Diagrama de Classes
 
-### 4.1. Estrutura da Classe (Modelo Estático)
-- **Objetivo:** Mostrar a estrutura **estática** (classes, atributos, métodos) e os relacionamentos do sistema.
-- **Persistência:** O Diagrama de Classes pode incluir classes persistentes (que virarão tabelas no banco de dados) e classes temporárias (Ex: classes de controle ou interface).
+O [[Diagrama de Classes (Class Diagram)]] é o principal artefato para a **visão estática e estrutural** de um sistema em UML.
 
-| Componente | Notação | Descrição |
-| :--- | :--- | :--- |
-| **Visibilidade** | `+` (Público), `#` (Protegido), `-` (Privado), `~` (Pacote) | Define o acesso a atributos e métodos. |
-| **Atributo Estático** | Sublinhado (`_`) | Valor pertencente à classe, comum a todas as instâncias (objetos).
-| **Atributos** | `visibilidade nome: tipo [multiplicidade] = valor default {restrições}` | Representa as propriedades da classe (o **"o que é"**). |
-| **Métodos** | `visibilidade nome(parâmetros): tipo de retorno` | Representa as ações que a classe pode realizar (o **"o que faz"**). |
+- **Objetivo:** Visualizar as classes que irão compor o sistema, seus **atributos** e **métodos (operações)**, e como elas se relacionam.
+- **Foco:** Representa a **estrutura lógica** e serve de base para os demais diagramas da UML.
 
-### 4.2. Relacionamentos Estruturais
-- **Associação:** Vínculo estrutural mais geral entre classes.
-    - **Multiplicidade:** Indicada em cada extremidade da associação, definindo o número de objetos envolvidos (Ex: `1`, `*` - zero ou mais, `1..*` - um ou mais, `0..1` - zero ou um).
+### Componentes de uma Classe
 
-- **Agregação (Todo-Parte Fraca):**
-    - **Notação:** Losango **vazado** no lado da classe "Todo".
-    - **Significado:** A parte pode existir **independentemente** do todo. (Ex: Um *Aluno* pertence a uma *Turma*, mas o aluno pode existir sem a turma).
+Uma classe é representada por um retângulo dividido em três compartimentos:
 
-- **Composição (Todo-Parte Forte/Exclusivo):**
-    - **Notação:** Losango **preenchido** no lado da classe "Todo".
-    - **Significado:** A parte **não pode existir** se o todo for destruído (forte dependência do ciclo de vida). (Ex: Um *Departamento* pertence a uma *Empresa*; se a empresa é destruída, o departamento também é).
+1.  **Nome da Classe:** No topo.
+2.  **Atributos:** Características da classe.
+    - **Notação de Visibilidade:**
+        - **`+` (Público):** Acessível a qualquer classe.
+        - **`-` (Privado):** Acessível apenas dentro da própria classe.
+        - **`#` (Protegido):** Acessível na classe e em suas subclasses.
+3.  **Métodos (Operações):** Comportamentos da classe (funções que a classe pode executar).
 
-- **Generalização (Herança):**
-    - **Notação:** Seta com triângulo vazio apontando para a **Superclasse** (Classe Pai).
-    - **Significado:** Relacionamento "é um" (Ex: *Pessoa Física* **é uma** *Pessoa*). A subclasse herda características da superclasse.
+>[!tip] Persistência
+> **Nem toda classe** é ou precisa ser **persistente** (ter um equivalente em tabela de banco de dados). Classes de controle ou interface (ex: `Controlador_Banco`) não são geralmente persistentes.
 
-- **Outros Relacionamentos:**
-    - **Dependência:** Uma classe usa a outra (temporariamente) como argumento de método ou variável local.
-    - **Realização:** Uma classe implementa um **contrato** (métodos) de uma [[Interface]].
+### Relacionamentos em Diagramas de Classe
+
+| Relacionamento                       | Representação                                                                                                                                                                              | Semântica                                                                                                      |
+| :----------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| **Associação**                       | Linha contínua.                                                                                                                                                                            | Conexão estrutural entre duas classes. Indica que uma classe interage com a outra.                             |
+| **Multiplicidade**                   | Indica o número de instâncias de uma classe que se relacionam com as instâncias da outra. (*Ex:* `1..*` (um para muitos), `1` (exatamente um)).                                            |                                                                                                                |
+| **Agregação (Diamante Vazado)**      | Forma de associação **"todo-parte"**, onde as partes podem existir independentemente do todo. (*Ex:* Uma *Ordem de Serviço* tem *Itens*, mas os *Itens* podem existir fora da ordem).      |                                                                                                                |
+| **Composição (Diamante Preenchido)** | Forma de agregação **forte**. As partes **não podem existir** sem o todo. (*Ex:* Uma *Conta Bancária* é composta por *Transações*. Se a conta é excluída, as transações também devem ser). |                                                                                                                |
+| **Generalização (Herança)**          | Linha com seta fechada e vazia, apontando para a **Superclasse (Geral)**.                                                                                                                  | Indica que uma subclasse herda atributos e métodos da superclasse (Ex: *Pessoa Física* é um tipo de *Pessoa*). |
+| **Realização (Interface)**           | Seta pontilhada com seta fechada e vazia.                                                                                                                                                  | Uma classe implementa as operações definidas em uma [[Interface]].                                             |

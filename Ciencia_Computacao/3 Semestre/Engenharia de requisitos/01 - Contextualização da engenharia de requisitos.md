@@ -113,16 +113,16 @@ O processo de software é um conjunto sequencial de atividades, objetivos, trans
 ### Etapas Genéricas de Construção
 Cada estágio do ciclo de vida é um processo ou uma coleção de processos.
 
-| Tarefas (Disciplinas)         | Profissional                  | Artefatos                                |
-| :---------------------------- | :---------------------------- | :--------------------------------------- |
-| **Modelagem do Negócio**      | [[Analista de Negócio]]       | **Documento de Análise de Negócio**      |
-| **Elicitação de Requisitos**  | [[Analista de Requisitos]]    | **Documento de Definição de Requisitos** |
-| **Análise e Projeto**         | [[Analista de Sistemas]]      | Modelagem dos Requisitos/Especificação   |
-| **Protótipo**                 | UX/Designer                   | Validação (representação gráfica)        |
-| **Implementação/Codificação** | [[Programador/Desenvolvedor]] | **Programa (código)**                    |
-| **Testes**                    | [[Analista de Testes]]        | Roteiros de Teste                        |
-| **Implantação**               | [[Analista de Homologação]]   | Documento de Implantação                 |
-| **Manutenção**                | Equipe técnica                | Manual do Sistema                        |
+| Tarefas (Disciplinas)         | Profissional              | Artefatos                                |
+| :---------------------------- | :------------------------ | :--------------------------------------- |
+| **Modelagem do Negócio**      | Analista de Negócio       | **Documento de Análise de Negócio**      |
+| **Elicitação de Requisitos**  | Analista de Requisitos    | **Documento de Definição de Requisitos** |
+| **Análise e Projeto**         | Analista de Sistemas      | Modelagem dos Requisitos/Especificação   |
+| **Protótipo**                 | UX/Designer               | Validação (representação gráfica)        |
+| **Implementação/Codificação** | Programador/Desenvolvedor | **Programa (código)**                    |
+| **Testes**                    | Analista de Testes        | Roteiros de Teste                        |
+| **Implantação**               | Analista de Homologação   | Documento de Implantação                 |
+| **Manutenção**                | Equipe técnica            | Manual do Sistema                        |
 ### Foco da Engenharia de Requisitos
 A **Engenharia de Requisitos** tem seu foco logo após a Análise de Negócio e é crítica para a definição do sistema.
 >[!note] Engenharia de Requisitos

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso"
+              "title": "README"
             }
           },
           {
@@ -28,7 +28,7 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "title": "Graph view"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Emprogresso",
+                "query": "section:(especificação de requisitos)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 468.5
   },
   "right": {
     "id": "63c1c183d8687ccd",
@@ -181,28 +181,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false
     }
   },
   "active": "7dd09d2b3bd1930e",
   "lastOpenFiles": [
+    "Fluxo de estudos.canvas",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/07 - Teste de software.md",
+    "Requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/04 - Diagrama de caso de uso.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/01 - Conceitos fundamentais de engenharia de software.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
-    "Fluxo de estudos.canvas",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/03 - Casos de uso e Requisitos Não Funcionais.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/00 - Índice engenharia de software.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/02 - Modelos de processo de software.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/UML (Unified Modeling Language).md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/CASE.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/08 - Análise de Pontos de Função.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/06 - Fundamentos de OO e UML.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/índice engenharia de requisitos.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127131244.png",
     "Engenharia de Requisitos.md",
@@ -212,25 +226,11 @@
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127140234.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Pasted image 20251127140046.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
-    "Untitled.md",
-    "UML.md",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.2 - Componentes de redes.md",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2/2.1 - Clientes e servidores.md",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.3 - Largura de banda e taxa de transferência.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.2 - Transmissão de dados.md",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1/1.1 - Tipos de redes.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1",
     "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/Sem título.md",
     "Ciencia_Computacao/3 Semestre/Redes de computadores",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/00 - Índice engenharia de software.md",
     "Kerubin-Libs",
-    "Formação/2º Semestre/Engenharia de Software/07 - Teste de software.md",
-    "Formação/2º Semestre/Engenharia de Software/08 - Análise de Pontos de Função.md",
-    "Formação/2º Semestre/Engenharia de Software/00 - Índice engenharia de software.md",
     "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116123327.png",
     "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141413.png",
     "Formação/2º Semestre/Engenharia de Software/Imagens/Pasted image 20251116141342.png",

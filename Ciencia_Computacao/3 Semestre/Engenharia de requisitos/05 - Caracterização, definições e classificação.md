@@ -1,20 +1,17 @@
 ---
 tags:
-  - Emprogresso
-  - NaoRevisado
+  - Concluido
 ---
 # Caracterização da Engenharia de Requisitos: Definições e Classificação
 
 ## Engenharia de Requisitos (ER): Definição e Propósito
 
-A **Engenharia de Requisitos (ER)** é uma sub-área da [[Engenharia de Software (ES)]] que estuda o processo de produção e gerência dos requisitos que o software deverá atender.
+A **Engenharia de Requisitos (ER)** é uma sub-área da [[01 - Conceitos fundamentais de engenharia de software|Engenharia de Software (ES)]] que estuda o processo de produção e gerência dos requisitos que o software deverá atender.
 - **Estabelecimento:** A ER foi estabelecida como disciplina independente em 1993, com a criação do IEEE International Symposium on Requirements Engineering.
-- **Objetivo da ER:** Fornecer métodos, procedimentos e ferramentas que deem suporte adequado às tarefas de produção e gerência dos requisitos do sistema.
+- **Objetivo da ER:** <mark style="background: #FFB8EBA6;">Fornecer métodos, procedimentos e ferramentas que deem suporte adequado às tarefas de produção e gerência dos requisitos do sistema.</mark>
 
 ### O Custo da ER Inadequada
-
-Organizações que trabalham sem um processo formal de ER tendem a identificar requisitos rapidamente e iniciar a codificação (processo **"codifica-remenda"**).
-
+Organizações que <mark style="background: #FF5582A6;">trabalham sem um processo formal de ER tendem a identificar requisitos rapidamente e iniciar a codificação</mark> (processo **"codifica-remenda"**).
 - **Consequências:** Estes projetos frequentemente estouram o prazo e o orçamento.
 - **Retrabalho:** O esforço e o custo do retrabalho são maiores do que os investimentos em ER, que busca desenvolver o projeto certo da primeira vez.
 
@@ -29,7 +26,7 @@ Organizações que trabalham sem um processo formal de ER tendem a identificar r
 
 ## Estrutura da Engenharia de Requisitos
 
-A [[Engenharia de Requisitos]] engloba dois processos principais:
+A [[01 - Contextualização da engenharia de requisitos|Engenharia de Requisitos]] engloba dois processos principais:
 1. **Produção de Requisitos**.
 2. **Gerência de Requisitos**.
 ### 1. Processo de Produção de Requisitos
@@ -42,13 +39,13 @@ Visa definir os requisitos do software conforme as necessidades de negócio do c
 ### 2. Processo de Gerência de Requisitos
 Visa garantir que os requisitos sejam controlados e mantidos ao longo do ciclo de vida do projeto.
 - **Atividades Chave (Gerência):**
-	- [[Controle de Mudança (Gerência)]].
-	- [[Gerência de Configuração]].
-	- [[Rastreabilidade]].
-	- [[Qualidade de Requisitos]].
+	- Controle de Mudança (Gerência).
+	- Gerência de Configuração.
+	- Rastreabilidade.
+	- [[12 - Processo de Gerenciamento de Requisitos|Qualidade de Requisitos]].
 ## Documento e Tipos de Requisitos
 ### Definição e Abordagens de Requisitos
-- **Requisito de Software:** "Uma ação a ser executada por um sistema, possuindo características e condições próprias e que devem ser atendidas conforme as necessidades de negócio do usuário".
+- **[[10 - Requisitos de usabilidade|Requisito de Software]]:** "Uma ação a ser executada por um sistema, possuindo características e condições próprias e que devem ser atendidas conforme as necessidades de negócio do usuário".
 - **Foco:** Requisitos descrevem **"o que o sistema deve fazer"** e **"o que ele não deve fazer"**, mas não dizem **"como fazer"**. O comportamento deve ser perceptível por um observador externo.
 ### Tipos de Documentos de Requisitos
 A documentação deve ser adaptada ao público-alvo, existindo dois documentos principais:
@@ -59,11 +56,11 @@ A documentação deve ser adaptada ao público-alvo, existindo dois documentos p
 | **Especificação dos Requisitos (ERS)** | Desenvolvedor | Redefine os requisitos em termos técnicos; compreensível para o projetista; envolve modelagem. Inclui termos técnicos, modelo de dados e lógica do processo. |
 ### Hierarquia de Requisitos (A Pirâmide)
 Os requisitos são organizados em níveis, do mais alto (negócio) ao mais baixo (sistema):
-1. **[[Requisitos do Negócio]] (Necessidades):** Metas de nível mais alto, objetivos ou problemas da organização.
-2. **[[Requisitos de Usuário]] (Características):** O que os usuários/stakeholders querem de sua perspectiva (objetivos, funcionalidades, prioridade, ambiente).
-3. **[[Requisitos de Sistema]] (Solução):** O que o sistema deve fazer. São a base para o desenvolvimento.
-## Classificação Detalhada dos Requisitos de Software
-Os [[Requisitos de Software]] são definidos em linguagem estruturada e podem ser classificados em quatro tipos inter-relacionados:
+1. **Requisitos do Negócio (Necessidades):** Metas de nível mais alto, objetivos ou problemas da organização.
+2. **Requisitos de Usuário (Características):** O que os usuários / *stakeholders* querem de sua perspectiva (objetivos, funcionalidades, prioridade, ambiente).
+3. **Requisitos de Sistema (Solução):** O que o sistema deve fazer. São a base para o desenvolvimento.
+## Classificação Detalhada dos [[03 - Casos de uso e Requisitos Não Funcionais|Requisitos de Software]]
+Os [[12 - Processo de Gerenciamento de Requisitos|Requisitos de Software]] são definidos em linguagem estruturada e podem ser classificados em quatro tipos inter-relacionados:
 ### 1. Requisitos Funcionais (RF)
 - Descrevem o **comportamento e as ações** que o sistema ou componente deve ser capaz de executar.
 - Inclui requisitos de dados ou de interação com o ambiente.
@@ -79,7 +76,7 @@ Os [[Requisitos de Software]] são definidos em linguagem estruturada e podem se
 ### 4. Requisitos de Qualidade / Não Funcionais (RQ)
 - Incluem limitações no **produto** (desempenho, confiabilidade, segurança) e limitações no **processo de desenvolvimento** (métodos e padrões).
 - Dizem respeito a questões de qualidade que não são cobertas por requisitos funcionais.
-#### Características de Qualidade (ISO/IEC 25010)
+#### Características de Qualidade ([[06 - Qualidade de Software e norma ISO 25000|ISO/IEC 25010]])
 A norma ISO/IEC 25010 (substituindo a ISO/IEC 9126) define 8 características principais:
 - **Adequação Funcional:** (Corresponde à funcionalidade).
 - **Eficiência de Desempenho:** Tempo de resposta, utilização de recursos e capacidade.

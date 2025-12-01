@@ -1,6 +1,6 @@
 # Engenharia de Requisitos: Casos de Uso e Requisitos Não Funcionais
 
-## [[Requisitos]] - Propósito e Definição
+## Requisitos - Propósito e Definição
 ### Propósito dos Requisitos
 - Obter **acordo com cliente e usuários** sobre o que o sistema deve fazer.
 - Dar aos desenvolvedores um melhor entendimento dos requisitos do sistema.
@@ -26,10 +26,10 @@ Os requisitos do projeto devem incluir:
 - Requisitos Não Técnicos.
 ---
 ## Requisitos Funcionais usando Casos de Uso
-### Conceito Chave: Caso de Uso
-- É uma forma específica de uso do sistema composta por uma sequência de ações que produz um **resultado de valor para algum agente externo**.
-- Mostram apenas **o que o sistema faz**, não como.
-- Capturam o comportamento pretendido para um sistema sem especificar como será implementado.
+>[!quote] Conceito Chave: Caso de Uso
+> - É uma forma específica de uso do sistema composta por uma sequência de ações que produz um **resultado de valor para algum agente externo**.
+> - Mostram apenas **o que o sistema faz**, não como.
+> - Capturam o comportamento pretendido para um sistema sem especificar como será implementado.
 ### Utilidade dos Casos de Uso
 Casos de uso servem como guia para:
 - Criação e validação da arquitetura do sistema.

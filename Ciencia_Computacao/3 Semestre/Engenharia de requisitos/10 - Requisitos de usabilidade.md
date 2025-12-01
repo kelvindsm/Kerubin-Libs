@@ -92,7 +92,7 @@ Os seres humanos têm uma **capacidade limitada** de digerir informações quand
 - Considere **excluir ou esconder links menos clicados** para simplificar a interface.
 
 ### 3. Crie Hierarquia na Página
-[[Hierarquia]] é o uso de diferentes **estilos visuais** para os elementos da tela, priorizando o que é mais importante. Uma boa hierarquia guia os olhos do usuário pelo caminho desejado.
+Hierarquia é o uso de diferentes **estilos visuais** para os elementos da tela, priorizando o que é mais importante. Uma boa hierarquia guia os olhos do usuário pelo caminho desejado.
 
 - **Problema**: Quando tudo é importante, **nada é importante** (Exemplo: excesso de opções em uma prateleira de farmácia).
 

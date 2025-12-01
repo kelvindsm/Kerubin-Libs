@@ -4,36 +4,28 @@ tags:
   - NaoRevisado
 ---
 # Modelagem UML para Análise e Especificação de Requisitos
-
 ## 1. Introdução à UML (Unified Modeling Language)
-
 A [[UML (Unified Modeling Language)]] é uma linguagem gráfica de modelagem que serve como **padrão da indústria** para visualizar, especificar, construir e documentar artefatos de sistemas complexos.
-
 - **Conceito:** É uma linguagem de modelagem, não um processo de desenvolvimento ou uma metodologia.
 - **Modelo:** É uma simplificação (representação) da realidade. Modelar permite compreender melhor o sistema e documentar decisões de arquitetura e comportamento.
-
 ### Visões da UML
 A UML é dividida em visões que cobrem diferentes aspectos do sistema:
 
-| Visão da UML | Foco Principal | Tipo de Diagrama |
-| :--- | :--- | :--- |
-| **Visão de Caso de Uso** | Requisitos Funcionais, Comportamento. | Diagrama de Casos de Uso. |
-| **Visão de Projeto (Estrutural)** | Vocabulário, funcionalidade, estrutura. | Diagrama de Classes, Objetos. |
-| **Visão de Interação (Comportamental)** | Desempenho, escalabilidade, *throughput*. | Sequência, Atividade, Estado. |
-| **Visão de Implementação** | Gerenciamento da configuração e montagem. | Componente. |
-| **Visão de Implantação** | Topologia do sistema, distribuição física. | *Deployment*. |
+| Visão da UML                            | Foco Principal                             | Tipo de Diagrama              |
+| :-------------------------------------- | :----------------------------------------- | :---------------------------- |
+| **Visão de Caso de Uso**                | Requisitos Funcionais, Comportamento.      | Diagrama de Casos de Uso.     |
+| **Visão de Projeto (Estrutural)**       | Vocabulário, funcionalidade, estrutura.    | Diagrama de Classes, Objetos. |
+| **Visão de Interação (Comportamental)** | Desempenho, escalabilidade, *throughput*.  | Sequência, Atividade, Estado. |
+| **Visão de Implementação**              | Gerenciamento da configuração e montagem.  | Componente.                   |
+| **Visão de Implantação**                | Topologia do sistema, distribuição física. | *Deployment*.                 |
 
 ---
-
 ## 2. Diagrama de Casos de Uso
 
-O [[Diagrama de Casos de Uso (Use Case Diagram)]] é o modelo mais importante para a [[Engenharia de Requisitos]], pois é o principal elemento de **modelagem funcional** do sistema.
-
+O [[04 - Diagrama de caso de uso|Diagrama de Casos de Uso (Use Case Diagram)]] é o modelo mais importante para a [[01 - Contextualização da engenharia de requisitos|Engenharia de Requisitos]], pois é o principal elemento de **modelagem funcional** do sistema.
 >[!info] Objetivo Principal
 > Descrever um modelo funcional do sistema, identificando os usuários e representando o sistema segundo a **visão do usuário**.
-
 ### Elementos do Diagrama de Caso de Uso
-
 1.  **Ator (Actor):**
     - **Definição:** Alguém ou alguma coisa que interage com o sistema. É quem ou o que usa o sistema.
     - **Representação:** Boneco (*stick figure*).
@@ -47,29 +39,22 @@ O [[Diagrama de Casos de Uso (Use Case Diagram)]] é o modelo mais importante pa
 3.  **Limite do Sistema (*Boundary*):**
     - **Definição:** Delimita o escopo (o que está dentro e fora) do sistema.
     - **Representação:** Retângulo que envolve os casos de uso.
-
 ### Relacionamentos em Casos de Uso
-
 Os relacionamentos ajudam a reestruturar o diagrama para melhor demonstrar o encadeamento das funções.
 
-| Relacionamento | Representação | Semântica |
-| :--- | :--- | :--- |
-| **Associação** | Linha contínua. | Conexão entre o **Ator** e o **Caso de Uso**. |
-| **Inclusão (`<<include>>`)** | Seta pontilhada do **Caso de Uso Base** para o **Caso de Uso Incluído**. | Representa um comportamento obrigatório que **sempre** será executado pelo Caso de Uso base. |
-| **Extensão (`<<extend>>`)** | Seta pontilhada do **Caso de Uso Estendido** para o **Caso de Uso Base**. | Representa um comportamento **opcional** ou que ocorre sob uma condição específica (Ex: Tratamento de erro). |
-| **Generalização** | Linha com seta fechada e vazia, apontando para o elemento **mais geral**. | Representa herança entre Atores (Ex: Administrador herda de Usuário) ou entre Casos de Uso. |
+| Relacionamento               | Representação                                                             | Semântica                                                                                                    |
+| :--------------------------- | :------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------- |
+| **Associação**               | Linha contínua.                                                           | Conexão entre o **Ator** e o **Caso de Uso**.                                                                |
+| **Inclusão (`<<include>>`)** | Seta pontilhada do **Caso de Uso Base** para o **Caso de Uso Incluído**.  | Representa um comportamento obrigatório que **sempre** será executado pelo Caso de Uso base.                 |
+| **Extensão (`<<extend>>`)**  | Seta pontilhada do **Caso de Uso Estendido** para o **Caso de Uso Base**. | Representa um comportamento **opcional** ou que ocorre sob uma condição específica (Ex: Tratamento de erro). |
+| **Generalização**            | Linha com seta fechada e vazia, apontando para o elemento **mais geral**. | Representa herança entre Atores (Ex: Administrador herda de Usuário) ou entre Casos de Uso.                  |
 
 ---
-
 ## 3. Especificação de Casos de Uso (UML)
-
-A [[Especificação de Caso de Uso]] é a descrição **narrativa textual** das interações que ocorrem entre os elementos externos (Ator) e o sistema.
-
-- **Diagrama vs. Especificação:** Enquanto o diagrama representa a visão **gráfica** e macro do usuário, a especificação é o detalhamento **textual** das interações.
+A [[03 - Casos de uso e Requisitos Não Funcionais|Especificação de Caso de Uso]] é a descrição **narrativa textual** das interações que ocorrem entre os elementos externos (Ator) e o sistema.
+- **Diagrama vs. Especificação:** Enquanto o [[04 - Diagrama de caso de uso|diagrama]] representa a visão **gráfica** e macro do usuário, a especificação é o detalhamento **textual** das interações.
 - **Modelo Padrão:** A UML não define uma estrutura textual única, mas a boa prática exige: Identificação, Atores, Descrição, Pré-condição, Fluxo Principal, Fluxos Alternativos e Pós-condição.
-
 ### Componentes da Especificação
-
 1.  **Identificação e Descrição Geral:** Título, ID, Atores, Descrição sucinta.
 2.  **Pré-condição:** Condições que devem ser verdadeiras para que o caso de uso possa ser iniciado.
 3.  **Fluxo Principal (Básico):**
@@ -85,15 +70,13 @@ A [[Especificação de Caso de Uso]] é a descrição **narrativa textual** das 
 
 ## 4. Diagrama de Classes
 
-O [[Diagrama de Classes (Class Diagram)]] é o principal artefato para a **visão estática e estrutural** de um sistema em UML.
+O [[05 - Diagrama de Classes UML|Diagrama de Classes (Class Diagram)]] é o principal artefato para a **visão estática e estrutural** de um sistema em UML.
 
 - **Objetivo:** Visualizar as classes que irão compor o sistema, seus **atributos** e **métodos (operações)**, e como elas se relacionam.
 - **Foco:** Representa a **estrutura lógica** e serve de base para os demais diagramas da UML.
 
 ### Componentes de uma Classe
-
 Uma classe é representada por um retângulo dividido em três compartimentos:
-
 1.  **Nome da Classe:** No topo.
 2.  **Atributos:** Características da classe.
     - **Notação de Visibilidade:**
@@ -104,7 +87,6 @@ Uma classe é representada por um retângulo dividido em três compartimentos:
 
 >[!tip] Persistência
 > **Nem toda classe** é ou precisa ser **persistente** (ter um equivalente em tabela de banco de dados). Classes de controle ou interface (ex: `Controlador_Banco`) não são geralmente persistentes.
-
 ### Relacionamentos em Diagramas de Classe
 
 | Relacionamento                       | Representação                                                                                                                                                                              | Semântica                                                                                                      |
@@ -115,3 +97,5 @@ Uma classe é representada por um retângulo dividido em três compartimentos:
 | **Composição (Diamante Preenchido)** | Forma de agregação **forte**. As partes **não podem existir** sem o todo. (*Ex:* Uma *Conta Bancária* é composta por *Transações*. Se a conta é excluída, as transações também devem ser). |                                                                                                                |
 | **Generalização (Herança)**          | Linha com seta fechada e vazia, apontando para a **Superclasse (Geral)**.                                                                                                                  | Indica que uma subclasse herda atributos e métodos da superclasse (Ex: *Pessoa Física* é um tipo de *Pessoa*). |
 | **Realização (Interface)**           | Seta pontilhada com seta fechada e vazia.                                                                                                                                                  | Uma classe implementa as operações definidas em uma [[Interface]].                                             |
+
+---

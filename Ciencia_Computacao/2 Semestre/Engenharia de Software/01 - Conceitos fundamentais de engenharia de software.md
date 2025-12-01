@@ -61,7 +61,7 @@ Os desafios atuais incluem:
 - **Reduzir custos**: o custo de produção eram altos;
 - **Melhorar a qualidade** do software: os recursos destinados ao projeto normalmente eram insuficiente;
 - **Atender às expectativas do cliente**: as soluções propostas e desenvolvidas não conseguiam agradar os clientes;
-#### Desafios-Chave Atuais (Página 32)
+#### Desafios-Chave Atuais
 - **Heterogeneidade**: Construção de software que lide com plataformas heterogêneas e ambientes de execução.
 - **Entrega (Delivery)**: Técnicas para a entrega mais rápida de software.
 - **Confiança**: Técnicas que demonstrem que o software pode ter a confiança de seus usuários.

@@ -7,7 +7,7 @@ tags:
 
 ## O Processo da Engenharia de Requisitos (ER)
 
-A [[Engenharia de Requisitos]] é um processo cíclico que envolve várias etapas interligadas. O **Gerenciamento** é uma atividade que atua como base para todas as etapas.
+A **Engenharia de Requisitos** é um processo cíclico que envolve várias etapas interligadas. O **Gerenciamento** é uma atividade que atua como base para todas as etapas.
 ### Etapas do Processo de ER
 1.  **Elicitação**: Investigação, busca e descoberta dos requisitos.
 2.  **Análise**: Avaliação de possíveis **conflitos**, identificação das relações com o contexto e definição dos requisitos.
@@ -31,7 +31,6 @@ As atividades de GR visam garantir a qualidade e a eficiência do processo.
 - **Priorizar**: Definir quais requisitos são importantes e o grau dessa importância.
 ## Subáreas do Gerenciamento de Requisitos
 Os principais aspectos do Gerenciamento de Requisitos incluem: Gerenciamento de Mudanças, Gerenciamento de Configuração, Gerência da Qualidade de Requisitos e Rastreabilidade.
-
 ### 1. Gerenciamento de Mudanças
 Os requisitos são, inevitavelmente, **incompletos e inconsistentes**. O Gerenciamento de Mudanças (GM) trata as alterações de forma controlada.
 #### Fontes de Mudança e Riscos

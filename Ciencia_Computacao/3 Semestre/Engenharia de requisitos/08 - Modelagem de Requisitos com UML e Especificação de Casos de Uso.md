@@ -29,25 +29,25 @@ O [[04 - Diagrama de caso de uso|Diagrama de Casos de Uso (Use Case Diagram)]] �
 1.  **Ator (Actor):**
     - **Definição:** Alguém ou alguma coisa que interage com o sistema. É quem ou o que usa o sistema.
     - **Representação:** Boneco (*stick figure*).
+	    ![[Pasted image 20251202120535.png|center|150]]
     - **Função:** O ator representa um **papel**, não um usuário individual. Podem ser pessoas (usuário, atendente) ou outros sistemas automatizados (sistema de pagamento).
-
 2.  **Caso de Uso (Use Case):**
     - **Definição:** Uma **sequência de ações** que o sistema executa e que produz um **resultado de valor para um ator específico**.
     - **Representação:** Elipse.
+    - ![[Pasted image 20251202120621.png|center|350]]
     - **Foco:** Descreve um **serviço do sistema** (*o que o sistema faz*), não como o sistema o faz.
-
 3.  **Limite do Sistema (*Boundary*):**
     - **Definição:** Delimita o escopo (o que está dentro e fora) do sistema.
     - **Representação:** Retângulo que envolve os casos de uso.
 ### Relacionamentos em Casos de Uso
 Os relacionamentos ajudam a reestruturar o diagrama para melhor demonstrar o encadeamento das funções.
 
-| Relacionamento               | Representação                                                             | Semântica                                                                                                    |
-| :--------------------------- | :------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------- |
-| **Associação**               | Linha contínua.                                                           | Conexão entre o **Ator** e o **Caso de Uso**.                                                                |
-| **Inclusão (`<<include>>`)** | Seta pontilhada do **Caso de Uso Base** para o **Caso de Uso Incluído**.  | Representa um comportamento obrigatório que **sempre** será executado pelo Caso de Uso base.                 |
-| **Extensão (`<<extend>>`)**  | Seta pontilhada do **Caso de Uso Estendido** para o **Caso de Uso Base**. | Representa um comportamento **opcional** ou que ocorre sob uma condição específica (Ex: Tratamento de erro). |
-| **Generalização**            | Linha com seta fechada e vazia, apontando para o elemento **mais geral**. | Representa herança entre Atores (Ex: Administrador herda de Usuário) ou entre Casos de Uso.                  |
+| Relacionamento               | Representação                        | Semântica                                                                                                    |
+| :--------------------------- | :----------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| **Associação**               | ![[Pasted image 20251202121004.png]] | Conexão entre o **Ator** e o **Caso de Uso**.                                                                |
+| **Inclusão (`<<include>>`)** | ![[Pasted image 20251202120812.png]] | Representa um comportamento obrigatório que **sempre** será executado pelo Caso de Uso base.                 |
+| **Extensão (`<<extend>>`)**  | ![[Pasted image 20251202120840.png]] | Representa um comportamento **opcional** ou que ocorre sob uma condição específica (Ex: Tratamento de erro). |
+| **Generalização**            | ![[Pasted image 20251202120920.png]] | Representa herança entre Atores (Ex: Administrador herda de Usuário) ou entre Casos de Uso.                  |
 
 ---
 ## 3. Especificação de Casos de Uso (UML)
@@ -67,14 +67,10 @@ A [[03 - Casos de uso e Requisitos Não Funcionais|Especificação de Caso de Us
 6.  **Pós-condição:** Estado do sistema e do ambiente após o caso de uso ser concluído com sucesso.
 
 ---
-
 ## 4. Diagrama de Classes
-
 O [[05 - Diagrama de Classes UML|Diagrama de Classes (Class Diagram)]] é o principal artefato para a **visão estática e estrutural** de um sistema em UML.
-
 - **Objetivo:** Visualizar as classes que irão compor o sistema, seus **atributos** e **métodos (operações)**, e como elas se relacionam.
 - **Foco:** Representa a **estrutura lógica** e serve de base para os demais diagramas da UML.
-
 ### Componentes de uma Classe
 Uma classe é representada por um retângulo dividido em três compartimentos:
 1.  **Nome da Classe:** No topo.

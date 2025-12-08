@@ -21,7 +21,8 @@
     "PC1002": 9,
     "EngRequisitos": 10,
     "NaoRevisado": 11,
-    "Concluido": 12
+    "Concluido": 12,
+    "NaoIniciado": 13
   },
   "_version": 3
 }

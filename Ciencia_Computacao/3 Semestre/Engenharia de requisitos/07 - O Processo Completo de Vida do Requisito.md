@@ -2,25 +2,21 @@
 tags:
   - Concluido
 ---
-# Engenharia de Requisitos: Processo de Produção e Gerenciamento
-
-## 1. O Processo da Engenharia de Requisitos
-
-A **Engenharia de Requisitos** é uma "engenharia dentro da Engenharia de Software" , cujo objetivo é criar e manter a documentação de requisitos do sistema.
-
-O trabalho da ER se divide em dois grandes blocos: **Produção/Desenvolvimento de Requisitos** e **Gerenciamento de Requisitos**.
+# O Processo da Engenharia de Requisitos
+- A **Engenharia de Requisitos** é uma "engenharia dentro da Engenharia de Software" , cujo objetivo é criar e manter a documentação de requisitos do sistema.
+- O trabalho da ER se divide em dois grandes blocos: **Produção/Desenvolvimento de Requisitos** e **Gerenciamento de Requisitos**.
 
 >[!quote] Citação de Edward V. Berard
 > "Caminhar sobre a água e desenvolver software a partir de uma especificação de requisitos é fácil se ambos estão congelados".
 > 
 > *Esta citação sublinha a volatilidade inerente aos requisitos.*
-### 1. Etapas da Produção ou Desenvolvimento de Requisitos
+## 1. Etapas da Produção ou Desenvolvimento de Requisitos
 O processo de produção envolve quatro macro-etapas, que são cíclicas e inter-relacionadas:
 1. **Elicitação:** Investigação, busca, descoberta dos requisitos.
 2. **Análise:** Avaliação de possíveis conflitos, identificação das relações com o contexto, definição dos requisitos.
 3. **Especificação:** Documentação e detalhamento das especificações dos requisitos.
 4. **Validação:** Validação dos requisitos em relação aos propósitos do produto de software.
-## I. Elicitação de Requisitos
+### I. Elicitação de Requisitos
 A Elicitação é a etapa de investigação dos requisitos e é o ponto mais crítico da **Engenharia de Requisitos**.
 - **Conceito:** Denota uma <mark style="background: #FF5582A6;">busca ativa pelos requisitos</mark>, exigindo uma postura proativa do analista.
 - **Termos Alternativos:** Captura de requisitos, descoberta de requisitos ou aquisição de requisitos.
@@ -34,7 +30,7 @@ A Elicitação é a etapa de investigação dos requisitos e é o ponto mais cr�
 >- **Termos comuns para elicitações: captura de requisitos, descoberta de requisitos ou aquisição de requisitos;**
 >- Para produtos inovadores, podem ser utilizadas técnicas de [[Brainstorming]] ou [[Design thinking]] para despertar a criatividade;
 >	- Podem ser empregadas combinações de diversas técnicas para gerar soluções.
-### Fontes de Informação dos Requisitos
+#### Fontes de Informação dos Requisitos
 Diferentes produtos de software exigem diferentes fontes de informação.
 1. **Stakeholders:** <mark style="background: #FF5582A6;">pessoas ou organizações que influenciam direta ou indiretamente nos requisitos do sistema</mark> (usuários, operadores, clientes).
 2. **Documentos:** <mark style="background: #FF5582A6;">informações importantes que podem se tornar requisitos</mark>: documentos de ordem legal ou regulatória, normas e padrões ou documentos internos da empresa ou negócio.
@@ -42,7 +38,7 @@ Diferentes produtos de software exigem diferentes fontes de informação.
 
 >[!tip] Quanto aos *stakeholders*
 >- **Níveis de Envolvimento (Leffingwell):** *stakeholders* devem ser mantidos informados, devem ser consultados, serão parceiros no desenvolvimento ou controlam os resultados.
-### Personas
+#### Personas
 O mapeamento de **Personas** é sugerido por Leffingwell para determinados casos:
 - **Persona Primária:** alguém que interage com o software e <mark style="background: #FF5582A6;">necessita de uma interface projetada especificamente para ela</mark>.
 - **Persona Secundária:** um usuário que <mark style="background: #FF5582A6;">utiliza o software com uma interface projetada para outro tipo de usuário</mark>.
@@ -50,7 +46,7 @@ O mapeamento de **Personas** é sugerido por Leffingwell para determinados casos
 >[!note] Quanto às personas
 >- Mapear uma persona significa caracterizar um representante hipotético de uma classe de usuários;
 >- Personas devem ser caracterizadas considerando características como: comportamentos sociais e demográficos, preferências, preocupações e informações similares.
-### Técnicas de Elicitação
+#### Técnicas de Elicitação
 O analista deve **selecionar a técnica mais apropriada** ou uma combinação de várias técnicas.
 
 | Técnica           | Objetivo Principal                                                                                                       | Quando Usar                                                                                                                 | Cuidados/Características                                                                      |
@@ -65,13 +61,13 @@ O analista deve **selecionar a técnica mais apropriada** ou uma combinação de
 >- Não se trata apenas de perguntar o que os usuários e *stakeholders* desejam, é necessário extrair informações importantes, investigar, instigar, questionar, descobrir e explorar as dores dos usuários;
 >- Não se trata apenas da transcrição dos problemas, e sim entender o que o usuário relata para explorar, de forma colaborativa, todos os aspectos necessários para o entendimento correto do requisito;
 >- É um constante exercício de "E se..." afim de explorar diversas soluções até encontrar uma que se encaixe melhor.
-## II. Análise de Requisitos
+### II. Análise de Requisitos
 A [[02 - Análise de negócio - BABOK|Análise de Requisitos]] é a <mark style="background: #FFB86CA6;">etapa para aprofundar o entendimento acerca dos requisitos</mark>.
 - **Objetivos:** buscar possíveis **conflitos**, definir a **prioridade** dos requisitos, e realizar a **decomposição** de requisitos de alto nível em níveis de detalhe apropriados.
 - **Criticidade:** a complexidade de um requisito funcional pode ser incompatível com a necessidade de desempenho exigida. <mark style="background: #FFB86CA6;">Requisitos com grande impacto na arquitetura devem ser tratados com cuidado redobrado</mark>.
 	- Requisitos com grande impacto na arquitetura podem implicar em consequências para todos os demais requisitos, incluindo requisitos de qualidade, como o desempenho da aplicação.
 - **Atributos:** faz parte da análise a definição dos atributos associados ao requisito, como **volatilidade**, **impacto sobre a arquitetura** e **risco**.
-## III. Especificação de Requisitos
+### III. Especificação de Requisitos
 A **Especificação** é a <mark style="background: #FFF3A3A6;">etapa dedicada a representar os requisitos de uma forma que eles possam ser verificados e validados</mark> posteriormente.
 - **Formatos:** pode implicar em formatos diferentes que envolvem textos (linguagem natural), diagramas e tabelas.
 - **Documentação em Ágil:** há um debate sobre a quantidade de documentação necessária. Agilistas mais radicais defendem que o único fiel é o código. A questão é: *quanto de especificação é necessário antes da implementação?*
@@ -87,26 +83,26 @@ A **Especificação** é a <mark style="background: #FFF3A3A6;">etapa dedicada a
 >- Há alguns anos que os métodos ágeis estão sendo amplamente utilizados na industria, e muitos entendem que a utilização de ágil é sinônimo para não realizar nenhum tipo de documentação;
 >- "Documentação" (entre aspas) é um termo pejorativo no ambiente ágil, pois ela é tratada comum uma ação que agrega pouco ou nenhum valor ao produto final;
 >- Por isso que, para os agilistas, apenas o código basta como documentação.
-### Descrições e Modelos de Especificação
+#### Descrições e Modelos de Especificação
 
 | Tipo de Descrição | Foco                                                                                                                              | Exemplo de Uso                                                        |
 | :---------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
 | **Estática**      | Não descreve como os relacionamentos se modificam ao longo do tempo. O tempo não é o fator principal.                             | **Abstração de Dados** (Estrutura de classes).                        |
 | **Dinâmica**      | Descreve como os relacionamentos modificam seu comportamento ao longo do tempo. O sistema muda de estado a partir de um estímulo. | **Diagramas de Transição/Estado** (Ex: sistema de reservas de hotel). |
-### Protótipos
+#### Protótipos
 A **Prototipação** é a solução para validar o entendimento, a compreensão do problema ou quando o cliente não sabe expressar o que quer.
 - **Tipos de Protótipos:**
 	- **Descartável (Exploratório):** Não se pretende utilizá-lo como parte real do sistema.
 	- **Evolutivo:** Servirá de base para o desenvolvimento real.
 	- Podem ser de alta ou baixa fidelidade.
-## IV. Validação de Requisitos
+### IV. Validação de Requisitos
 A Validação é <mark class="hltr-green">fundamental para garantir que existe uma compreensão correta e comum sobre os requisitos</mark> e que o produto irá satisfazer as necessidades do negócio.
 - **Formas de Validação:**
 	- **Revisão:** Revisão formal sobre as especificações por revisores designados.
 	- **Workshops de Validação:** Envolvimento de diversos tipos de *stakeholders*.
 	- **Protótipos Funcionais:** Visam confirmar os requisitos e podem apoiar a elicitação de novos requisitos.
 	- **Casos de Teste:** Especificar um conjunto de casos de teste também faz parte desta etapa.
-### Validação vs. Verificação (Modelo V de Teste)
+#### Validação vs. Verificação (Modelo V de Teste)
 - **Verificação:** Testar se o produto final **cumpre o que estava na especificação**.
 - **Validação:** Testar se o produto **faz aquilo que deveria fazer** (atende ao propósito).
 
@@ -132,14 +128,14 @@ Os métodos ágeis trouxeram uma forma diferente de organizar os requisitos, uti
 - **Metodologia:** Conjunto estruturado e, normalmente, **mais rígido** de princípios, processos e práticas que define **passo a passo como fazer algo**.
 - **Framework:** Estrutura **flexível** que fornece diretrizes e ferramentas, mas **sem um processo rígido**.
 - **Conclusão:** <mark class="hltr-blue">Toda metodologia pode estar dentro de um framework, mas nem todo framework é uma metodologia</mark>.
-### Scrum
+#### Scrum
 O **[[Scrum]]** é o *framework* mais utilizado no mundo ágil , sendo iterativo e incremental.
 - **Sprint:** O princípio básico é que o desenvolvimento é dividido em entregas menores (geralmente **2 a 4 semanas**) chamadas *sprints*.
 - **Artefatos Chave:**
-	- **[[Backlog do Produto]] (Product Backlog):** <mark class="hltr-purple">Repositório de todas as requisições dos clientes</mark> (requisitos funcionais e não funcionais), <mark class="hltr-purple">priorizado pelo Product Owner (PO)</mark>.
+	- **Backlog do Produto (Product Backlog):** <mark class="hltr-purple">Repositório de todas as requisições dos clientes</mark> (requisitos funcionais e não funcionais), <mark class="hltr-purple">priorizado pelo Product Owner (PO)</mark>.
 	- **Backlog da Sprint:** Contém os <mark class="hltr-purple">itens do Backlog do Produto que foram acordados e o plano para o seu desenvolvimento</mark>.
 	- **Incremento:** O item potencialmente entregável gerado ao final de uma *sprint*.
-### História de Usuário (User Story)
+#### História de Usuário (User Story)
 É a **forma pela qual os requisitos são geralmente expressos em equipes ágeis**.
 - **Conceito:** É um cenário de uso de um produto, narrado pelo ponto de vista do usuário.
 - **Os 3 C's (Criado por Roy Jeffrey):**

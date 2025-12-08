@@ -32,9 +32,9 @@ As Histórias de Usuário (User Stories) são a forma padrão de expressar requi
 - **Conceito:** Representa uma funcionalidade ou característica do produto "narrada" pelo ponto de vista do usuário.
 ### Componentes de uma História de Usuário (3 C's)
 1. **Cartão (*Card*):** A afirmação concisa que segue a "voz do usuário".
-- **Formato:** Como um [**ator**], eu quero/preciso [**ação**] para [**funcionalidade / valor**].
-2. **Conversação (*Conversation*):** A discussão verbal e colaborativa que ocorre durante o projeto, complementada por documentação.
-3. **Confirmação (*Confirmation*):** Os **testes de aceitação** que serão usados para demonstrar que a história foi implementada corretamente.
+- **Formato:** Como um **ator**, eu quero/preciso **ação** para **funcionalidade / valor**.
+1. **Conversação (*Conversation*):** A discussão verbal e colaborativa que ocorre durante o projeto, complementada por documentação.
+2. **Confirmação (*Confirmation*):** Os **testes de aceitação** que serão usados para demonstrar que a história foi implementada corretamente.
 ### Critérios de Qualidade INVEST (Bill Wake)
 Um acrônimo para lembrar as características de uma boa história:
 - **I**ndependent: Não deve haver dependência entre as histórias.

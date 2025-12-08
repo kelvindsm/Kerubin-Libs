@@ -22,7 +22,7 @@ A UML é dividida em visões que cobrem diferentes aspectos do sistema:
 ---
 ## 2. Diagrama de Casos de Uso
 
-O [[04 - Diagrama de caso de uso|Diagrama de Casos de Uso (Use Case Diagram)]] é o modelo mais importante para a [[01 - Contextualização da engenharia de requisitos|Engenharia de Requisitos]], pois é o principal elemento de **modelagem funcional** do sistema.
+O [[04 - Diagrama de caso de uso|Diagrama de Casos de Uso (Use Case Diagram)]] é o modelo mais importante para a *Engenharia de Requisitos*, pois é o principal elemento de **modelagem funcional** do sistema.
 >[!info] Objetivo Principal
 > Descrever um modelo funcional do sistema, identificando os usuários e representando o sistema segundo a **visão do usuário**.
 ### Elementos do Diagrama de Caso de Uso
@@ -92,6 +92,6 @@ Uma classe é representada por um retângulo dividido em três compartimentos:
 | **Agregação (Diamante Vazado)**      | Forma de associação **"todo-parte"**, onde as partes podem existir independentemente do todo. (*Ex:* Uma *Ordem de Serviço* tem *Itens*, mas os *Itens* podem existir fora da ordem).      |                                                                                                                |
 | **Composição (Diamante Preenchido)** | Forma de agregação **forte**. As partes **não podem existir** sem o todo. (*Ex:* Uma *Conta Bancária* é composta por *Transações*. Se a conta é excluída, as transações também devem ser). |                                                                                                                |
 | **Generalização (Herança)**          | Linha com seta fechada e vazia, apontando para a **Superclasse (Geral)**.                                                                                                                  | Indica que uma subclasse herda atributos e métodos da superclasse (Ex: *Pessoa Física* é um tipo de *Pessoa*). |
-| **Realização (Interface)**           | Seta pontilhada com seta fechada e vazia.                                                                                                                                                  | Uma classe implementa as operações definidas em uma [[Interface]].                                             |
+| **Realização (Interface)**           | Seta pontilhada com seta fechada e vazia.                                                                                                                                                  | Uma classe implementa as operações definidas em uma Interface.                                                 |
 
 ---

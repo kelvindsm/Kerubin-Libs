@@ -1,7 +1,6 @@
 ---
 tags:
-  - Emprogresso
-  - NaoRevisado
+  - Concluido
 ---
 # Modelagem de Processos de Negócio: Hierarquia e Notação BPMN
 ## Introdução à Modelagem de Processos
@@ -11,7 +10,7 @@ tags:
 
 **Propósito da Modelagem:**
  - Criar uma representação do processo de maneira **completa e precisa** sobre seu funcionamento.
-- Permite expressar processos em vários níveis de detalhe, desde uma visão contextual abstrata até uma visão detalhada.
+- **Permite expressar processos em vários níveis de detalhe**, desde uma visão contextual abstrata até uma visão detalhada.
 ### O que é um Modelo?
 >[!quote] Definição
 >- Um **modelo** é uma representação simplificada de uma coisa, um conceito ou uma atividade. Pode ser matemático, gráfico, físico, narrativo ou uma combinação desses tipos.
@@ -34,11 +33,11 @@ tags:
 > - Devido ao nível muito detalhado, o modelo tende a ficar desatualizado rapidamente.
 > - **Vantagem do Modelo:** Capacidade de **simulação** manual ou automatizada do processo, gerando informações úteis sobre o desempenho.
 
-| Diagrama ou Mapa de Processo                   | Modelo de Processos                                                        |
-| :--------------------------------------------- | :------------------------------------------------------------------------- |
-| Notação ambígua e baixa precisão               | **Convenção padronizada** e precisão tão precisa quanto necessária         |
-| Ícones "inventados" ou vagamente definidos     | Ícones **objetivamente definidos e padronizados**                          |
-| Não é adequado para importação por um [[BPMS]] | **Pode ser importado por um [[BPMS]]** (Business Process Management Suite) |
+| Diagrama ou Mapa de Processo                   | Modelo de Processos                                                    |
+| :--------------------------------------------- | :--------------------------------------------------------------------- |
+| Notação ambígua e baixa precisão               | **Convenção padronizada** e precisão tão precisa quanto necessária     |
+| Ícones "inventados" ou vagamente definidos     | Ícones **objetivamente definidos e padronizados**                      |
+| Não é adequado para importação por um **BPMS** | **Pode ser importado por um BPMS** (Business Process Management Suite) |
 
 ---
 ## Notações de Modelagem de Processos
@@ -52,12 +51,12 @@ tags:
 | :------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **[[BPMN (Business Process Model and Notation)]]** | Padrão criado pelo Object Management Group (**OMG**). Útil para apresentar modelos para públicos diferentes, possibilita simulação e automação.                                 |
 | **Fluxograma**                                     | Padrão ANSI (simples e limitado). Facilita entendimento rápido do fluxo. Usado para capturar fluxos rapidamente onde os detalhes não são críticos.                              |
-| **[[UML (Unified Modeling Language)]]**            | Padrão do OMG. Conjunto de notações técnicas orientado à descrição de [[Requisitos de Sistemas de Informação]]. Diagramas de Atividades UML podem modelar processos de negócio. |
+| **[[UML (Unified Modeling Language)]]**            | Padrão do OMG. Conjunto de notações técnicas orientado à descrição de **Requisitos de Sistemas de Informação**. Diagramas de Atividades UML podem modelar processos de negócio. |
 | **EPC (Event-driven Process Chain)**               | Desenvolvido como parte da estrutura ARIS. Útil para modelar conjuntos complexos de processos, usando eventos como "gatilhos".                                                  |
 | **SIPOC**                                          | Usado em Lean Six Sigma. Enfatiza as fontes de entradas (Supplier) e o alvo das saídas (Customer).                                                                              |
 ## BPMN: Business Process Model and Notation
 >[!info] Sobre BPNM
->O **BPMN** é a mais poderosa e atual notação para modelar processos de negócio. É um padrão aberto mantido pelo OMG.
+>O **[[BPMN (Business Process Model and Notation)|BPMN]]** é a mais poderosa e atual notação para modelar processos de negócio. É um padrão aberto mantido pelo OMG.
 ### Vantagens Chave do BPMN
 - **Padrão e Comunicação:** Uso e entendimento difundido. Reduz a distância de entendimento entre a área de **Negócios** e a **Tecnologia** (TI).
 - **Flexibilidade:** Versatilidade para modelar diversas situações e pode evoluir de elementos básicos (fluxograma) para complexos.
@@ -98,8 +97,7 @@ Forma de organização das atividades em categorias visuais separadas.
 - **Fase ou Milestone (Subdivisão horizontal):** Usado para indicar fases do processo ou períodos de tempo.
 #### 4. Artefatos (Artifacts)
 Usados para colocar informações adicionais no processo (documentação).
-
-- **[[Objetos de Dados (Data Object)]]:** Elementos produzidos ou requeridos por uma atividade (formulários, documentos, bases de dados).
+- **Objetos de Dados (Data Object):** Elementos produzidos ou requeridos por uma atividade (formulários, documentos, bases de dados).
 - **Anotações:** Observações que agregam informações relevantes para o entendimento do processo.
 - **Grupo:** Forma visual de agrupar atividades para documentação ou análise, sem afetar o fluxo.
 ---

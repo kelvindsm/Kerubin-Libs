@@ -7,7 +7,7 @@ tags:
 
 ## O Processo da Engenharia de Requisitos (ER)
 
-A **Engenharia de Requisitos** é um processo cíclico que envolve várias etapas interligadas. O **Gerenciamento** é uma atividade que atua como base para todas as etapas.
+A Engenharia de Requisitos é um processo cíclico que envolve várias etapas interligadas. O **[[07 - O Processo Completo de Vida do Requisito|Gerenciamento]]** é uma atividade que atua como base para todas as etapas.
 ### Etapas do Processo de ER
 1.  **Elicitação**: Investigação, busca e descoberta dos requisitos.
 2.  **Análise**: Avaliação de possíveis **conflitos**, identificação das relações com o contexto e definição dos requisitos.
@@ -16,7 +16,6 @@ A **Engenharia de Requisitos** é um processo cíclico que envolve várias etapa
 5.  **Produção ou Desenvolvimento**.
 6.  **Gerenciamento**: Atividade que administra os requisitos ao longo do tempo, permeando todo o processo de ER.
 ## O Papel do Gerenciamento de Requisitos (GR)
-
 Os requisitos de sistemas de software são **voláteis** e estão sempre mudando. O Gerenciamento de Requisitos (GR) é o enfoque sistemático para a elicitação, organização e documentação dos requisitos, e um processo que estabelece e **mantém o acordo** entre usuários e a equipe de projeto à medida que os requisitos se modificam.
 ### Por Que o GR é Crítico
 - É preciso manter o **acompanhamento dos requisitos** e as ligações entre os requisitos dependentes para avaliar o impacto das mudanças.
@@ -40,7 +39,7 @@ Os requisitos são, inevitavelmente, **incompletos e inconsistentes**. O Gerenci
 O processo de controle de mudanças permite que todas as mudanças sejam **rastreadas** e garante que nenhuma solicitação seja perdida. O GM facilita a tomada de decisão e o controle de custos e prazos.
 - A habilitação da mudança (ou processo de controle) exige que uma organização designe uma **autoridade de mudança** para decidir sobre as alterações.
 - **Abordagem Sequencial**: A autoridade de mudança é frequentemente designada para a gestão do projeto, um Comitê ou um **Conselho de Controle de Mudanças (CCM)**.
-- **Abordagem Iterativa (Ágil)**: A autoridade de mudança geralmente é o **[[Product Owner]]**, que adiciona uma mudança aceita como um novo item no *product backlog*.
+- **Abordagem Iterativa (Ágil)**: A autoridade de mudança geralmente é o **Product Owner**, que adiciona uma mudança aceita como um novo item no *product backlog*.
 ### 2. Gerenciamento de Configuração
 Uma **Configuração** é um conjunto consistente de itens (produtos de trabalho) logicamente relacionados que contêm requisitos. O objetivo é deixar claro quais requisitos são ou foram válidos em uma determinada situação.
 #### Propriedades de uma Configuração Correta

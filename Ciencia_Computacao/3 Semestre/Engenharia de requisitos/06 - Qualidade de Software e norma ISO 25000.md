@@ -15,7 +15,7 @@ As definições de qualidade enfatizam três aspectos importantes:
 2. **Padrões de Desenvolvimento:** Padrões especificados definem um conjunto de critérios que orientam a maneira pela qual o software é desenvolvido.
 3. **Requisitos Implícitos:** Existe um conjunto de requisitos que frequentemente não são mencionados na especificação, mas são esperados (ex: integridade dos dados, facilidade de uso, Manutenibilidade).
 ### Qualidade e o Ponto de Vista
-A percepção da qualidade do software varia dependendo do [[Stakeholder]]:
+A percepção da qualidade do software *varia dependendo do Stakeholder*:
 - **Usuário:** O interesse se concentra principalmente no uso do software, como a **facilidade de uso** e se os requisitos foram atendidos.
 - **Desenvolvedor:** A qualidade está mais voltada às **características internas** do software, como legibilidade, Testabilidade e eficiência.
 - **Gerente:** A qualidade não pode ser desvinculada dos interesses da organização, como **custos e prazos**.
@@ -54,7 +54,7 @@ Estabelece que um produto ou sistema deve ser usado por um usuário específico 
 - **Exemplo:** Documentação quanto ao uso e funcionamento deve ser fornecido por meio de orientação *on-line*.
 ### 5. Confiabilidade
 Diz que um sistema executa funções específicas sob condições determinadas em um dado período de tempo. Capacidade de evitar falhas e manter desempenho adequado.
-- **Subcaracterísticas:** Maturidade, Tolerância a falhas, Capacidade de recuperação, e [[Disponibilidade]].
+- **Subcaracterísticas:** Maturidade, Tolerância a falhas, Capacidade de recuperação, e *Disponibilidade*.
 - **Exemplo:** Se o processo for interrompido por uma falha, o sistema deve permitir recuperar os dados e continuar.
 ### 6. Segurança
 Diz que um sistema protege as informações e dados, de modo que as pessoas, outros produtos ou sistemas possuam o grau de acesso de dados apropriado.

@@ -1,12 +1,22 @@
-# [[01 - Contextualização da engenharia de requisitos]]
-# [[02 - Análise de negócio - BABOK]]
-# [[03 - Gerenciamento de Processos de Negócio - BPM CBOK]]
-# [[04 - Modelagem de Processos de Negócio (BPMN)]]
-# [[05 - Caracterização, definições e classificação]]
-# [[06 - Qualidade de Software e norma ISO 25000]]
-# [[07 - O Processo Completo de Vida do Requisito]]
-# [[08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso]]
-# [[09 - Análise e Especificações com Abordagens ágeis]]
-# [[10 - Requisitos de usabilidade]]
-# [[11 - Prototipação]]
-# [[12 - Processo de Gerenciamento de Requisitos]]
+# Unidades principais
+## [[01 - Contextualização da engenharia de requisitos]]
+## [[02 - Análise de negócio - BABOK]]
+## [[03 - Gerenciamento de Processos de Negócio - BPM CBOK]]
+## [[04 - Modelagem de Processos de Negócio (BPMN)]]
+## [[05 - Caracterização, definições e classificação]]
+## [[06 - Qualidade de Software e norma ISO 25000]]
+## [[07 - O Processo Completo de Vida do Requisito]]
+## [[08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso]]
+## [[09 - Análise e Especificações com Abordagens ágeis]]
+## [[10 - Requisitos de usabilidade]]
+## [[11 - Prototipação]]
+## [[12 - Processo de Gerenciamento de Requisitos]]
+
+---
+# Anotações complementares
+## [[BPM CBOK]]
+## [[BPMN (Business Process Model and Notation)]]
+## [[Guia Babok]]
+## [[Heurística de Nielsen]]
+
+---

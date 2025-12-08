@@ -1,16 +1,15 @@
 ---
 tags:
-  - Emprogresso
+  - Concluido
 ---
 # Engenharia de Requisitos: Visão Geral e Contextualização na Engenharia de Software
-
 ## Introdução e Contexto
 A **Engenharia de Requisitos (ER)** é uma disciplina fundamental para a [[Engenharia de Software]]. Seu papel principal é servir como ponte, convertendo as necessidades do cliente em **requisitos de software**.
 ### O Papel do Analista/Engenheiro de Requisitos
 O **Analista/Engenheiro de Requisitos** tem o papel crucial de **transformar necessidades em solução de software**. Ele atua como intermediário no fluxo de desenvolvimento:
 >[!info] Fluxo do Processo
 > - O **Cliente** passa suas necessidades.
-> - O **Analista/Engenheiro de Requisitos** atende às necessidades e converte as necessidades em [[Requisitos de Software]].
+> - O **Analista/Engenheiro de Requisitos** atende às necessidades e converte as necessidades em *Requisitos de Software*.
 > - O **Desenvolvedor** converte os requisitos de software em **Código**, usando uma [[Linguagem de Programação]].
 > - O software é entregue, atendendo às necessidades.
 
@@ -27,7 +26,7 @@ O processo de comunicação é essencial para ligar o lado do **Negócio** (Prob
 
 >[!tip] Artefatos Chave na Comunicação
 > - O lado do Negócio gera **Necessidades** e **Regras**.
-> - O lado do Software gera **Visão**, [[Especificação de Requisitos de Software (ERS)]] e **Modelo de Domínio**.
+> - O lado do Software gera **Visão**, **Especificação de Requisitos de Software (ERS)** e **Modelo de Domínio**.
 
 ### Análise de Negócios segundo BABOK v2
 A **Análise de Negócio** (Business Analysis) é fundamental para **compreender o Negócio**. Segundo o **BABOK v2**:
@@ -72,10 +71,10 @@ A disciplina de Engenharia de Software foi criada em reação à **"Crise do Sof
 > - A Engenharia de Software era praticamente inexistente.
 
 A necessidade de sanar as deficiências de desenvolvimento, causada pelo aumento da complexidade dos processos e da tecnologia, levou à criação da **Engenharia de Software**.
+
 >[!example] Consequências da Má Qualidade
 > - **Ariane 5 (1996):** Foguete explodiu após 40 segundos devido a um *bug* de software, resultando em um prejuízo de US$ 500 milhões.
 > - **Boeing 737 MAX 8 (2018/2019):** Dois acidentes resultaram em vítimas fatais. O sistema MCAS fez uma leitura errada do ângulo do avião, sem a opção de divergência para os pilotos.
-
 ### Qualidade de Software
 - A **Qualidade de Software** refere-se à medida em que um software atende aos requisitos especificados, satisfaz as necessidades do usuário e opera de maneira confiável.
 - Segundo Roger Pressman:
@@ -83,9 +82,7 @@ A necessidade de sanar as deficiências de desenvolvimento, causada pelo aumento
 > "Conformidade aos **requisitos funcionais** e de desempenho, explicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que são esperadas de todo o software profissionalmente desenvolvido."
 
 ---
-
 ## Conceito e Elementos da Engenharia de Software
-
 ### Conceito Detalhado
 A [[Engenharia de Software (ES)]] é definida como uma:
 >[!info] Definição de ES (Pressman)
@@ -104,40 +101,37 @@ A Engenharia de Software abrange métodos, ferramentas e procedimentos que possi
     - Incluem a análise de requisitos, design, implementação, teste e manutenção, garantindo qualidade e confiabilidade.
 
 ---
-
 ## O Processo de Construção de Software
 O processo de software é um conjunto sequencial de atividades, objetivos, transformações e eventos que integram estratégias para o cumprimento da evolução de software (Pressman).
 >[!note] Definição de Processo
 > "Uma sequência de etapas que envolvem atividades, restrições e recursos para alcançar um resultado desejado."
-
 ### Etapas Genéricas de Construção
 Cada estágio do ciclo de vida é um processo ou uma coleção de processos.
 
-| Tarefas (Disciplinas)         | Profissional              | Artefatos                                |
-| :---------------------------- | :------------------------ | :--------------------------------------- |
-| **Modelagem do Negócio**      | Analista de Negócio       | **Documento de Análise de Negócio**      |
-| **Elicitação de Requisitos**  | Analista de Requisitos    | **Documento de Definição de Requisitos** |
-| **Análise e Projeto**         | Analista de Sistemas      | Modelagem dos Requisitos/Especificação   |
-| **Protótipo**                 | UX/Designer               | Validação (representação gráfica)        |
-| **Implementação/Codificação** | Programador/Desenvolvedor | **Programa (código)**                    |
-| **Testes**                    | Analista de Testes        | Roteiros de Teste                        |
-| **Implantação**               | Analista de Homologação   | Documento de Implantação                 |
-| **Manutenção**                | Equipe técnica            | Manual do Sistema                        |
+| Tarefas (Disciplinas)                                                           | Profissional              | Artefatos                                |
+| :------------------------------------------------------------------------------ | :------------------------ | :--------------------------------------- |
+| **[[04 - Modelagem de Processos de Negócio (BPMN)\|Modelagem do Negócio]]**     | Analista de Negócio       | **Documento de Análise de Negócio**      |
+| **[[07 - O Processo Completo de Vida do Requisito\|Elicitação de Requisitos]]** | Analista de Requisitos    | **Documento de Definição de Requisitos** |
+| **Análise e Projeto**                                                           | Analista de Sistemas      | Modelagem dos Requisitos/Especificação   |
+| **Protótipo**                                                                   | UX/Designer               | Validação (representação gráfica)        |
+| **Implementação/Codificação**                                                   | Programador/Desenvolvedor | **Programa (código)**                    |
+| **Testes**                                                                      | Analista de Testes        | Roteiros de Teste                        |
+| **Implantação**                                                                 | Analista de Homologação   | Documento de Implantação                 |
+| **Manutenção**                                                                  | Equipe técnica            | Manual do Sistema                        |
 ### Foco da Engenharia de Requisitos
 A **Engenharia de Requisitos** tem seu foco logo após a Análise de Negócio e é crítica para a definição do sistema.
 >[!note] Engenharia de Requisitos
-> - As tarefas de um processo de negócio são as referências para os [[Requisitos de Software]].
+> - As tarefas de um processo de negócio são as referências para os *Requisitos de Software*.
 > - A partir do processo mapeado e entendido, as tarefas, regras e lógica passam a ser fonte de referência para a identificação, definição e gerência dos requisitos do software.
 > - Todas as mudanças em requisitos devem ser observadas a partir de mudanças nos processos e regras de negócio.
-
 ### Abordagens de Ciclo de Vida do Software
-1. **Modelo Caótico:** Codifica-remenda (Programação Orientada a Gambiarra - POG).
+1. **Modelo Caótico:** Codifica-remenda (*"Programação Orientada a Gambiarra - POG"*).
 2. **Modelos Tradicionais:**
     - [[Modelo Cascata]].
     - [[Modelo em Espiral]].
 3. **Modelo Iterativo/Adaptativo:**
-    - **RUP (Rational Unified Process):** É um processo iterativo e adaptativo, organizado e consistente. A disciplina de **Requisitos** é mais intensa nas fases de **Iniciação** e **Elaboração**.
-    - **SCRUM:** É um *framework* ágil, iterativo e incremental. O [[Product Backlog]] é a principal fonte de requisitos para a **Sprint**.
+    - **[[RUP (Rational Unified Process)]]:** É um processo iterativo e adaptativo, organizado e consistente. A disciplina de **Requisitos** é mais intensa nas fases de **Iniciação** e **Elaboração**.
+    - **[[SCRUM]]:** É um *framework* ágil, iterativo e incremental. O **Product Backlog é a principal fonte de requisitos para a Sprint**.
 ### O Sucesso em Projetos de Software
 >[!tip] Fatores de Sucesso
 > - O sucesso de um projeto de software é proporcional à **qualidade gerencial** que investimos nele.

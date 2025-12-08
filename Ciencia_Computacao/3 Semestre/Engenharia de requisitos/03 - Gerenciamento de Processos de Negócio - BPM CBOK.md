@@ -1,18 +1,18 @@
 ---
 tags:
-  - Emprogresso
-  - NaoRevisado
+  - Concluido
 ---
 # Gerenciamento de Processos de Negócio (BPM) e o Guia BPM CBOK
 
 ## Introdução: O Foco em Processos e Automação
 
-O **Gerenciamento de Processos de Negócio (BPM - Business Process Management)** é a disciplina fundamental para a compreensão e otimização do funcionamento de uma organização, servindo de base para qualquer projeto de tecnologia e [[Engenharia de Requisitos]].
+O **Gerenciamento de Processos de Negócio (BPM - Business Process Management)** é a disciplina fundamental para a compreensão e otimização do funcionamento de uma organização, servindo de base para qualquer projeto de tecnologia e *Engenharia de Requisitos*.
 
-- Segundo **Bill Gates**, a automação aplicada a uma operação eficiente aumentará a eficiência, mas aplicada a uma operação ineficiente aumentará a ineficiência. Isso reforça a importância de entender e otimizar os processos antes de automatizá-los.
+>[!quote] Segundo Bill Gates
+>- A automação aplicada a uma operação eficiente aumentará a eficiência, mas aplicada a uma operação ineficiente aumentará a ineficiência. Isso reforça a importância de entender e otimizar os processos antes de automatizá-los.
 
 ### O Guia BPM CBOK®
-O **Guia para o BPM CBOK® (Business Process Management Common Body of Knowledge)** é um documento de consulta básica para profissionais.
+O **Guia para o [[BPM CBOK]]® (Business Process Management Common Body of Knowledge)** é um documento de consulta básica para profissionais.
 
 - **Finalidade:** Identificar e fornecer uma visão geral das **Áreas de Conhecimento** que são geralmente reconhecidas e aceitas como boas práticas em BPM.
 - **Estrutura:** O guia é organizado em **nove áreas de conhecimento** (ou capítulos).
@@ -84,26 +84,26 @@ Existem três categorias básicas de processos empresariais:
 As seis atividades contínuas do ciclo de vida BPM incluem:
 
 1. **Planejamento:**
-- Começa com o desenvolvimento de um plano e uma **estratégia dirigida a processos**.
-- **Objetivo:** Assegurar uma compreensão sólida de como o processo se relaciona com seu ambiente externo.
-- Envolve identificar papéis, metas de desempenho e metodologias.
+	- Começa com o desenvolvimento de um plano e uma **estratégia dirigida a processos**.
+	- **Objetivo:** Assegurar uma compreensão sólida de como o processo se relaciona com seu ambiente externo.
+	- Envolve identificar papéis, metas de desempenho e metodologias.
 2. **Análise:**
-- Visa **entender os atuais processos organizacionais** (As Is) no contexto das metas e objetivos desejados.
-- Assimila informações de planos estratégicos, modelos de processo e medições de desempenho.
+	- Visa **entender os atuais processos organizacionais** (As Is) no contexto das metas e objetivos desejados.
+	- Assimila informações de planos estratégicos, modelos de processo e medições de desempenho.
 3. **Desenho e Modelagem:**
-- Foca no **desenho intencional** de como o trabalho **ponta-a-ponta** ocorrerá para entregar valor aos clientes.
-- Envolve a modelagem do processo (Modelo **To Be**) e a criação de especificações de processos.
-- O desenho fornece planos e diretrizes sobre a aplicação de fluxos, regras e a interação de aplicações e tecnologias.
+	- Foca no **desenho intencional** de como o trabalho **ponta-a-ponta** ocorrerá para entregar valor aos clientes.
+	- Envolve a modelagem do processo (Modelo **To Be**) e a criação de especificações de processos.
+	- O desenho fornece planos e diretrizes sobre a aplicação de fluxos, regras e a interação de aplicações e tecnologias.
 4. **Implementação (Implantação):**
-- É a realização do desenho aprovado em **procedimentos e fluxos de trabalho documentados, testados e operacionais**.
-- Inclui a implementação de políticas e procedimentos novos ou revisados.
-- Pequenos ajustes podem ocorrer, mas a implementação assume que as especificações estão completas.
+	- É a realização do desenho aprovado em **procedimentos e fluxos de trabalho documentados, testados e operacionais**.
+	- Inclui a implementação de políticas e procedimentos novos ou revisados.
+	- Pequenos ajustes podem ocorrer, mas a implementação assume que as especificações estão completas.
 5. **Monitoramento e Controle:**
-- É o monitoramento formal e planejado da execução do processo e o rastreamento dos resultados.
-- Provê **informações-chave de desempenho** através de métricas relacionadas às metas e ao valor para a organização.
-- A análise dos dados de desempenho pode resultar em atividades de melhoria ou redesenho.
+	- É o monitoramento formal e planejado da execução do processo e o rastreamento dos resultados.
+	- Provê **informações-chave de desempenho** através de métricas relacionadas às metas e ao valor para a organização.
+	- A análise dos dados de desempenho pode resultar em atividades de melhoria ou redesenho.
 6. **Refinamento:**
-- Trata de **ajustes e melhorias pós-implementação** com base nos indicadores e informações-chave de desempenho obtidas no monitoramento.
+	- Trata de **ajustes e melhorias pós-implementação** com base nos indicadores e informações-chave de desempenho obtidas no monitoramento.
 
 Os processos de negócio ao longo do ciclo de vida são habilitados ou restringidos por fatores primários como **valores, crenças, liderança e cultura**.
 
@@ -152,10 +152,11 @@ Uma sessão de mapeamento é uma reunião de trabalho realizada com pessoas-chav
 - **Participantes:** Gestores envolvidos e colaboradores de perfil diferenciado na execução das atividades.
 ### Fases de uma Sessão de Mapeamento
 1. **Fase 1 - Mapeamento em Grupo:**
-- Foco gerencial ou operacional.
-- **Objetivo:** Identificar características e necessidades do processo sob a visão de cada papel envolvido e atingir o **consenso** entre os participantes.
+	- Foco gerencial ou operacional.
+	- **Objetivo:** Identificar características e necessidades do processo sob a visão de cada papel envolvido e atingir o **consenso** entre os participantes.
 2. **Fase 2 - Mapeamento Individual:**
-- Foco mais operacional.
-- **Objetivos:** Detalhar, especificar, exemplificar e **validar** as informações apresentadas no mapeamento em grupo.
-- Aspectos operacionais e particularidades são identificados e documentados pelo analista de processos.
+	- Foco mais operacional.
+	- **Objetivos:** Detalhar, especificar, exemplificar e **validar** as informações apresentadas no mapeamento em grupo.
+	- Aspectos operacionais e particularidades são identificados e documentados pelo analista de processos.
+
 ---

@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGit",
+      "TiFolderPlus",
+      "LiImage",
       "SiCisco",
-      "TiNetwork",
-      "LiFolder"
+      "TiNetwork"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,5 +36,8 @@
   },
   "Ciencia_Computacao/3 Semestre/Engenharia de requisitos": "LiFolder",
   "Ciencia_Computacao/3 Semestre/Redes de computadores": "TiNetwork",
-  "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics": "SiCisco"
+  "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics": "SiCisco",
+  "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens": "LiImage",
+  "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares": "TiFolderPlus",
+  "Outros estudos/Git.md": "SiGit"
 }

@@ -1,6 +1,6 @@
 ---
 tags:
-  - NaoRevisado
+  - Concluido
 ---
 # Guia para o Gerenciamento de Processos de Negócio (BPM CBOK) V3.0
 ## I. Fundamentos da Disciplina de BPM

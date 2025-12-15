@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiKanbanView",
-      "SiMiro",
-      "SiGit",
-      "TiFolderPlus",
-      "LiImage"
+      "TiMathIntegrals",
+      "TiMathIntegral",
+      "TiMathXy",
+      "TiMathFunction",
+      "RiKanbanView"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,9 @@
   "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens": "LiImage",
   "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares": "TiFolderPlus",
   "Outros estudos/Git.md": "SiGit",
-  "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas": "RiKanbanView"
+  "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas": "RiKanbanView",
+  "Outros estudos/Estudos de cálculo": "TiMathFunction",
+  "Outros estudos/Estudos de cálculo/Pré-cálculo": "TiMathXy",
+  "Outros estudos/Estudos de cálculo/Cálculo I": "TiMathIntegral",
+  "Outros estudos/Estudos de cálculo/Cálculo II": "TiMathIntegrals"
 }

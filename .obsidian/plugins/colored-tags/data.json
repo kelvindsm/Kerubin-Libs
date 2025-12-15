@@ -23,7 +23,10 @@
     "NaoRevisado": 11,
     "Concluido": 12,
     "NaoIniciado": 13,
-    "MDS": 14
+    "MDS": 14,
+    "excalidraw": 15,
+    "Calculo": 16,
+    "Outros": 17
   },
   "_version": 3
 }

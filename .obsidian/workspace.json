@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -181,13 +181,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false,
@@ -196,14 +196,21 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Fluxo de estudos.canvas",
+    "Outros estudos/Estudos de cálculo/Pré-cálculo/A05, 06, 07 - Polinômios.md",
+    "Outros estudos/Estudos de cálculo/Cálculo II",
+    "Outros estudos/Estudos de cálculo/Cálculo I",
+    "Outros estudos/Estudos de cálculo/Pré-cálculo",
+    "Outros estudos/Estudos de cálculo",
+    "Excalidraw/Drawing 2025-12-14 16.54.35.excalidraw.md",
+    "Excalidraw",
+    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/13 - DevOPS.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/12 - Extreme Programming.md",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
     "Scrum.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPM CBOK.md",
-    "Fluxo de estudos.canvas",
     "Calculo roadmap.canvas",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Heurística de Nielsen.md",
@@ -235,15 +242,7 @@
     "0 - Imagens/Pasted image 20250217135912.png",
     "0 - Imagens/Pasted image 20250304134123.png",
     "0 - Imagens/Pasted image 20250304134142.png",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/03 - Casos de uso e Requisitos Não Funcionais.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares",
-    "Especificação de Requisitos de Software (ERS).md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/Untitled.base",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 2",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics/Modulo 1",
-    "Ciencia_Computacao/3 Semestre/Redes de computadores/CISCO NetAcad-Networking basics",
     "Sem título.canvas"
   ]
 }

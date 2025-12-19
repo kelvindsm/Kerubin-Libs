@@ -1,5 +1,5 @@
 {
-  "cascadeColors": false,
+  "cascadeColors": true,
   "colorBackground": true,
   "palette": [
     {
@@ -16,11 +16,6 @@
       "id": "tjzypmvKRijs-Y7sxtt_B",
       "name": "Programação",
       "value": "#fb8500"
-    },
-    {
-      "id": "nEA9uMS28lEI7OVNFTkLn",
-      "name": "Notion",
-      "value": "#023ea8"
     },
     {
       "id": "O8_zh0SJ2EaiacBDG4pgM",

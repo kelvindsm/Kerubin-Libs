@@ -1,0 +1,16 @@
+{
+  "Editor@@h1-divider-on": false,
+  "Editor@@h1-color@@dark": "#FF5347",
+  "Editor@@h2-color@@dark": "#FF9D4F",
+  "Editor@@h3-color@@dark": "#F5F263",
+  "Editor@@h4-color@@dark": "#81D152",
+  "Editor@@h5-color@@dark": "#42ADC7",
+  "Editor@@h6-color@@dark": "#5B4D87",
+  "Appearance@@bg@@dark": "#101518",
+  "Appearance@@bg_dark@@dark": "#1B2328",
+  "Appearance@@bg_highlight@@dark": "#2B373F",
+  "Editor@@tab-text-color-focused-active-current@@dark": "#C0C0C0",
+  "Editor@@blockquote-border-thickness": 3,
+  "Editor@@tab-text-color-focused-active@@dark": "#C0C0C0",
+  "Appearance@@interactive-normal@@dark": "#FFFFFF"
+}

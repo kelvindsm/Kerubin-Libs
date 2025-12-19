@@ -1,8 +1,8 @@
 {
   "palette": {
     "seed": 0,
-    "selected": "adaptive-soft",
-    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+    "selected": "custom",
+    "custom": "a3be8c-eccc8c-d08871-c0616a-b48fad-88c1d0-82a1c1-5e81ad-4c566a-2e3440"
   },
   "mixColors": true,
   "transition": true,
@@ -10,23 +10,22 @@
     "highTextContrast": false
   },
   "knownTags": {
-    "IntComp2308": 1,
-    "Emprogresso": 2,
-    "MC2310": 3,
-    "1_Semestre": 4,
-    "Naoconcluido": 5,
-    "OrgArc2306": 6,
-    "Pilar": 7,
-    "BD1109": 8,
-    "PC1002": 9,
-    "EngRequisitos": 10,
-    "NaoRevisado": 11,
-    "Concluido": 12,
-    "NaoIniciado": 13,
-    "MDS": 14,
-    "excalidraw": 15,
-    "Calculo": 16,
-    "Outros": 17
+    "1_semestre": 1,
+    "bd1109": 2,
+    "calculo": 3,
+    "concluido": 4,
+    "emprogresso": 5,
+    "engrequisitos": 6,
+    "intcomp2308": 7,
+    "mc2310": 8,
+    "mds": 9,
+    "naoconcluido": 10,
+    "naoiniciado": 11,
+    "naorevisado": 12,
+    "orgarc2306": 13,
+    "outros": 14,
+    "pc1002": 15
   },
-  "_version": 3
+  "tagColors": {},
+  "_version": 4
 }

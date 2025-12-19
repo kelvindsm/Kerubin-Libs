@@ -1,6 +1,6 @@
 {
-  "accentColor": "#4461ee",
-  "cssTheme": "Tokyo Night",
+  "accentColor": "#4d6aff",
+  "cssTheme": "Sample Theme",
   "enabledCssSnippets": [
     "css-center-image"
   ]

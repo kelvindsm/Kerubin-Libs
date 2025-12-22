@@ -1,5 +1,9 @@
-# Análise de Sistemas Orientada a Objeto: Diagrama de Classes
+---
+tags:
+  - Emprogresso
+---
 
+# Análise de Sistemas Orientada a Objeto: Diagrama de Classes
 ## O Diagrama de Classes na UML
 
 >[!info] Definição e Importância
@@ -14,28 +18,78 @@
 - Em UML, classes são representadas por **retângulos**.
 - O retângulo pode mostrar o nome da classe, e, em compartimentos inferiores, os atributos e as operações (métodos) da classe.
 ![[Pasted image 20251116140706.png|center|350]]
-### 1. Atributos
+## Composição de uma classe
+![[Pasted image 20251222120901.png|center|550]]
+
+### Atributos
 - São mostrados com pelo menos seu **nome**, e podem incluir seu tipo, valor inicial e outras propriedades.
 - **Visibilidade:**
     - `+`: indica atributos **públicos**.
     - `#`: indica atributos **protegidos**.
     - `-`: indica atributos **privados**.
-
+#### 1. Visibilidade
+- Denota como um atributo, pode ser enxergado por outras classes
+- Modificadores de visibilidade:
+	- **Público (+)**: o elemento é visível por qualquer classe;
+	- **Protegido (#)**: o elemento é visível na própria classe e pleas subclasses da classe;
+	- **Pacote(~)**: o elemento é visível apenas pela própria classe ou dentro do pacote onde a classe está localizada;
+	- **Privado(-)**: o elemento é visível apenas pela própria classe
+	![[Pasted image 20251222143700.png|center|500]]
+#### 2. Nome do atributo
+- Representa o nome do atributo
+![[Pasted image 20251222143758.png|center|500]]
+#### 3. Tipo do atributo
+- Representa o tipo do atributo: inteiro, booleano, String, Date...
+![[Pasted image 20251222143822.png|center|500]]
+#### 4. Multiplicidade
+- Representa o limite inferior e superior da quantidade de objetos na qual um outro objeto pode ser associado...
+![[Pasted image 20251222143854.png|center|500]]
+![[Pasted image 20251222144023.png|center|250]]
+#### 5. Valor default
+- Valor padrão de um atributo caso ele seja omitido no momento da criação...
+![[Pasted image 20251222144129.png|center|500]]
+#### 6. Restrição
+- Permite fornecer propriedades adicionais ao atributo
+- Ex.: Lista de array deve ser ordenada...
+![[Pasted image 20251222144205.png|center|550]]
+#### 7. Escopo de atributo
+- Instância
+	- cada objeto tem o seu próprio valor;
+	- Os atributos do objeto variam de acordo com a instanciação de cada objeto...
+- Classe
+	- Valor do atributo é comum a todos os objetos da classe
+	- Para denotar dessa forma, usa-se o sublinhado
+	- Atributo estático (*static*)
+![[Pasted image 20251222144250.png|center|550]]
 ### 2. Operações (Métodos)
 - São exibidos com pelo menos seu **nome**, e podem mostrar seus **parâmetros** e **valores de retorno**.
-- **Visibilidade:**
-    - `+`: indica operações **públicas**.
-    - `#`: indica operações **protegidas**.
-    - `-`: indica operações **privadas**.
 
+#### 1. Visibilidade:
+- Denota como um método pode ser enxergado por outras classes:
+	- **Público (+)**: o elemento é visível por qualquer classe;
+	- **Protegido (#)**: o elemento é visível na própria classe e pelas subclasses da classe;
+	- **Pacote (~)**: o elemento é visível apenas pela própria classe ou dentro do pacote onde a classe está localizada;
+	- **Privado (-)**: o elemento é visível apelas pela própria classe.
+	![[Pasted image 20251222145331.png|center|550]]
+#### 2. Nome da operação
+- Representa o nome da operação
+![[Pasted image 20251222145428.png|center|550]]
+#### 3. Parâmetros
+- Representa os parâmetros da operação
+![[Pasted image 20251222145645.png|center|550]]
+#### 4. Tipo de retorno
+- Representa o tipo do retorno
+![[Pasted image 20251222145831.png|center|550]]
+#### 5. Restrição
+- Permite indicar propriedades adicionais
+![[Pasted image 20251222145921.png|center|550]]
 ### Classes vs. Tipos
 - Uma **Classe** define os atributos e os métodos de um conjunto de objetos.
 - **Tipo** é um termo mais genérico e nem sempre é a mesma coisa que Classe.
 
 ---
-
 ## Relacionamentos Estáticos entre Classes
-![[Pasted image 20251116140741.png|center|450]]
+![[Pasted image 20251116140741.png|center|550]]
 ### 1. Generalização (Herança)
 - É um conceito fundamental da [[Programação Orientada a Objetos]] (POO).
 - Uma classe (derivada) "ganha" todos os atributos e operações da classe que herda (base), podendo sobrepor, modificar ou adicionar novos membros.

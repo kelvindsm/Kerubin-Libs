@@ -11,10 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222120901.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251222120901"
             }
           }
         ]
@@ -68,16 +70,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
-            }
-          },
-          {
-            "id": "0829d0c88dd96cd5",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook",
-              "title": "Notebook Navigator"
             }
           }
         ]
@@ -186,15 +178,34 @@
       "bases:Create new base": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-importer:Open Importer": false,
-      "notebook-navigator:Notebook Navigator": false
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9fd362e6eb3e5cf7",
   "lastOpenFiles": [
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/05 - Diagrama de Classes UML.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145921.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145831.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145645.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145428.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145331.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144250.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144205.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144129.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144023.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222143854.png",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
     "Fluxo de estudos.canvas",
     "Untitled.canvas",
     "Outros estudos/Estudos de cálculo/Pré-cálculo/A05, 06, 07 - Polinômios.md",
@@ -208,37 +219,17 @@
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/13 - DevOPS.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/12 - Extreme Programming.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
     "Scrum.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPM CBOK.md",
     "Calculo roadmap.canvas",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Heurística de Nielsen.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/UML (Unified Modeling Language).md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
     "Outros estudos/Git.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/Índice Engenharia de Requisitos.md",
     "Atalhos (Shortcuts).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Guia de referência BPMN.pdf",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPMN (Business Process Model and Notation).md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Guia Babok.md",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250318152717.png",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250318152034.png",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250318151904.png",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250309223100.png",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250304134142.png",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250304134123.png",
-    "Ciencia_Computacao/0 - Imagens/Pasted image 20250217135912.png",
     "Ciencia_Computacao/0 - Imagens",
     "Outros estudos",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
-    "0 - Imagens/Pasted image 20250217135912.png",
-    "0 - Imagens/Pasted image 20250304134123.png",
-    "0 - Imagens/Pasted image 20250304134142.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares",
     "Sem título.canvas"
   ]

@@ -35,7 +35,7 @@ O [[04 - Diagrama de caso de uso|Diagrama de Casos de Uso (Use Case Diagram)]] �
 2.  **Caso de Uso (Use Case):**
     - **Definição:** Uma **sequência de ações** que o sistema executa e que produz um **resultado de valor para um ator específico**.
     - **Representação:** Elipse.
-    - ![[Pasted image 20251202120621.png|center|350]]
+	    ![[Pasted image 20251202120621.png|center|350]]
     - **Foco:** Descreve um **serviço do sistema** (*o que o sistema faz*), não como o sistema o faz.
 3.  **Limite do Sistema (*Boundary*):**
     - **Definição:** Delimita o escopo (o que está dentro e fora) do sistema.

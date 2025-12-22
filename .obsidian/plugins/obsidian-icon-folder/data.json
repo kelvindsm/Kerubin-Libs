@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiComputer",
+      "FasPlus",
       "TiMathIntegrals",
       "TiMathIntegral",
-      "TiMathXy",
-      "TiMathFunction",
-      "RiKanbanView"
+      "TiMathXy"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,7 @@
   "Outros estudos/Estudos de cálculo": "TiMathFunction",
   "Outros estudos/Estudos de cálculo/Pré-cálculo": "TiMathXy",
   "Outros estudos/Estudos de cálculo/Cálculo I": "TiMathIntegral",
-  "Outros estudos/Estudos de cálculo/Cálculo II": "TiMathIntegrals"
+  "Outros estudos/Estudos de cálculo/Cálculo II": "TiMathIntegrals",
+  "Outros estudos": "FasPlus",
+  "Ciencia_Computacao": "LiComputer"
 }

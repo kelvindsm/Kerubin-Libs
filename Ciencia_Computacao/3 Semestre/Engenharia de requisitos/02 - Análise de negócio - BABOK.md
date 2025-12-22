@@ -1,5 +1,6 @@
 ---
 tags:
+  - EngRequisitos
   - Concluido
 ---
 # Análise de Negócios e o Guia BABOK (Business Analysis Body of Knowledge)

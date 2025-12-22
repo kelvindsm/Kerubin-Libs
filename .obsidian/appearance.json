@@ -1,7 +1,8 @@
 {
-  "accentColor": "#4d6aff",
-  "cssTheme": "Sample Theme",
+  "accentColor": "#306388",
+  "cssTheme": "Kerubin Theme",
   "enabledCssSnippets": [
     "css-center-image"
-  ]
+  ],
+  "theme": "obsidian"
 }

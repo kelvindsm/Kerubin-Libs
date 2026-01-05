@@ -1,8 +1,7 @@
 ---
 tags:
   - EngRequisitos
-  - Emprogresso
-  - NaoRevisado
+  - Concluido
 ---
 # Modelagem UML para Análise e Especificação de Requisitos
 ## 1. Introdução à UML (Unified Modeling Language)

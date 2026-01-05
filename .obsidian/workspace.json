@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "12 - Processo de Gerenciamento de Requisitos"
             }
           }
         ]
@@ -57,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
@@ -181,6 +185,26 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/índice engenharia de requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/PriorizacaoMoSCoW.png",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/PriorizacaoHistoriaUsuario.png",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/MatrizPriorizacaoBacklog.png",
+    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/0x - Scrum.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/Scrum.png",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/UML (Unified Modeling Language).md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/CASE.md",
     "Outros estudos/Estudos de cálculo/Pré-cálculo/A08 - Expressões fracionárias.md",
     "Outros estudos/Estudos de cálculo/Pré-cálculo/A05, 06, 07 - Polinômios.md",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222120901.png",
@@ -190,22 +214,6 @@
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145645.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145428.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145331.png",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144250.png",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144205.png",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144129.png",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144023.png",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
     "Fluxo de estudos.canvas",
     "Untitled.canvas",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
@@ -222,10 +230,6 @@
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPM CBOK.md",
     "Calculo roadmap.canvas",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Heurística de Nielsen.md",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/UML (Unified Modeling Language).md",
-    "Outros estudos/Git.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/Índice Engenharia de Requisitos.md",
-    "Atalhos (Shortcuts).md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Guia de referência BPMN.pdf",
     "Ciencia_Computacao/0 - Imagens",
     "Outros estudos",

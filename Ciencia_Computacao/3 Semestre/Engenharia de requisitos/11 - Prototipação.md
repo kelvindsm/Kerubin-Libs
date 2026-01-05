@@ -1,16 +1,17 @@
 ---
 tags:
   - EngRequisitos
-  - NaoRevisado
+  - Concluido
 ---
 # Engenharia de Requisitos - Prototipação
 ## Introdução: Conceitos Fundamentais
 ### Layout
 Um **Layout** é um esboço ou rascunho que mostra a **estrutura física** de uma página (jornal, revista ou internet).
+- Significa: plano, arranjo, esquema, design ou projeto;
 - Engloba a forma como elementos como **texto, gráficos e imagens** se encontram em um determinado espaço.
 - O layout gráfico pressupõe o trabalho de um designer gráfico.
 ### Grid
-O **Grid** é um sistema de regras estabelecidas para a **divisão de espaço**, incluindo padrões como a divisão áurea.
+O **Grid** é um sistema de regras estabelecidas para a **divisão de espaço**, incluindo padrões como a divisão áurea, quadrados ou duplo quadrado, por exemplo.
 - **Organiza** um conteúdo específico em relação ao espaço que irá ocupar.
 - Permite ao designer criar diferentes layouts sem fugir da estrutura predeterminada.
 - **Atenção**: O Grid não limita o Layout.
@@ -21,41 +22,42 @@ O **Wireframe** é um guia visual que representa a **estrutura da página**, sua
 - **Fase Crítica**: O escopo, validação de ideia e requisitos devem ser feitos nesta fase junto ao cliente.
 #### Categorias de Wireframes (Fidelidade)
 Existem 3 categorias de Wireframes:
-- Wireframes de **baixa fidelidade**
-- Wireframes de **média fidelidade**
-- Wireframes de **alta fidelidade**
+- Wireframes de **baixa fidelidade**: representam um ideal da discussão do escopo, é a forma mais "crua" de wireframe;
+- Wireframes de **média fidelidade**: mais avançado que o de baixa fidelidade, tem estrutura elaborada para que se tenha uma visão mais clara do que está em desenvolvimento;
+- Wireframes de **alta fidelidade**: a forma mais avançada de wireframe, sendo bem semelhante com a forma final do projeto.
 ## O Protótipo e a Prototipação
 
 >[!quote] O que é um Protótipo
 > Um protótipo é uma **versão das ideias de projeto** com o intuito de materializar a visão e permitir **testes** anteriores à realização do produto.
+> - Exemplo: maquetes, esboços e rascunhos
 
 - É o primeiro tipo criado, o original.
 - Em engenharia, é um **modelo em menor escala** de um produto (carro, prédio, etc.).
 - Exemplos no Design de Interação:
-    - Uma série de **esboços em papel** construídos à mão livre.
-    - Um conjunto de **storyboards**.
-    - Uma apresentação (PowerPoint, etc.).
-    - Uma interface do sistema desenhada para validação.
-    - Um vídeo simulando o uso de um sistema.
+    - Uma série de **esboços em papel** construídos à mão livre;
+    - Um conjunto de **storyboards**;
+    - Uma apresentação (por exemplo, slides do PowerPoint, etc.);
+    - Uma interface do sistema desenhada para validação;
+    - Um vídeo simulando o uso de um sistema;
     - Interface produzida em alta fidelidade com ferramentas de prototipação.
 ### Prototipação de Software
->[!info] Definição
+>[!quote] Definição
 > - É a atividade de criar **versões incompletas** do programa de software em desenvolvimento.
 > - Seu objetivo é permitir que os usuários **avaliem as propostas** de design e testem-nas, em vez de apenas interpretar descrições.
 > - Pode descrever e comprovar **requisitos que não foram considerados**.
 
 #### Vantagens da Prototipação de Software
-- Promove a **interação com os clientes**.
-- Permite a **avaliação**.
-- Facilita a **coleta de requisitos**.
+- Promove a **interação com os clientes**;
+- Permite a **avaliação**;
+- Facilita a **coleta de requisitos**;
 - Reduz **custos e tempo**.
 ### Por que fazer Protótipos
-- Facilitam a **comunicação** e a formação de ideias.
-- Permitem opiniões sobre o design da interação de forma **fácil e imediata**.
-- **Stakeholders** se envolvem ao ver, tocar e interagir.
-- Permite ensaiar **várias ideias alternativas** sem incorrer em custos altos.
-- Falhas (*gaps*) são identificadas rapidamente.
-- Auxilia a percepção do usuário (validação de requisitos).
+- Facilitam a **comunicação** e a formação de ideias;
+- Permitem opiniões sobre o design da interação de forma **fácil e imediata**;
+- **Stakeholders** se envolvem ao ver, tocar e interagir;
+- Permite ensaiar **várias ideias alternativas** sem incorrer em custos altos;
+- Falhas (*gaps*) são identificadas rapidamente;
+- Auxilia a percepção do usuário (validação de requisitos);
 - Oferecem flexibilidade, rapidez e feedback.
 ## Níveis de Fidelidade dos Protótipos
 Os níveis de fidelidade são definidos pelo grau de detalhamento dos protótipos, classificando sua proximidade com a solução final.
@@ -76,10 +78,11 @@ Os níveis de fidelidade são definidos pelo grau de detalhamento dos protótipo
     - Bom para testar interações de **linguagem natural**.
 5.  **Vídeo Conceitual**: Apresenta um conceito como se fosse um produto real. Objetivo é comunicar a **visão do produto** aos stakeholders.
 ### Média Fidelidade
-- Exemplos: **Slide shows**.
+- Mostra de forma visual como os produto funcionará, apresentando a interface de forma semelhante a final (ainda aberta para ajustes), porém, sem a capacidade de navegação desejada.
+	- Exemplos: **Slide shows**.
 ### Alta Fidelidade
 - A interface de usuário **pode ser executada**, mas a funcionalidade da aplicação **não está totalmente implementada**.
-- Exemplos: Protótipos funcionais, Wireframes clicáveis ou layouts que simulam a navegação.
+	- Exemplos: Protótipos funcionais, Wireframes clicáveis ou layouts que simulam a navegação.
 ## Dimensão e Abrangência da Prototipação
 ### Dimensões
 1.  **Representação**: Diagramas, Interfaces, Descrição Textual.

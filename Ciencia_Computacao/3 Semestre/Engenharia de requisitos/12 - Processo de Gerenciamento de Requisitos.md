@@ -1,7 +1,7 @@
 ---
 tags:
   - EngRequisitos
-  - NaoRevisado
+  - Concluido
 ---
 # Engenharia de Requisitos - Processo de Gerenciamento de Requisitos
 

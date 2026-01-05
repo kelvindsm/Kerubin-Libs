@@ -1,34 +1,34 @@
 ---
 tags:
-  - "#NaoRevisado"
   - "#EngRequisitos"
+  - Concluido
 ---
 # Engenharia de Requisitos - Requisitos de Usabilidade
 
 ## Introdução: UI, AI e UX
 - A interface, arquitetura da informação e experiência do usuário são conceitos interligados essenciais na criação de produtos.
 ### User Interface (UI)
->[!info] Definição de UI
+>[!quote] Definição de UI
 > - Refere-se a toda parte **visual de uma interface**, tanto digital quanto física.
 > - Envolve desde a criação de painéis de carros e controles remotos até a concepção de interfaces para aplicativos e sites.
 ### Architecture Information (AI)
->[!info] Definição de Architecture Information (AI)
+>[!quote] Definição de Architecture Information (AI)
 > - É a área de estudo responsável por **organizar as informações** de uma interface.
 > - Seu objetivo é facilitar o entendimento da informação pelo usuário.
 > - Ganhou destaque com a demanda por **SEO** (Search Engine Optimization), onde o conteúdo e a informação se tornaram foco nos mecanismos de pesquisa.
 ### User Experience (UX)
->[!info] Definição de UX
+>[!quote] Definição de UX
 > - **Experiência do Usuário** ou experiência de quem usa.
 > - Existe desde que as pessoas começaram a "usar" objetos para realizar tarefas.
 > - As experiências são **subjetivas**; cada pessoa tem uma experiência diferente ao usar o mesmo produto.
 
 >[!quote] UX segundo Jakob Nielsen e Donald Norman
-> - A [[Experiência do Usuário (UX)]] engloba **todos os aspectos** da interação do usuário final com a empresa, seus serviços e seus produtos.
+> - A **Experiência do Usuário** (UX) engloba **todos os aspectos** da interação do usuário final com a empresa, seus serviços e seus produtos.
 > - É responsável por estudar as melhores maneiras de atender as **necessidades dos usuários** e deixá-los satisfeitos com todo o processo.
 > - O termo "User Experience" foi criado por **Donald Norman** na década de 1990.
 ## O Conceito de Usabilidade
 ### Definição
->[!info] O que é Usabilidade?
+>[!question] O que é Usabilidade?
 > - Usabilidade é a **facilidade** com que as pessoas podem utilizar uma ferramenta ou objeto para realizar uma tarefa.
 > - No campo de [[Interação Humano-Computador]] e [[Experiência do Usuário (UX)]], refere-se à **simplicidade** e **facilidade** com que uma interface (site, aplicativo, etc.) pode ser utilizada.
 ### Usabilidade conforme a ISO/IEC 25000 (SQuaRE)
@@ -36,27 +36,29 @@ tags:
 > - Característica que estabelece que um produto ou sistema deve ser usado por um usuário específico para o alcance de metas específicas com **eficácia, eficiência e satisfação** em um contexto de uso determinado.
 > - Representa o **esforço necessário** para utilizar o software, especificando tanto o nível de desempenho quanto a satisfação do usuário.
 #### Subcaracterísticas
-- **Aprendizagem**
-- **Operabilidade**
-- **Proteção ao erro do usuário**
-- **Acessibilidade**
-- **Reconhecimento**
-- **Estética**
+- **Aprendizagem**;
+- **Operabilidade**;
+- **Proteção ao erro do usuário**;
+- **Acessibilidade**;
+- **Reconhecimento**;
+- **Estética**;
 #### Aspectos de Aplicação
 - **Facilidade de Aprender**: Associado ao tempo e esforço mínimo exigido para alcançar um determinado nível de desempenho no uso do sistema.
 - **Facilidade de Uso**: Relacionado à velocidade de execução de tarefas e à redução de erros no uso do sistema.
 #### Critérios de Medição
-- Tempo para realizar uma tarefa
-- Percentual da tarefa concluído
-- Percentual da tarefa concluído por unidade de tempo
-- Taxa de sucessos/falhas
-- Número de comandos utilizados
-- Número de comandos disponíveis não utilizados
-- Frequência de uso de ajuda (help) ou documentação
-- Número de vezes que o usuário expressa satisfação
+- Tempo para realizar uma tarefa;
+- Percentual da tarefa concluído;
+- Percentual da tarefa concluído por unidade de tempo;
+- Taxa de sucessos/falhas;
+- Número de comandos utilizados;
+- Número de comandos disponíveis não utilizados;
+- Frequência de uso de ajuda (help) ou documentação;
+- Número de vezes que o usuário expressa satisfação;
 ## Requisitos de Usabilidade na Prática
 ### 1. Simplicidade não é Simples
-Chegar a uma solução simples de usabilidade é um processo complicado. A simplificação exige vários **rounds de design** e discussões sobre a priorização de funções.
+Chegar a uma solução simples de usabilidade é um processo complicado. A simplificação exige vários **rounds de design** e discussões sobre a priorização de funções;
+- Simplificar é um processo tão difícil e repetitivo que muito se diz que "design nunca acaba";
+- Sempre é possível otimizar mais alguma área, diminuir a carga cognitiva sobre o usuário ou alterar o visual dos elementos para "torná-lo mais simples de usar".
 
 >[!tip] Vantagem das Interfaces Digitais
 > - Elas permitem **exibir e esconder botões** à medida que o usuário avança no fluxo.
@@ -70,6 +72,7 @@ Os seres humanos têm uma **capacidade limitada** de digerir informações quand
 
 >[!tip] Regra Geral
 > - A regra é **simplificar, reduzir e oferecer informações em doses digeríveis** para evitar que as pessoas se sintam pressionadas a tomar decisões excessivas.
+> 	- É importante garantir que a interface não esteja bombardeando o usuário com informação, para que a tarefa possa ser realizada com sucesso.
 
 - **Priorize** informações buscadas com frequência para que sejam acessadas com menos cliques.
 - Evite bombardear o usuário com informação, garantindo que a tarefa seja realizada com sucesso.

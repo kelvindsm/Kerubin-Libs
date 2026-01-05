@@ -1,8 +1,9 @@
 {
   "accentColor": "#306388",
-  "cssTheme": "Kerubin Theme",
+  "cssTheme": "",
   "enabledCssSnippets": [
-    "css-center-image"
+    "css-center-image",
+    "headers"
   ],
   "theme": "obsidian"
 }

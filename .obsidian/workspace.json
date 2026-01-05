@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222120901.png"
+                "file": "Outros estudos/Estudos de cálculo/Pré-cálculo/A08 - Expressões fracionárias.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251222120901"
+              "icon": "lucide-file",
+              "title": "A08 - Expressões fracionárias"
             }
           }
         ]
@@ -42,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(GIT)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c1c183d8687ccd",
@@ -169,20 +172,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9fd362e6eb3e5cf7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Outros estudos/Estudos de cálculo/Pré-cálculo/A05, 06, 07 - Polinômios.md",
+    "Outros estudos/Estudos de cálculo/Pré-cálculo/A08 - Expressões fracionárias.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222120901.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/05 - Diagrama de Classes UML.md",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145921.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145831.png",
@@ -193,7 +199,6 @@
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144205.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144129.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222144023.png",
-    "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222143854.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
@@ -208,7 +213,6 @@
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
     "Fluxo de estudos.canvas",
     "Untitled.canvas",
-    "Outros estudos/Estudos de cálculo/Pré-cálculo/A05, 06, 07 - Polinômios.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
     "Outros estudos/Estudos de cálculo/Cálculo II",
     "Outros estudos/Estudos de cálculo/Cálculo I",

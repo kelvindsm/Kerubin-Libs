@@ -1,6 +1,10 @@
 {
   "accentColor": "#306388",
+<<<<<<< HEAD
   "cssTheme": "KerubinTheme",
+=======
+  "cssTheme": "",
+>>>>>>> refs/remotes/origin/main
   "enabledCssSnippets": [
     "css-center-image",
     "headers"

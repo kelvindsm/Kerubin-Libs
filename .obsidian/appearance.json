@@ -1,13 +1,5 @@
 {
-  "accentColor": "#306388",
-<<<<<<< HEAD
   "cssTheme": "KerubinTheme",
-=======
-  "cssTheme": "",
->>>>>>> refs/remotes/origin/main
-  "enabledCssSnippets": [
-    "css-center-image",
-    "headers"
-  ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": "#5173d6"
 }

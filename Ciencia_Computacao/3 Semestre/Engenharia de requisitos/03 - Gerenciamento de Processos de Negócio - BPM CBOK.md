@@ -6,7 +6,6 @@ tags:
 # Gerenciamento de Processos de Negócio (BPM) e o Guia BPM CBOK
 
 ## Introdução: O Foco em Processos e Automação
-
 O **Gerenciamento de Processos de Negócio (BPM - Business Process Management)** é a disciplina fundamental para a compreensão e otimização do funcionamento de uma organização, servindo de base para qualquer projeto de tecnologia e *Engenharia de Requisitos*.
 
 >[!quote] Segundo Bill Gates
@@ -14,18 +13,16 @@ O **Gerenciamento de Processos de Negócio (BPM - Business Process Management)**
 
 ### O Guia BPM CBOK®
 O **Guia para o [[BPM CBOK]]® (Business Process Management Common Body of Knowledge)** é um documento de consulta básica para profissionais.
-
 - **Finalidade:** Identificar e fornecer uma visão geral das **Áreas de Conhecimento** que são geralmente reconhecidas e aceitas como boas práticas em BPM.
 - **Estrutura:** O guia é organizado em **nove áreas de conhecimento** (ou capítulos).
 
 ---
 ## Conceitos de Negócio e Processo
-
 >[!quote] Conceito de Negócio
 > O termo **NEGÓCIO** refere-se a pessoas que interagem para executar um conjunto de atividades de entrega de valor a clientes e gerar retorno de investimento a partes interessadas.
 
 - **Abrangência:** Negócio abrange todos os tipos de organizações, com ou sem fins lucrativos, incluindo as governamentais.
- 
+
 >[!quote] Conceito de Processo
 >Um **Processo** é a maneira típica de realizar o trabalho em uma empresa.
 
@@ -36,48 +33,41 @@ O **Guia para o [[BPM CBOK]]® (Business Process Management Common Body of Knowl
 - São compostos por várias **tarefas ou atividades inter-relacionadas**.
 - Apresentam um ou mais resultados que podem conduzir ao término ou à transferência de controle para outro processo.
 - Não existe produto ou serviço sem um processo empresarial, e não faz sentido existir um processo que não ofereça um produto ou serviço.
-
 ### Processo de Negócio (Business Process)
-
 O foco na perspectiva de BPM é o **Processo de Negócio**.
-
 >[!info] Definição de Processo de Negócio
 > É um trabalho **ponta a ponta ("end-to-end")** que entrega **valor aos clientes**. Essa noção de trabalho *ponta-a-ponta* é chave, pois envolve todo o trabalho cruzando limites funcionais.
-
 - **Inter-funcionalidade:** A primeira característica importante dos processos é a **inter-funcionalidade**. A maioria dos processos importantes atravessa as fronteiras das áreas funcionais.
 - **Clientes:** A segunda característica é que eles têm clientes, que podem ser internos ou externos.
-
 ---
 ## Processo vs. Função e Tipos de Processos
 ### Processo vs. Função
 A **Visão por Processos** contrasta com a **Visão Tradicional (Funcional)** das organizações, que se baseia na **especialização da tarefa** e estrutura hierárquica.
 
-| Atributos | Visão Tradicional (Função) | Visão por Processos (Processo) |
-| :--- | :--- | :--- |
-| **Foco** | Chefe | Cliente |
-| **Relacionamento primário** | Cadeia de comando | Cliente / Fornecedor |
-| **Orientação** | Hierárquica | Processo |
-| **Quem toma decisão** | Gerência | Todos os participantes |
-| **Estilo** | Autoritário | Participativo |
+| Atributos                   | Visão Tradicional (Função) | Visão por Processos (Processo) |
+| :-------------------------- | :------------------------- | :----------------------------- |
+| **Foco**                    | Chefe                      | Cliente                        |
+| **Relacionamento primário** | Cadeia de comando          | Cliente / Fornecedor           |
+| **Orientação**              | Hierárquica                | Processo                       |
+| **Quem toma decisão**       | Gerência                   | Todos os participantes         |
+| **Estilo**                  | Autoritário                | Participativo                  |
 
 - **Funções de Negócio:** Grupo de atividades relacionadas a objetivo ou tarefa particular (Ex: vendas, finanças). Funções são contínuas e permanentes.
 - **Processos de Negócio:** Focam em transações **ponta a ponta** para agregar valor ao cliente. O departamento funcional (ex: Contabilidade) suporta esses processos, mas não é o responsável pelo trabalho ponta a ponta associado ao macroprocesso.
-
 ### Tipos de Processos de Negócio
 Existem três categorias básicas de processos empresariais:
 1. **Processos Primários (Essenciais ou de Negócio):**
-- Caracterizam a atuação da empresa e são suportados por outros processos internos.
-- Resultam no **produto ou serviço** que é recebido por um **cliente externo**.
-- *Exemplos:* Vendas, Desenvolvimento de produtos, Distribuição.
+	- Caracterizam a atuação da empresa e são suportados por outros processos internos.
+	- Resultam no **produto ou serviço** que é recebido por um **cliente externo**.
+	- *Exemplos:* Vendas, Desenvolvimento de produtos, Distribuição.
 2. **Processos de Suporte (Secundários ou Auxiliares):**
-- São centralizados na organização e **viabilizam o funcionamento coordenado** dos subsistemas.
-- Garantem o **suporte adequado** aos processos de negócio.
-- *Exemplos:* Orçamento empresarial, Recrutamento e seleção, Compras.
+	- São centralizados na organização e **viabilizam o funcionamento coordenado** dos subsistemas.
+	- Garantem o **suporte adequado** aos processos de negócio.
+	- *Exemplos:* Orçamento empresarial, Recrutamento e seleção, Compras.
 3. **Processos de Gerenciamento (Gerenciais):**
-- Focalizados nos gerentes e suas relações.
-- Incluem ações de **planejamento, medição e ajuste** do desempenho da organização.
-- *Exemplos:* Fixação de metas, Avaliação do resultado da empresa, Planejamento estratégico.
-
+	- Focalizados nos gerentes e suas relações.
+	- Incluem ações de **planejamento, medição e ajuste** do desempenho da organização.
+	- *Exemplos:* Fixação de metas, Avaliação do resultado da empresa, Planejamento estratégico.
 ---
 ## O Ciclo de Vida BPM
 >[!quote] Conceito
@@ -112,7 +102,6 @@ Os processos de negócio ao longo do ciclo de vida são habilitados ou restringi
 ## Medição e Desempenho
 A prática de Gestão por Processos requer a **medição e supervisão do desempenho do processo**.
 - **Princípio:** "Não se gerencia o que não se mede, não se mede o que não se define, não se define o que não se entende e não há sucesso no que não se gerencia" (William Edwards).
-
 ### Dimensões do Desempenho:
 1. **Extensão com que as metas de processo são alcançadas** (**Eficácia** - Fazer as coisas certas...).
 2. **Eficiência e eficácia das atividades de processo** (**Eficiência** - Fazer bem as coisas...).
@@ -159,5 +148,4 @@ Uma sessão de mapeamento é uma reunião de trabalho realizada com pessoas-chav
 	- Foco mais operacional.
 	- **Objetivos:** Detalhar, especificar, exemplificar e **validar** as informações apresentadas no mapeamento em grupo.
 	- Aspectos operacionais e particularidades são identificados e documentados pelo analista de processos.
-
 ---

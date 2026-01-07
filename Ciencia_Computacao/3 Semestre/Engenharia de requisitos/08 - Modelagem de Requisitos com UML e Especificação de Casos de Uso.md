@@ -51,7 +51,7 @@ Os relacionamentos ajudam a reestruturar o diagrama para melhor demonstrar o enc
 
 ---
 ## 3. Especificação de Casos de Uso (UML)
-A [[03 - Casos de uso e Requisitos Não Funcionais|Especificação de Caso de Uso]] é a descrição **narrativa textual** das interações que ocorrem entre os elementos externos (Ator) e o sistema.
+A [[03 - Casos de uso e Requisitos Não Funcionais|Especificação de Caso de Uso]] é a descrição **narrativa textual das interações** que ocorrem entre os elementos externos (Ator) e o sistema.
 - **Diagrama vs. Especificação:** Enquanto o [[04 - Diagrama de caso de uso|diagrama]] representa a visão **gráfica** e macro do usuário, a especificação é o detalhamento **textual** das interações.
 - **Modelo Padrão:** A UML não define uma estrutura textual única, mas a boa prática exige: Identificação, Atores, Descrição, Pré-condição, Fluxo Principal, Fluxos Alternativos e Pós-condição.
 ### Componentes da Especificação

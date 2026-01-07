@@ -15,7 +15,7 @@ O **Analista/Engenheiro de Requisitos** tem o papel crucial de **transformar nec
 > - O software é entregue, atendendo às necessidades.
 
 - O processo de **Análise do Problema** e elaboração de uma **Proposta de Solução** é fundamental, culminando no **Software para Automação do Processo**. O software essencialmente **automatiza as tarefas de um processo de negócio**.
-### Comunicação: Negócio (Problema) vs. Software (Solução)
+### Comunicação: Negócio (Problema) vs Software (Solução)
 O processo de comunicação é essencial para ligar o lado do **Negócio** (Problema) ao lado do **Software** (Solução). O desafio reside no fato de que **Clientes** e **Técnicos** vivem em "Mundos Diferentes":
 
 | Clientes (Negócio)                          | Técnicos (Solução)                                         |

@@ -43,6 +43,7 @@ O Scrum se apoia em três pilares e cinco valores.
 > - **Backlog da Sprint:** O escopo **não deve ser alterado** durante a Sprint.
 > - **Incremento:** Nasce quando um item atende à **Definição de Pronto (DoD)**.
  
+---
 ## 2. Especificação Ágil: Histórias de Usuário
 As Histórias de Usuário (*"User Stories"*) são a forma padrão de expressar requisitos em ambientes ágeis.
 - **Conceito:** Representa uma funcionalidade ou característica do produto "narrada" pelo ponto de vista do usuário.
@@ -67,6 +68,7 @@ O **Product Owner (PO)** prioriza o backlog. A prioridade de um item diminui con
 ![[MatrizPriorizacaoBacklog.png|center|450]]
 
 2. **Técnica MoSCoW:** Must have, Should have, Could have, Will not have.![[PriorizacaoMoSCoW.png|center|450]]
+---
 ## 3. Técnicas Ágeis de Descoberta
 Para descobrir e detalhar as funcionalidades do produto, são utilizadas técnicas focadas na perspectiva e experiência do usuário:
 ### Personas e Jornada do Usuário
@@ -82,6 +84,7 @@ Representação visual que aprofunda o conhecimento sobre o usuário, organizand
 - O que ele **FALA E FAZ** (atitude em público, comportamento).
 - **FRAQUEZAS** (medos, frustrações).
 - **GANHOS** (desejos e necessidades).
+---
 ## 4. Especificação com Modelagem UML
 A **UML (Unified Modeling Language)** é uma linguagem gráfica de modelagem utilizada para: visualizar, especificar, construir e documentar artefatos de sistemas complexos.
 - **Princípio:** Um modelo é uma simplificação (representação) da realidade, usado para compreender melhor o sistema.

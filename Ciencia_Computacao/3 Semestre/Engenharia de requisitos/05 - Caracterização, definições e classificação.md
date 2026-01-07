@@ -9,7 +9,6 @@ tags:
 A **Engenharia de Requisitos (ER)** é uma sub-área da [[01 - Conceitos fundamentais de engenharia de software|Engenharia de Software (ES)]] que estuda o processo de produção e gerência dos requisitos que o software deverá atender.
 - **Estabelecimento:** A ER foi estabelecida como disciplina independente em 1993, com a criação do IEEE International Symposium on Requirements Engineering.
 - **Objetivo da ER:** <mark style="background: #FFB8EBA6;">Fornecer métodos, procedimentos e ferramentas que deem suporte adequado</mark> às tarefas de produção e gerência dos requisitos do sistema.
-
 ### O Custo da ER Inadequada
 Organizações que <mark style="background: #FF5582A6;">trabalham sem um processo formal de ER tendem a identificar requisitos rapidamente e iniciar a codificação</mark> (processo **"codifica-remenda"**).
 - **Consequências:** Estes projetos frequentemente estouram o prazo e o orçamento.
@@ -23,6 +22,7 @@ Organizações que <mark style="background: #FF5582A6;">trabalham sem um process
 > - Sendo pré-requisito no teste de sistema.
 
 - **Sintomas de ER Inadequada:** Requisitos não especificados, sem clareza ou incorretos. Isso ocorre devido à pressa para a construção, problemas de comunicação, e o pressuposto de que os requisitos são evidentes por si mesmos.
+---
 ## Estrutura da Engenharia de Requisitos
 A *Engenharia de Requisitos* engloba dois processos principais:
 1. **[[07 - O Processo Completo de Vida do Requisito|Produção de Requisitos]]**.
@@ -41,6 +41,7 @@ Visa garantir que os requisitos sejam controlados e mantidos ao longo do ciclo d
 	- Gerência de Configuração.
 	- Rastreabilidade.
 	- [[12 - Processo de Gerenciamento de Requisitos|Qualidade de Requisitos]].
+---
 ## Documento e Tipos de Requisitos
 ### Definição e Abordagens de Requisitos
 - **[[10 - Requisitos de usabilidade|Requisito de Software]]:** "Uma ação a ser executada por um sistema, possuindo características e condições próprias e que devem ser atendidas conforme as necessidades de negócio do usuário".
@@ -57,6 +58,7 @@ Os requisitos são organizados em níveis, do mais alto (negócio) ao mais baixo
 1. **Requisitos do Negócio (Necessidades):** Metas de nível mais alto, objetivos ou problemas da organização.
 2. **Requisitos de Usuário (Características):** O que os usuários / *stakeholders* querem de sua perspectiva (objetivos, funcionalidades, prioridade, ambiente).
 3. **Requisitos de Sistema (Solução):** O que o sistema deve fazer. São a base para o desenvolvimento.
+---
 ## Classificação Detalhada dos Requisitos de Software
 Os [[03 - Casos de uso e Requisitos Não Funcionais|Requisitos de Software]] são definidos em linguagem estruturada e podem ser classificados em quatro tipos inter-relacionados:
 ### 1. Requisitos Funcionais (RF)

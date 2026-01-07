@@ -26,6 +26,8 @@ tags:
 > - A **Experiência do Usuário** (UX) engloba **todos os aspectos** da interação do usuário final com a empresa, seus serviços e seus produtos.
 > - É responsável por estudar as melhores maneiras de atender as **necessidades dos usuários** e deixá-los satisfeitos com todo o processo.
 > - O termo "User Experience" foi criado por **Donald Norman** na década de 1990.
+
+---
 ## O Conceito de Usabilidade
 ### Definição
 >[!question] O que é Usabilidade?
@@ -54,6 +56,7 @@ tags:
 - Número de comandos disponíveis não utilizados;
 - Frequência de uso de ajuda (help) ou documentação;
 - Número de vezes que o usuário expressa satisfação;
+---
 ## Requisitos de Usabilidade na Prática
 ### 1. Simplicidade não é Simples
 Chegar a uma solução simples de usabilidade é um processo complicado. A simplificação exige vários **rounds de design** e discussões sobre a priorização de funções;
@@ -116,6 +119,7 @@ Hierarquia é o uso de diferentes **estilos visuais** para os elementos da tela,
 - Verifique se a informação pode ser coletada em um momento futuro e se está claro para o consumidor por que ela é solicitada.
 - Oferecer a opção de "**Comprar sem conta**" ou "Comprar como convidado" evita um desvio de rota grande na experiência do usuário (Exemplo: Nike.com).
 - Apresente o **melhor tipo de campo** para o usuário (Exemplo: usar um **calendário** para seleção de datas em vez de um campo de texto, evitando erros de formatação como *DD*/*MM*/*AAAA*).
+---
 ## Princípios de Usabilidade de Hansen
 - Wilfred J. Hansen publicou em 1971 os princípios de Usabilidade para sistemas interativos (User engineering principles for interactive systems).
 ### Principais Princípios (ou Engenharia de Usuário)
@@ -129,6 +133,7 @@ Hierarquia é o uso de diferentes **estilos visuais** para os elementos da tela,
     - Execução rápida de operações comuns, **consistência da interface**, e organização/reorganização da estrutura da informação baseada na observação do uso do sistema.
 - **Boas Mensagens de Erro**
     - Criar designs que **evitem os erros mais comuns**, possibilitar desfazer ações realizadas e garantir a integridade do sistema em caso de falha.
+---
 ## Os 10 Princípios Heurísticos de Nielsen
 Jakob Nielsen, co-fundador do Nielsen Norman Group, criou a **[[Heurística de Nielsen|avaliação heurística]]**.
 1.  **Visibilidade do status do sistema**

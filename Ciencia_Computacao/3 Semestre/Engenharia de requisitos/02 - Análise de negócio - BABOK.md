@@ -22,7 +22,6 @@ O BABOK define conceitos cruciais para a disciplina:
 - **Solução:** Um conjunto de mudanças no estado atual de uma organização que resolve um problema de negócio ou permite que a organização aproveite uma oportunidade.
 - **Estado Atual:** O modo de operação, capacidades e ambiente de uma organização no momento presente.
 - **Estado Futuro Desejado:** A nova configuração de pessoas, processos e tecnologia que uma organização precisa alcançar para atingir seus objetivos de negócio.
-
 ---
 ## Seis Áreas de Conhecimento do BABOK v2.0
 - O BABOK v2.0 é estruturado em **seis Áreas de Conhecimento** que agrupam as tarefas realizadas pelo Analista de Negócios.
@@ -75,7 +74,6 @@ Esta área de conhecimento ocorre após a implementação, verificando se a solu
     - Definir Requisitos de Transição (necessários para a migração).
     - Validar Solução (teste de aceitação do usuário).
     - Avaliar o Desempenho da Solução (medir os benefícios após o uso).
-
 ---
 ## O Analista de Negócio em Detalhe
 - O **Analista de Negócio (BA)** é o principal responsável por garantir que os requisitos da solução estejam alinhados com o estado futuro desejado e que os **Stakeholders** concordem com a solução.
@@ -83,7 +81,5 @@ Esta área de conhecimento ocorre após a implementação, verificando se a solu
 >[!tip] Relação com a Engenharia de Requisitos
 > - A **Análise Corporativa** define a necessidade e o escopo (**o que** o negócio precisa).
 > - A **Análise de Requisitos** e a **Elicitação** transformam essa necessidade em especificações detalhadas (**como** a solução deve se comportar), que é o foco principal da [[01 - Contextualização da engenharia de requisitos|Engenharia de requisitos]].
-
----
 
 [^1]: Acessar conteúdo complementar sobre o [[Guia Babok]]

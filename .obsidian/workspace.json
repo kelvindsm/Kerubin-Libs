@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "da8df6915216c90c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d5fd492e9a57dea9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
+                "file": "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/01 - Abordagens ágeis centradas no cliente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 - Processo de Gerenciamento de Requisitos"
+              "title": "01 - Abordagens ágeis centradas no cliente"
             }
           }
         ]
@@ -183,21 +183,28 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9fd362e6eb3e5cf7",
   "lastOpenFiles": [
+    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/12 - Extreme Programming.md",
+    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/01 - Abordagens ágeis centradas no cliente.md",
+    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
+    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/13 - DevOPS.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/07 - O Processo Completo de Vida do Requisito.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/índice engenharia de requisitos.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+    "Outros estudos/Git.md",
+    "Fluxo de estudos.canvas",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/09 - Análise e Especificações com Abordagens ágeis.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/11 - Prototipação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/12 - Processo de Gerenciamento de Requisitos.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/06 - Qualidade de Software e norma ISO 25000.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/05 - Caracterização, definições e classificação.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/04 - Modelagem de Processos de Negócio (BPMN).md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/03 - Gerenciamento de Processos de Negócio - BPM CBOK.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/02 - Análise de negócio - BABOK.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/01 - Contextualização da engenharia de requisitos.md",
+    "Ciencia_Computacao/2 Semestre/Engenharia de Software/07 - Teste de software.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/índice engenharia de requisitos.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/PriorizacaoMoSCoW.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/PriorizacaoHistoriaUsuario.png",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Imagens/MatrizPriorizacaoBacklog.png",
@@ -214,22 +221,15 @@
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145645.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145428.png",
     "Ciencia_Computacao/2 Semestre/Engenharia de Software/Imagens/Pasted image 20251222145331.png",
-    "Fluxo de estudos.canvas",
     "Untitled.canvas",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
     "Outros estudos/Estudos de cálculo/Cálculo II",
     "Outros estudos/Estudos de cálculo/Cálculo I",
     "Outros estudos/Estudos de cálculo/Pré-cálculo",
     "Outros estudos/Estudos de cálculo",
     "Excalidraw/Drawing 2025-12-14 16.54.35.excalidraw.md",
     "Excalidraw",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/13 - DevOPS.md",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/12 - Extreme Programming.md",
     "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas",
-    "Scrum.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPM CBOK.md",
     "Calculo roadmap.canvas",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Heurística de Nielsen.md",
     "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Guia de referência BPMN.pdf",
     "Ciencia_Computacao/0 - Imagens",
     "Outros estudos",

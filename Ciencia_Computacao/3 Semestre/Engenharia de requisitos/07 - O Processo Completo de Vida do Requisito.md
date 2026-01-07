@@ -11,6 +11,8 @@ tags:
 > "Caminhar sobre a água e desenvolver software a partir de uma especificação de requisitos é fácil se ambos estão congelados".
 > 
 > *Esta citação sublinha a volatilidade inerente aos requisitos.*
+
+---
 ## 1. Etapas da Produção ou Desenvolvimento de Requisitos
 O processo de produção envolve quatro macro-etapas, que são cíclicas e inter-relacionadas:
 1. **Elicitação:** Investigação, busca, descoberta dos requisitos.
@@ -111,6 +113,8 @@ A Validação é <mark class="hltr-green">fundamental para garantir que existe u
 >- Precisam ser validadas entre os *stakeholders* e a equipe de desenvolvimento para **garantir que existe uma compreensão correta e comum sobre os requisitos** e que a equipe de desenvolvimento possui condições de implementar um produto que irá satisfazer as necessidades do negócio;
 >- A **validação pode ser realizada por meio de revisões sobre as especificações**, feito por revisores designados, ou em **workshops de validação**, onde diversos tipos de *stakeholders* são envolvidos.
 >- **Podem ser usados protótipos funcionais para a confirmação do requisito** e até para apoiar a elicitação de novos requisitos.
+
+---
 ## 2. Gerenciamento de Requisitos
 O **Gerenciamento de Requisitos é o enfoque sistemático para a elicitação, organização e documentação dos requisitos**, mantendo o acordo entre usuários e a equipe de projeto à medida que os requisitos se modificam.
 
@@ -123,6 +127,7 @@ O **Gerenciamento de Requisitos é o enfoque sistemático para a elicitação, o
 - **Objetivo:** Conduzir as alterações de forma ordenada e garantir que o impacto das mudanças seja avaliado e compreendido.
 - **Base para Análise de Impacto:** É crucial manter a [[Rastreabilidade]] entre a fonte do requisito, as relações entre os requisitos, e os artefatos seguintes (como o código).
 - **Fases:** Gerenciamento de Mudanças, Gerenciamento de Configuração, Gerência da Qualidade de Requisitos e Rastreabilidade.
+---
 ## 3. Métodos Ágeis e Histórias de Usuário
 Os métodos ágeis trouxeram uma forma diferente de organizar os requisitos, utilizando as **Histórias de Usuário**.
 ### Metodologia vs. Framework (Scrum)

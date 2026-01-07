@@ -25,6 +25,7 @@ Existem 3 categorias de Wireframes:
 - Wireframes de **baixa fidelidade**: representam um ideal da discussão do escopo, é a forma mais "crua" de wireframe;
 - Wireframes de **média fidelidade**: mais avançado que o de baixa fidelidade, tem estrutura elaborada para que se tenha uma visão mais clara do que está em desenvolvimento;
 - Wireframes de **alta fidelidade**: a forma mais avançada de wireframe, sendo bem semelhante com a forma final do projeto.
+---
 ## O Protótipo e a Prototipação
 
 >[!quote] O que é um Protótipo
@@ -59,6 +60,7 @@ Existem 3 categorias de Wireframes:
 - Falhas (*gaps*) são identificadas rapidamente;
 - Auxilia a percepção do usuário (validação de requisitos);
 - Oferecem flexibilidade, rapidez e feedback.
+---
 ## Níveis de Fidelidade dos Protótipos
 Os níveis de fidelidade são definidos pelo grau de detalhamento dos protótipos, classificando sua proximidade com a solução final.
 ### Baixa Fidelidade
@@ -83,6 +85,7 @@ Os níveis de fidelidade são definidos pelo grau de detalhamento dos protótipo
 ### Alta Fidelidade
 - A interface de usuário **pode ser executada**, mas a funcionalidade da aplicação **não está totalmente implementada**.
 	- Exemplos: Protótipos funcionais, Wireframes clicáveis ou layouts que simulam a navegação.
+---
 ## Dimensão e Abrangência da Prototipação
 ### Dimensões
 1.  **Representação**: Diagramas, Interfaces, Descrição Textual.

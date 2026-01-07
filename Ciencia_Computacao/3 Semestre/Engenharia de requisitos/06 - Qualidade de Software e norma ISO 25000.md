@@ -8,8 +8,7 @@ tags:
 A **Qualidade de Software** é avaliada por atributos que garantem que o sistema satisfaça as necessidades dos usuários e agregue valor. A qualidade de um sistema é o grau em que ele satisfaz as necessidades explícitas e implícitas de seus usuários.
 
 >[!quote] Definição de Roger Pressman
-> "Qualidade de software <mark style="background: #FF5582A6;">é a conformidade a requisitos funcionais e de desempenho,</mark> que foram explicitamente declarados, <mark style="background: #FF5582A6;">a padrões de desenvolvimento claramente documentados, e a características implícitas</mark> que são esperadas de todo o software profissionalmente desenvolvido".
-
+> "Qualidade de software é a conformidade a requisitos funcionais e de desempenho, que foram explicitamente declarados, a padrões de desenvolvimento claramente documentados, e a características implícitas que são esperadas de todo o software profissionalmente desenvolvido".
 ### Aspectos Chave da Qualidade
 As definições de qualidade enfatizam três aspectos importantes:
 1. **Requisitos são a base:** Os Requisitos Funcionais e de desempenho são a base a partir da qual a qualidade é medida. A falta de conformidade com os requisitos significa falta de qualidade.
@@ -23,6 +22,7 @@ A percepção da qualidade do software *varia dependendo do Stakeholder*:
 ### Premissas da Qualidade
 - A qualidade não pode ser incorporada ao produto depois de pronto.
 - Ela deve ser um objetivo constante do processo de desenvolvimento, inserida desde as primeiras fases do ciclo de vida.
+---
 ## Histórico e Arquitetura ISO 25000 (SQuaRE)
 O **SQuaRE (Software Product Quality Requirements and Evaluation)** é a arquitetura de normas que orienta a revisão e criação de padrões de qualidade de software.
 
@@ -36,6 +36,7 @@ A família ISO 25000 é dividida em seções (2500n, 2501n, etc.) para cobrir to
 - **2502n (Medição da Qualidade):** Modelo de referência para a medição de produtos de software.
 - **2503n (Requisitos de Qualidade):** Especifica o que são requisitos de qualidade.
 - **2504n (Avaliação da Qualidade):** Requisitos, recomendações e orientações para a avaliação.
+---
 ## ISO/IEC 25010: Qualidade do Produto de Software
 A ISO/IEC 25010 define 8 características de qualidade de produto de software, essenciais para a especificação de [[03 - Casos de uso e Requisitos Não Funcionais|Requisitos Não Funcionais (RQs)]].
 ### 1. Adequação Funcional
@@ -68,6 +69,7 @@ Diz que um sistema possui a capacidade de ser **modificado** com determinado gra
 Diz que um sistema pode ser **transferido** de um hardware, software ou ambiente operacional para outro, com determinado grau de eficácia e eficiência.
 - **Subcaracterísticas:** Adaptabilidade, Instalabilidade, Capacidade de substituição.
 - Corresponde à capacidade de operar em diferentes ambientes (organizacionais, de hardware e software).
+---
 ## ISO/IEC 25010: Qualidade em Uso do Software
 Além das 8 características de Produto, a ISO/IEC 25010 fornece um modelo de **Qualidade em Uso**, que é uma avaliação da qualidade na perspectiva do usuário.
 - **Fatores de Avaliação:**

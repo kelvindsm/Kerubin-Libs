@@ -18,7 +18,6 @@ tags:
 
 - **Utilidades em Negócios:** Organização, Descoberta (aprendizagem), Previsão (estimativas), Explicação (ensino), Verificação (validação) e Controle (restrições, objetivos).
 - **Conteúdo do Modelo de Processos:** Inclui ícones que representam atividades, eventos, decisões, condições e outros elementos.
-
 ---
 ## Diagrama x Mapa x Modelo de Processos
 - Diagramas, mapas e modelos são utilizados de formas complementares, representando diferentes estágios de desenvolvimento, cada qual agregando mais informações e utilidade.
@@ -42,7 +41,6 @@ tags:
 
 ---
 ## Notações de Modelagem de Processos
-
 >[!quote] Definição
 >- **Notação** é um conjunto padronizado de símbolos e regras que determinam o significado desses símbolos, permitindo a comunicação padronizada.
 >	- **Vantagens de Notações Padrão:** Consistência, importação e exportação de modelos entre ferramentas, e geração de aplicações a partir de modelos.
@@ -65,27 +63,25 @@ tags:
 ### Componentes de um Diagrama BPMN (4 Categorias)
 O Diagrama de Processos de Negócio em BPMN é composto por quatro categorias básicas de elementos:
 #### 1. Objetos de Fluxo (Flow Objects)
-Elementos principais que definem o comportamento do processo.
-
+Elementos principais que definem o comportamento do processo:
 - **Atividades (Activity):** Passos lógicos, termo genérico para trabalho executado. Podem ser:
 	- **Tarefa (Task):** Atômica. Ex: *User Task* (usuário com sistema), *Service Task* (automática), *Manual Task*, *Script Task*.
 	- **Subprocesso:** Não atômica, composta por uma série de outras atividades. Distinguido por uma pequena cruz no centro inferior.
 	- **Modos de Execução:** Normal, Sequencial (em *loop*), ou Em Paralelo (múltiplas instâncias).
-	![[Pasted image 20251127131244.png|center|350]]
+		![[Pasted image 20251127131244.png|center|350]]
 - **Eventos (Event):** Algo que acontece ou pode acontecer em um processo. Afetam o fluxo e têm uma causa (*trigger*) ou um impacto (*result*).
 	- **Início:** Círculo simples. Indica onde o processo/subprocesso se inicia. Ex: Timer (ciclo de tempo ou data específica), Mensagem (recebida).
-	![[Pasted image 20251127140046.png|center|350]]
+		![[Pasted image 20251127140046.png|center|350]]
 	- **Intermediário:** Círculo duplo. Usado para expressar esperas ou tratar *timeouts*.
-	![[Pasted image 20251127140234.png|center|350]]
+		![[Pasted image 20251127140234.png|center|350]]
 	- **Fim:** Círculo mais forte (hachurado).
-	 ![[Pasted image 20251127140327.png|center|350]]
+		![[Pasted image 20251127140327.png|center|350]]
 - **Decisões (Gateway):** Controlam o fluxo de sequência (divergência e convergência).
-	![[Pasted image 20251127140424.png|center|350]]
+		![[Pasted image 20251127140424.png|center|350]]
 - **Exclusivo (X ou Diamante Vazio):** Apenas **um** caminho é seguido, com base em uma condição a ser testada.
 - **Paralelo (+):** Divide o fluxo em caminhos paralelos. Semanticamente funciona como um **"e (AND)**, onde **todos** os caminhos são executados.
 - **Inclusivo (O com marcador):** **Um e/ou mais** caminhos são seguidos. Semanticamente funciona como **"e/ou"**, e realiza a sincronização dos fluxos.
 - **Complexo (*):** Usado para modelar sincronização complexa quando nenhuma outra combinação de *gateways* é suficiente.
-
 #### 2. Objetos de Conexão (Connecting Objects)
 Representam a forma como os objetos de fluxo se conectam.
 - **Fluxo de Sequência (Seta contínua):** Representa a **ordem do fluxo** dentro de uma mesma Piscina (Pool). O tempo (e dependência) é no sentido esquerda para direita.

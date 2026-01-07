@@ -1,5 +1,5 @@
 {
-  "cascadeColors": true,
+  "cascadeColors": false,
   "colorBackground": true,
   "palette": [
     {
@@ -13,14 +13,19 @@
       "value": "#049fd9"
     },
     {
-      "id": "tjzypmvKRijs-Y7sxtt_B",
-      "name": "Programação",
-      "value": "#fb8500"
-    },
-    {
       "id": "O8_zh0SJ2EaiacBDG4pgM",
       "name": "1 semestre",
-      "value": "#f94144"
+      "value": "#ed2024"
+    },
+    {
+      "id": "mzv-FuUBGkUD6_rjeZD8d",
+      "name": "2 semestre",
+      "value": "#ff630f"
+    },
+    {
+      "id": "ULIHDQbw_Lbr9bWHhL1y-",
+      "name": "3 semestre",
+      "value": "#f8961e"
     }
   ],
   "fileColors": [
@@ -35,6 +40,18 @@
     {
       "path": "0 -Modelo organizacional da vault",
       "color": "xdQzDJjDg5kNfHWIuDJki"
+    },
+    {
+      "path": "Ciencia_Computacao/3 Semestre",
+      "color": "ULIHDQbw_Lbr9bWHhL1y-"
+    },
+    {
+      "path": "Ciencia_Computacao/2 Semestre",
+      "color": "mzv-FuUBGkUD6_rjeZD8d"
+    },
+    {
+      "path": "Ciencia_Computacao/1 Semestre",
+      "color": "O8_zh0SJ2EaiacBDG4pgM"
     }
   ]
 }

@@ -15,6 +15,7 @@ A Engenharia de Requisitos é um processo cíclico que envolve várias etapas in
 4.  **Validação**: Validação dos requisitos em relação aos propósitos do produto de software.
 5.  **Produção ou Desenvolvimento**.
 6.  **Gerenciamento**: Atividade que administra os requisitos ao longo do tempo, permeando todo o processo de ER.
+---
 ## O Papel do Gerenciamento de Requisitos (GR)
 Os requisitos de sistemas de software são **voláteis** e estão sempre mudando. O Gerenciamento de Requisitos (GR) é o enfoque sistemático para a elicitação, organização e documentação dos requisitos, e um processo que estabelece e **mantém o acordo** entre usuários e a equipe de projeto à medida que os requisitos se modificam.
 ### Por Que o GR é Crítico
@@ -28,6 +29,7 @@ As atividades de GR visam garantir a qualidade e a eficiência do processo.
 - **Rastreabilidade**: Ajuda a responder de onde vêm os requisitos, quão interdependentes são e onde serão implementados/testados.
 - **Mudanças**: Estabelecer e implementar um **processo formal** para alterar os requisitos existentes.
 - **Priorizar**: Definir quais requisitos são importantes e o grau dessa importância.
+---
 ## Subáreas do Gerenciamento de Requisitos
 Os principais aspectos do Gerenciamento de Requisitos incluem: Gerenciamento de Mudanças, Gerenciamento de Configuração, Gerência da Qualidade de Requisitos e Rastreabilidade.
 ### 1. Gerenciamento de Mudanças

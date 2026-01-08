@@ -27,7 +27,7 @@
 - **Utilize diagramas**: Um diagrama de entidade-relacionamento (DER) pode ajudar a visualizar as entidades e seus relacionamentos.
 >[!info] Diagrama de Entidade-Relacionamento (DER)
 > - Os atributos são representados em um DER dentro dos retângulos que representam as entidades. A chave primária é geralmente sublinhada.
-> ![[Pasted image 20250104005349.png]]
+> ![[../../../Estudos de Programação/Java/0 - Imagens/entidadesDica.png]]
 ### Exemplo Prático
 Imagine que você está modelando um sistema para uma loja de roupas. Algumas possíveis entidades seriam: 
 - Cliente: Nome, endereço, telefone, e-mail, data de nascimento. 

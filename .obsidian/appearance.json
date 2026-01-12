@@ -1,5 +1,8 @@
 {
   "cssTheme": "KerubinTheme",
   "theme": "obsidian",
-  "accentColor": "#5173d6"
+  "accentColor": "#5173d6",
+  "enabledCssSnippets": [
+    "wide"
+  ]
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos de Programação/Java/1 - Lógica de programação/04 - Estrutura condicional.md",
+                "file": "Homepage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Estrutura condicional"
+              "title": "Homepage"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Pasted image 20250104005349",
+                "query": "tag:#NaoConcluido",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 279.5
   },
   "right": {
     "id": "63c1c183d8687ccd",
@@ -171,25 +171,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-importer:Open Importer": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Charts Sandbox.md",
+    "Fluxo de estudos.canvas",
+    "Homepage.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Heurística de Nielsen.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/Guia Babok.md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPMN (Business Process Model and Notation).md",
+    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/00 - Conteúdos complementares/BPM CBOK.md",
+    "Outros estudos/Estudos de cálculo/Pré-cálculo/A05, 06, 07 - Polinômios.md",
+    "Estudos de Programação/Java/1 - Lógica de programação/04 - Estrutura condicional.md",
     "Estudos de Programação/Java/1 - Lógica de programação/03 - Estrutura sequencial.md",
     "Estudos de Programação/Java/1 - Lógica de programação/02 - Introdução a linguagem Java.md",
     "Estudos de Programação/Java/1 - Lógica de programação/01 - Conceitos de programação.md",
     "Estudos de Programação/Java/0 - Imagens/interpretacao.png",
     "Estudos de Programação/Java/0 - Imagens/abordagemHibrida.png",
-    "Estudos de Programação/Java/1 - Lógica de programação/04 - Estrutura condicional.md",
     "Estudos de Programação/Java/0 - Imagens/compilacao.png",
     "Estudos de Programação/Java/0 - Imagens/codCOmpilado.png",
     "Estudos de Programação/Java/0 - Imagens/alteracaoMemoriaPonteiro.png",
@@ -206,7 +215,6 @@
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/09 - Comportamento de memória, arrays e listas.md",
     "Sem título",
     "README.md",
-    "Fluxo de estudos.canvas",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/10 - Tópicos especiais em Java - data-hora.md",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/08 - Construtores, palavra this, sobrecarga, encapsulamento.md",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/07 - Introdução à programação orientada a objetos.md",
@@ -214,20 +222,13 @@
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/12 - Herança e polimorfismo.md",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/11 - Enumerações, composição.md",
     "Estudos de Programação/Java/1 - Lógica de programação/06 - Outros tópicos básicos sobre Java.md",
-    "Estudos de Programação/Java/1 - Lógica de programação/05 - Estruturas repetitivas.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/08 - Modelagem de Requisitos com UML e Especificação de Casos de Uso.md",
-    "Ciencia_Computacao/3 Semestre/Engenharia de requisitos/10 - Requisitos de usabilidade.md",
     "Estudos de Programação/Java/0 - Imagens",
     "Estudos de Programação/Java/3 - Bonus",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos",
     "Estudos de Programação/Java/1 - Lógica de programação",
-    "Estudos de Programação/Java/Indice Geral.md",
     "Estudos de Programação/Java/0 - Imagens",
     "Estudos de Programação/Java",
     "Estudos de Programação",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/01 - Abordagens ágeis centradas no cliente.md",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/12 - Extreme Programming.md",
-    "Ciencia_Computacao/3 Semestre/Metodologia de desenvolvimento de sistemas/14 - SAFe.md",
     "Untitled.canvas",
     "Outros estudos/Estudos de cálculo/Cálculo II",
     "Outros estudos/Estudos de cálculo/Cálculo I",

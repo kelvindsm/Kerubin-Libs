@@ -1,0 +1,21 @@
+/* 1. ESCONDER PROPRIEDADES */
+/* Alvo: Notas com a classe 'custom-style' no modo de leitura */
+.custom-style.markdown-preview-view .metadata-container,
+.custom-style .metadata-container {
+    display: none !important;
+}
+
+/* 2. MOSTRAR PROPRIEDADES SE TIVER A CLASSE ADICIONAL 'show_properties' */
+.custom-style.show_properties .metadata-container,
+.custom-style.markdown-preview-view.show_properties .metadata-container {
+    display: block !important;
+}
+
+/* 5. CENTRALIZAR TÍTULO INLINE */
+.custom-style .inline-title {
+    text-align: center !important;
+    font-size: 3rem;
+    font-family: monospace;
+    color: #007FFF;
+}
+

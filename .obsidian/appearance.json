@@ -3,6 +3,11 @@
   "theme": "obsidian",
   "accentColor": "#5173d6",
   "enabledCssSnippets": [
-    "wide"
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "wide",
+    "noproperties",
+    "homepage"
   ]
 }

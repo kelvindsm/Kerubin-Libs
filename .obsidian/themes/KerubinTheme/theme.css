@@ -38,6 +38,7 @@ gbody {
 	--slider-thumb-radius: 0px;
 }
 
+
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
 }

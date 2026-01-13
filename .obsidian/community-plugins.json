@@ -4,12 +4,13 @@
   "color-palette",
   "obsidian-file-color",
   "highlightr-plugin",
-  "obsidian-importer",
   "obsidian-icon-folder",
   "homepage",
   "colored-tags",
   "obsidian-charts",
   "obsidian-excalidraw-plugin",
   "dataview",
-  "obsidian-tracker"
+  "obsidian-tracker",
+  "pretty-properties",
+  "multi-column-markdown"
 ]

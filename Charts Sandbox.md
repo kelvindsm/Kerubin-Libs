@@ -183,3 +183,18 @@ const container = this.container.createEl("div", {
 window.renderChart(chartData, container)
 ```
 
+```dataviewjs
+const concluido = dv.pages("#Concluido").length
+dv.table(["Status", "Total"], [["Arquivos Concluídos", concluido]])
+
+const emProgresso = dv.pages("#EmProgresso").length
+dv.table(["Status", "Total"], [["Arquivos em progresso", emProgresso]])
+
+const nConcluido = dv.pages("#NaoConcluido").length
+dv.table(["Status", "Total"], [["Arquivos Não Concluídos", nConcluido]])
+```
+
+
+---
+
+

@@ -9,7 +9,7 @@ banner: "![[biblioteca.png]]"
 Text displayed above.
 --- start-multi-column: ExampleRegion1  
 ```column-settings  
-number of columns: 4
+number of columns: 8
 ```
 
 Texto 1
@@ -26,20 +26,13 @@ Texto 3
 
 Texto 4
 
---- end-multi-column
-
----
-
---- start-multi-column: ExampleRegion2
-```column-settings  
-number of columns: 4
-```
+--- end-column ---
 
 Texto 5
 
 --- end-column ---
 
-Texto 6
+Texto  6
 
 --- end-column ---
 
@@ -50,6 +43,8 @@ Texto 7
 Texto 8
 
 --- end-multi-column
+
+---
 
 > [!multi-column]
 >
@@ -119,4 +114,3 @@ window.renderChart(chartData, this.container)
 
 
 ---
-

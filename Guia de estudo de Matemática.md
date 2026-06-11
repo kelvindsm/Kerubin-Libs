@@ -1,0 +1,76 @@
+---
+cssclasses:
+  - wide
+---
+# Geometria analítica
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|Vetores no ℝ² e ℝ³|Definição, operações (soma, produto por escalar), módulo, versor, propriedades|Fornecer a linguagem vetorial básica para descrever direções, forças e posições.|Álgebra elementar, trigonometria|Cálculo II (curvas paramétricas), Cálculo III (gradiente), Cálculo IV (campos vetoriais)|
+|Produtos de vetores|Produto escalar, ângulo, projeção ortogonal; produto vetorial, área do paralelogramo, interpretação geométrica|Calcular ângulos, projeções, áreas e volumes; base para trabalho e fluxo.|Vetores em ℝ² e ℝ³|Cálculo III (derivadas direcionais), Cálculo IV (integrais de linha e superfície), Álgebra Linear (produto interno)|
+|Retas e planos|Equações vetorial, paramétrica, simétrica da reta; equações do plano (geral e paramétrica); posições relativas, distâncias|Descrever lugares geométricos fundamentais; base para domínios e restrições.|Vetores, produtos de vetores|Cálculo I (reta tangente), Cálculo III (planos tangentes, domínios de integração)|
+|Cônicas|Elipse, parábola, hipérbole: equações reduzidas, elementos principais, translação de eixos|Reconhecer e esboçar curvas que aparecem em problemas de otimização e integrais duplas.|Retas, completamento de quadrados|Cálculo II (coordenadas polares), Cálculo III (curvas de nível, domínios de integração)|
+|Quádricas (introdução)|Superfícies básicas: esfera, elipsoide, paraboloide, hiperboloide, cilindros|Visualizar superfícies que serão gráficos de funções de duas variáveis ou domínios espaciais.|Cônicas, planos|Cálculo III (superfícies de nível, integrais triplas), Cálculo IV (superfícies paramétricas)|
+# Álgebra linear
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|Matrizes|Definição, tipos, operações (adição, multiplicação por escalar, multiplicação de matrizes), transposta, propriedades|Manipular dados tabulares; base para sistemas lineares e transformações.|Álgebra elementar|Álgebra Linear (sistemas, transformações), Cálculo III (Jacobiana, Hessiana)|
+|Sistemas de equações lineares|Escalonamento (Gauss‑Jordan), classificação (possível/determinado/indeterminado), conjunto solução|Resolver sistemas lineares que surgem em otimização, mínimos quadrados e EDOs.|Matrizes|Cálculo III (multiplicadores de Lagrange), EDO (sistemas)|
+|Determinantes|Definição, propriedades, regra de Cramer, interpretação geométrica (área/volume)|Fornecer critério de invertibilidade e fator de escala para mudança de variáveis.|Matrizes, sistemas|Cálculo III (mudança de variáveis em integrais múltiplas), Álgebra Linear (autovalores)|
+|Espaços vetoriais|Definição, subespaços, combinação linear, dependência/independência linear, base e dimensão|Estruturar a abstração de vetor; aplicável a funções, polinômios e matrizes.|Vetores (Geometria Analítica)|Álgebra Linear (transformações, autovalores), EDP (espaços de funções)|
+|Transformações lineares|Definição, núcleo e imagem, teorema do núcleo‑imagem, representação matricial|Modelar derivação e integração como operações lineares; entender rotações e projeções.|Espaços vetoriais, matrizes|Cálculo III (diferencial como transformação linear), EDO (sistemas lineares)|
+|Autovalores e autovetores|Polinômio característico, diagonalização, multiplicidades, aplicação a potências de matrizes|Classificar pontos críticos (Hessiana), resolver sistemas de EDOs e analisar estabilidade.|Determinantes, transformações lineares|Cálculo III (teste da Hessiana), EDO (sistemas lineares, estabilidade)|
+|Espaços com produto interno|Produto interno, norma, ortogonalidade, projeção, bases ortonormais, Gram‑Schmidt|Projetar vetores e funções; essencial para mínimos quadrados e séries de Fourier.|Espaços vetoriais|EDP (séries de Fourier), Cálculo IV (operadores diferenciais)|
+|Formas quadráticas|Representação matricial, classificação (positiva/negativa definida), diagonalização por autovalores|Aplicar no teste da segunda derivada para funções de várias variáveis.|Autovalores, matrizes simétricas|Cálculo III (classificação de pontos críticos), Geometria Analítica (classificação de quádricas)|
+# Cálculo I
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|Limites|Noção intuitiva, definição formal (ϵ‑δ), propriedades, limites laterais, infinitos, assíntotas|Fundamentar o conceito de aproximação e continuidade.|Funções, álgebra|Cálculo I (derivadas, continuidade), Cálculo II (séries, integrais impróprias)|
+|Continuidade|Definição, tipos de descontinuidade, teorema do valor intermediário, funções contínuas em fechados|Identificar onde funções são bem‑comportadas; localizar raízes.|Limites|Cálculo I (derivabilidade), Cálculo III (limites em ℝⁿ)|
+|Derivada|Definição, regras (soma, produto, quociente, cadeia), derivação implícita, taxa de variação|Calcular inclinações e taxas instantâneas; linearização local.|Limites, continuidade|Cálculo I (aplicações), Cálculo II (integrais, séries de Taylor), Cálculo III (derivadas parciais)|
+|Aplicações da derivada|Máximos/mínimos, teorema do valor médio, concavidade, esboço de gráficos, otimização, diferencial|Analisar completamente o comportamento de funções de uma variável.|Derivada|Cálculo III (otimização multivariada), EDO (modelagem)|
+|Integral indefinida|Antiderivada, propriedades, integrais imediatas|Reverter a derivação e preparar o cálculo de áreas.|Derivada|Cálculo I (integral definida), Cálculo II (técnicas de integração)|
+|Integral definida|Somas de Riemann, definição, propriedades, Teorema Fundamental do Cálculo (partes 1 e 2)|Calcular áreas líquidas e acumulação; conectar derivada e integral.|Integral indefinida, limites|Cálculo II (aplicações, volumes), Cálculo III (integrais múltiplas)|
+# Cálculo II
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|Técnicas de integração|Substituição simples, por partes, frações parciais, substituições trigonométricas, integrais impróprias|Expandir o repertório para resolver integrais complexas.|Cálculo I (derivadas, integrais básicas)|Cálculo III (integrais múltiplas), EDO (fatores integrantes)|
+|Aplicações da integral|Áreas, volumes (discos, cascas), comprimento de arco, áreas de superfície, trabalho, centro de massa|Quantificar grandezas geométricas e físicas.|Integral definida, Geometria Analítica (cônicas)|Cálculo III (integrais duplas/triplas, volumes)|
+|Sequências e séries numéricas|Limites de sequências, séries (geométrica, telescópica), testes de convergência, séries alternadas|Lidar com somas infinitas; base para aproximações.|Limites, integrais impróprias|Cálculo III (convergência de séries de Fourier), EDO (soluções por série)|
+|Séries de potências|Raio e intervalo de convergência, séries de Taylor e Maclaurin, representação de funções|Aproximar funções por polinômios; essencial para modelagem.|Derivadas, séries numéricas|EDO (soluções por série), EDP (separação de variáveis)|
+|Curvas paramétricas e polares|Parametrização, vetor tangente, comprimento de arco, curvas polares, área e comprimento em polares|Preparar a noção de curvas no ℝ² e ℝ³.|Geometria Analítica (vetores, retas)|Cálculo IV (integrais de linha, superfícies paramétricas)|
+# Cálculo III
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|Funções de várias variáveis|Domínio, imagem, gráficos, curvas de nível, superfícies de nível, limites e continuidade em ℝⁿ|Visualizar funções com duas ou três variáveis.|Geometria Analítica (cônicas, quádricas), Cálculo I (limites)|Cálculo III (derivadas parciais), Cálculo IV (campos)|
+|Derivadas parciais|Definição, interpretação, regra da cadeia (árvore), derivadas de ordem superior, teorema de Clairaut|Calcular taxas de variação parciais e mistas.|Cálculo I (derivada)|Cálculo III (gradiente, Hessiana), Cálculo IV (operadores)|
+|Plano tangente e diferencial|Equação do plano tangente, linearização, diferencial total, aproximações lineares em ℝⁿ|Generalizar a reta tangente; entender a diferencial como aplicação linear.|Geometria Analítica (planos), Álgebra Linear (transformações)|Cálculo IV (plano tangente a superfícies)|
+|Gradiente e derivadas direcionais|Vetor gradiente, derivada em qualquer direção, propriedades (maior crescimento, perpendicular a curvas de nível)|Otimizar e analisar comportamento local multivariado.|Derivadas parciais, Geometria Analítica (vetores)|Cálculo IV (campos conservativos), EDO (sistemas gradientes)|
+|Otimização multivariada|Pontos críticos, teste da Hessiana (autovalores), máximos/mínimos locais/globais, multiplicadores de Lagrange|Resolver problemas de otimização com e sem restrições.|Álgebra Linear (autovalores, formas quadráticas), derivadas parciais|Cálculo IV (cálculo variacional), EDO (estabilidade)|
+|Integrais múltiplas|Integral dupla (retângulos, regiões gerais), ordem de integração, coordenadas polares, integral tripla, cilíndricas e esféricas|Calcular volumes, massas e momentos em domínios planos e espaciais.|Cálculo II (técnicas de integração), Geometria Analítica (regiões)|Cálculo IV (teoremas integrais), EDP (integrais em domínios)|
+|Mudança de variáveis|Determinante Jacobiano, transformações para coordenadas curvilíneas|Adaptar integrais a simetrias do problema.|Álgebra Linear (determinantes, matrizes)|Cálculo IV (teoremas de Stokes e Gauss)|
+# Cálculo IV
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|Campos vetoriais|Definição, esboço, rotacional e divergente, campos conservativos e função potencial|Caracterizar campos de força e fluxo; conectar com integrais de linha.|Geometria Analítica (vetores), Cálculo III (derivadas parciais)|EDP (equações de Maxwell, fluidos)|
+|Integrais de linha|Integral de função escalar (massa, comprimento) e de campo vetorial (trabalho); independência de caminho|Calcular trabalho ao longo de curvas e massa de arames.|Cálculo II (curvas paramétricas), Cálculo III (gradiente)|Teorema de Green, Stokes|
+|Teorema de Green|Relação entre integral dupla sobre região e integral de linha na fronteira|Converter integrais de linha em duplas e vice‑versa; cálculo de áreas.|Integrais de linha, integrais duplas (Cálculo III)|Cálculo IV (Stokes, divergência)|
+|Superfícies paramétricas|Parametrização, vetor normal, área de superfície, plano tangente|Descrever superfícies para integração.|Geometria Analítica (planos, quádricas), Cálculo II (paramétricas)|Integrais de superfície|
+|Integrais de superfície|Integral de função escalar (massa, área) e de campo vetorial (fluxo)|Calcular fluxo de campos através de superfícies.|Campos vetoriais, superfícies paramétricas, produto escalar/vetorial|Teoremas de Stokes e Gauss|
+|Teorema de Stokes|Relaciona integral de superfície do rotacional com integral de linha na borda|Generalizar Green para superfícies em ℝ³.|Rotacional, integrais de linha e superfície|EDP (formas diferenciais), física|
+|Teorema da Divergência (Gauss)|Fluxo através de superfície fechada = integral tripla da divergência no volume|Converter integrais de fluxo complicadas em triplas.|Divergente, integrais de superfície, integrais triplas|EDP (leis de conservação)|
+# Equações Diferenciais Ordinárias (EDO)
+|Módulo|Conteúdo|Objetivo (função e aplicação)|Pré‑requisitos|Conteúdo posterior (onde é importante)|
+|---|---|---|---|---|
+|EDO de 1ª ordem|Equações separáveis, lineares, exatas, fatores integrantes, aplicações (crescimento, decaimento, misturas)|Modelar e resolver problemas simples de dinâmica.|Cálculo II (técnicas de integração)|EDO (ordem superior), EDP (separação de variáveis)|
+|EDO de ordem superior|Lineares com coeficientes constantes (homogêneas e não homogêneas), coeficientes a determinar, variação de parâmetros|Resolver sistemas massa‑mola, circuitos RLC, vibrações.|Cálculo I/II (derivadas, integrais), Álgebra Linear (polinômio característico)|EDO (sistemas), EDP (problemas de Sturm‑Liouville)|
+|Sistemas de EDOs lineares|Forma matricial x' = Ax, solução via autovalores/autovetores, exponencial de matriz, plano de fase|Analisar sistemas acoplados (populações, circuitos, mecânica).|Álgebra Linear (autovalores, diagonalização)|EDO (estabilidade), EDP (sistemas de EDPs)|
+|Transformada de Laplace|Definição, propriedades, solução de EDOs com condições iniciais, funções degrau e impulso|Resolver EDOs com entradas descontínuas ou impulsivas.|Cálculo II (integrais impróprias)|EDP (transformadas integrais)|
+|Estabilidade e análise qualitativa|Pontos de equilíbrio, linearização, classificação (nó, sela, foco, centro), retrato de fase|Compreender comportamento de longo prazo sem resolver explicitamente.|Sistemas de EDOs, Álgebra Linear (autovalores)|EDP (estabilidade de soluções)|
+# Equações Diferenciais Parciais (EDP)
+| Módulo                             | Conteúdo                                                                          | Objetivo (função e aplicação)                                  | Pré‑requisitos                                                      | Conteúdo posterior (onde é importante)                   |
+| ---------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------- |
+| Séries de Fourier                  | Ortogonalidade de senos/cossenos, coeficientes, convergência, fenômeno de Gibbs   | Representar funções periódicas em bases ortogonais.            | Cálculo II (séries), Álgebra Linear (produto interno, Gram‑Schmidt) | EDP (separação de variáveis)                             |
+| Problemas de Sturm‑Liouville       | Autovalores e autofunções, problemas de valor de contorno                         | Generalizar a ideia de autovalor para operadores diferenciais. | EDO (ordem superior), Álgebra Linear (autovalores)                  | EDP (equações clássicas)                                 |
+| Equações clássicas                 | Equação do calor, equação da onda, equação de Laplace/Poisson                     | Modelar difusão, propagação de ondas e potenciais.             | Cálculo IV (divergente, gradiente)                                  | Física matemática, métodos numéricos                     |
+| Método de separação de variáveis   | Solução das EDPs clássicas em domínios simples (barra, corda, retângulo, círculo) | Resolver EDPs lineares com condições de contorno homogêneas.   | Séries de Fourier, EDO de 2ª ordem                                  | EDP (transformadas integrais)                            |
+| Transformadas integrais (opcional) | Transformada de Fourier, transformada de Laplace para EDPs                        | Resolver EDPs em domínios ilimitados ou semi‑infinitos.        | Transformada de Laplace (EDO)                                       | Processamento de sinais, equações diferenciais avançadas |

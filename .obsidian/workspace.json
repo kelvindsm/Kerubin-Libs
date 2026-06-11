@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Fluxo de estudos.canvas",
+                "file": "Ordem de estudos - Matematica.canvas",
                 "viewState": {
-                  "x": -617.5542576744127,
-                  "y": 4236.423427992344,
-                  "zoom": -0.9999999999999999
+                  "x": 1390,
+                  "y": 750,
+                  "zoom": -2.552912420904659
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Fluxo de estudos"
+              "title": "Ordem de estudos - Matematica"
             }
           }
         ]
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 279.5
   },
   "right": {
     "id": "63c1c183d8687ccd",
@@ -188,9 +187,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Guia de estudo de Matemática.md",
+    "Ordem de estudos - Matematica.canvas",
     "Pagina inicial/Bem vindo a Kerubin Library.md",
-    "Estudos de Programação/Java/1 - Lógica de programação/04 - Estrutura condicional.md",
     "Fluxo de estudos.canvas",
+    "Estudos de Programação/Java/1 - Lógica de programação/04 - Estrutura condicional.md",
     "Estudos de Programação/Java/1 - Lógica de programação/03 - Estrutura sequencial.md",
     "Charts Sandbox.md",
     "Pagina inicial/Biblioteca.png",
@@ -225,7 +226,6 @@
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/10 - Tópicos especiais em Java - data-hora.md",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/08 - Construtores, palavra this, sobrecarga, encapsulamento.md",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos/07 - Introdução à programação orientada a objetos.md",
-    "Ciencia_Computacao/1 Semestre/Banco de dados/02 - Entidades.md",
     "Estudos de Programação/Java/0 - Imagens",
     "Estudos de Programação/Java/3 - Bonus",
     "Estudos de Programação/Java/2 - Programação Orientada a Objetos",
@@ -235,7 +235,6 @@
     "Estudos de Programação",
     "Untitled.canvas",
     "Outros estudos/Estudos de cálculo/Cálculo II",
-    "Calculo roadmap.canvas",
-    "Sem título.canvas"
+    "Calculo roadmap.canvas"
   ]
 }

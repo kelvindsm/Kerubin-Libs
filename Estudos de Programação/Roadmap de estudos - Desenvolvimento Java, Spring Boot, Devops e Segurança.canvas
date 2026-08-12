@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"25432d2f9b410d50","type":"text","text":"2 Dados e Ambiente Local","x":-272,"y":-170,"width":250,"height":60},
+		{"id":"c873ce44ca51720a","type":"text","text":"4 Blindagem da API","x":400,"y":-170,"width":250,"height":60},
+		{"id":"899a8b8088e971be","type":"text","text":"5 O servidor: Hardware físico","x":740,"y":-170,"width":250,"height":60},
+		{"id":"c88a188121f6ae22","type":"text","text":"6 Automação e DevSecOps(CI/CD)","x":1080,"y":-170,"width":250,"height":60},
+		{"id":"1e517835ea8fc76f","type":"text","text":"1 Base do código","x":-620,"y":-170,"width":250,"height":60},
+		{"id":"b3f88455d47fb0ec","type":"text","text":"3 O Spring Boot","x":60,"y":-170,"width":250,"height":60},
+		{"id":"f0a4a55d21342784","type":"text","text":"### Entendendo PostgreSQL\n#estudo/postgres \n- [ ] Fundamentos e concorrência: Entender a tipagem forte, sequences e UUID\n- [ ] Conceitos de transições (ACID)\n- [ ] Funções do banco: Procedures, Triggers, Roles...\n- [ ] Colunas com JSON não estruturado (JSONB)","x":60,"y":-40,"width":250,"height":560},
+		{"id":"227473f387d1eada","type":"file","file":"Estudos de Programação/Java/Indice Geral de Java.md","x":-1120,"y":40,"width":400,"height":480},
+		{"id":"2e18223ec21c9bc2","type":"text","text":"### Containerização\n#estudo/docker \n\n- [ ] Comandos essenciais para baixar e executar containers","x":-272,"y":240,"width":250,"height":200},
+		{"id":"60dfc94ac3815059","type":"text","text":"### Orientação a objetos avançada\n#backend/java \n- [ ] Interfaces\n- [ ] Classes abstratas\n- [ ] Polimorfismo\n- [ ] composição sobre herança\n### Tratamento de exceções\n- [ ] Criação de custom Exceptions\n- [ ] Diferença de Checked e Unchecked Exceptions\n### Java Collections Framework\n- [ ] Quando usar List, Set (diferença entre HashSet e TreeSet) e Map (HashMap)\n### Programação funcional em Java\n- [ ] Expressões Lambda\n- [ ] API de Streams (map, filter, reduce, collect)\n- [ ] Classe Optional\n### Concorrência básica\n- [ ] Como Threads funcionam\n- [ ] pacote `java.util.concurrent`","x":-620,"y":-40,"width":250,"height":560},
+		{"id":"bae9ccb43cdb7513","type":"text","text":"### Estudar sobre\n#seguranca/fundamentos \n\n**Criptografia**\n- [ ] Matemática da criptografia (mão dupla)\n- [ ] Funções e algorítmos hash (mão única)\n\n**Segurança em aplicações**\n#seguranca/owasp \n\n- [ ] Vulnerabilidades segundo a OWASP","x":-272,"y":-667,"width":250,"height":395},
+		{"id":"7c059181d52e11c4","type":"text","text":"### Ecossistema Spring\n- [ ] **Fundamentos do Spring Boot:** Padrão de injeção de dependências (Inversion of Control), anotações básicas e padrão de camadas (Controller, Service, Repository). \n- [ ] **Mapeamento e Spring Data JPA:** Conectar ao banco, mapear entidades (`@Entity`), entender o ciclo de vida do Hibernate e como evitar o problema de N+1 consultas.\n- [ ] **Migrações e Validação:** Estudar o Flyway para versionamento de banco de dados e o Bean Validation para sanitização de dados de entrada na API. \n- [ ] **Testes de Integração:** Aprender a configurar o Testcontainers com `@ServiceConnection` para validar a lógica de banco de dados com um Postgres descartável.","x":60,"y":-667,"width":250,"height":395},
+		{"id":"34ca3e28738f3d2b","x":400,"y":-667,"width":250,"height":395,"type":"text","text":"### Blindagem aplicada\n- [ ] **Arquitetura do Spring Security:** Estudar a Filter Chain e como o framework intercepta requisições HTTP.\n- [ ] **Autenticação Stateless (JWT):** Aprender a estrutura do JSON Web Token, como assiná-lo criptograficamente e como bloquear rotas da API baseadas em Roles."},
+		{"id":"eb74e5a827804d04","x":830,"y":-800,"width":250,"height":420,"type":"text","text":"#estudo/docker \n### Imagem Docker Otimizada\n- [ ] Estudar diferenças entre JRE e JDK\n- [ ] Importância e como usar Alpine Linux\n- [ ] Limitação de memória do Java no Dockerfile\n- [ ] Orquestração com Docker Compose"},
+		{"id":"b37a532ae54d8734","type":"text","text":"Dominio do Linux \n- [ ] uso do terminal \n- [ ] Manipulação de arquivos\n- [ ] Permissões octais (chmod, chown)\n- [ ] Editores de texto de terminal (Nano / vim)","x":740,"y":120,"width":250,"height":360},
+		{"id":"4ff85a2dd2c66eae","x":1080,"y":120,"width":250,"height":320,"type":"text","text":"#estudo/redes \n### Túneis Zero Trust\n- [ ] Estudar Cloudflare Tunnels para rotear o tráfego da internet de forma segura\n- [ ] ... (procurar mais a respeito dos serviços Cloudflare)"},
+		{"id":"159cf6beeaed4e61","x":1080,"y":-1280,"width":250,"height":420,"type":"text","text":"#estudo/devops \n### Github actions\n- [ ] Criação de pipeline para `mvn clean test`\n- [ ] Segurança com Sonarqube\n"},
+		{"id":"3ffa9a61bd9635e9","x":1330,"y":-800,"width":250,"height":420,"type":"text","text":"#estudo/observabilidade \n- [ ] Estudo de \n- [ ] Spring Boot Acuator em conexão com Prometheus e Grafana para criar dashboards analíticos de performance"}
+	],
+	"edges":[
+		{"id":"71e98231321aac20","fromNode":"1e517835ea8fc76f","fromSide":"right","toNode":"25432d2f9b410d50","toSide":"left"},
+		{"id":"037bfcc0c7ff714e","fromNode":"227473f387d1eada","fromSide":"right","toNode":"60dfc94ac3815059","toSide":"left"},
+		{"id":"5a15834d684c2dbd","fromNode":"25432d2f9b410d50","fromSide":"right","toNode":"b3f88455d47fb0ec","toSide":"left"},
+		{"id":"d43dc69a61b42838","fromNode":"b3f88455d47fb0ec","fromSide":"right","toNode":"c873ce44ca51720a","toSide":"left","toEnd":"none"},
+		{"id":"92471a16c46cbf5d","fromNode":"c873ce44ca51720a","fromSide":"right","toNode":"899a8b8088e971be","toSide":"left","toEnd":"none"},
+		{"id":"2ea6d704d8b5e747","fromNode":"899a8b8088e971be","fromSide":"right","toNode":"c88a188121f6ae22","toSide":"left","toEnd":"none"},
+		{"id":"614c1d80cd08e7e6","fromNode":"f0a4a55d21342784","fromSide":"left","toNode":"25432d2f9b410d50","toSide":"bottom"},
+		{"id":"f3ee4c13e6cde145","fromNode":"60dfc94ac3815059","fromSide":"top","toNode":"1e517835ea8fc76f","toSide":"bottom"},
+		{"id":"957c3d80f87c36d0","fromNode":"2e18223ec21c9bc2","fromSide":"top","toNode":"25432d2f9b410d50","toSide":"bottom"},
+		{"id":"572172bd952805a7","fromNode":"bae9ccb43cdb7513","fromSide":"bottom","toNode":"25432d2f9b410d50","toSide":"top","toEnd":"none"},
+		{"id":"05b688dfe8861be6","fromNode":"b3f88455d47fb0ec","fromSide":"top","toNode":"7c059181d52e11c4","toSide":"bottom"},
+		{"id":"33a6270abebc73b2","fromNode":"c873ce44ca51720a","fromSide":"top","toNode":"34ca3e28738f3d2b","toSide":"bottom"},
+		{"id":"203beb5778dd04e7","fromNode":"4ff85a2dd2c66eae","fromSide":"top","toNode":"c88a188121f6ae22","toSide":"bottom"},
+		{"id":"164445609a4c8c9a","fromNode":"b37a532ae54d8734","fromSide":"top","toNode":"899a8b8088e971be","toSide":"bottom"},
+		{"id":"5525198c43a9237c","fromNode":"eb74e5a827804d04","fromSide":"bottom","toNode":"c88a188121f6ae22","toSide":"top"},
+		{"id":"ea78f70bfb817b85","fromNode":"159cf6beeaed4e61","fromSide":"bottom","toNode":"c88a188121f6ae22","toSide":"top"},
+		{"id":"7f5f44bf06098a5e","fromNode":"3ffa9a61bd9635e9","fromSide":"bottom","toNode":"c88a188121f6ae22","toSide":"top"}
+	]
+}
